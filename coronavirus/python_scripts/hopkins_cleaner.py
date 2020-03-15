@@ -338,6 +338,16 @@ class HopkinsDataFull:
         
         self.data = df                           
 
+    def add_country_daily_new_agg(self):
+        df = self.data
+        agg_country_new = df.groupby(['country_or_region','date'])['daily_new_cases'].sum().reset_index(name='country_daily_new_agg')
+
+        df = df.merge(agg_country_new,
+                how='left',
+                on=['country_or_region','date'])
+
+        self.data = df
+
     def run(self):
         """
         Main run function to execute logic
@@ -350,3 +360,4 @@ class HopkinsDataFull:
         self.add_in_country_codes()
         self.add_country_population()
         self.add_country_median_age()
+        self.add_country_daily_new_agg()
