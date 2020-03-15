@@ -1,64 +1,6 @@
 import pandas as pd
 from datetime import datetime
 
-us_state_abbrev = {
-    'Alabama': 'AL',
-    'Alaska': 'AK',
-    'Arizona': 'AZ',
-    'Arkansas': 'AR',
-    'California': 'CA',
-    'Colorado': 'CO',
-    'Connecticut': 'CT',
-    'Delaware': 'DE',
-    'District of Columbia': 'DC',
-    'Florida': 'FL',
-    'Georgia': 'GA',
-    'Hawaii': 'HI',
-    'Idaho': 'ID',
-    'Illinois': 'IL',
-    'Indiana': 'IN',
-    'Iowa': 'IA',
-    'Kansas': 'KS',
-    'Kentucky': 'KY',
-    'Louisiana': 'LA',
-    'Maine': 'ME',
-    'Maryland': 'MD',
-    'Massachusetts': 'MA',
-    'Michigan': 'MI',
-    'Minnesota': 'MN',
-    'Mississippi': 'MS',
-    'Missouri': 'MO',
-    'Montana': 'MT',
-    'Nebraska': 'NE',
-    'Nevada': 'NV',
-    'New Hampshire': 'NH',
-    'New Jersey': 'NJ',
-    'New Mexico': 'NM',
-    'New York': 'NY',
-    'North Carolina': 'NC',
-    'North Dakota': 'ND',
-    'Northern Mariana Islands':'MP',
-    'Ohio': 'OH',
-    'Oklahoma': 'OK',
-    'Oregon': 'OR',
-    'Palau': 'PW',
-    'Pennsylvania': 'PA',
-    'Puerto Rico': 'PR',
-    'Rhode Island': 'RI',
-    'South Carolina': 'SC',
-    'South Dakota': 'SD',
-    'Tennessee': 'TN',
-    'Texas': 'TX',
-    'Utah': 'UT',
-    'Vermont': 'VT',
-    'Virgin Islands': 'VI',
-    'Virginia': 'VA',
-    'Washington': 'WA',
-    'West Virginia': 'WV',
-    'Wisconsin': 'WI',
-    'Wyoming': 'WY',
-}
-
 class USDataCleanUp():
     """
     Take in a dataset, clean up the US data that has changed format,
@@ -78,18 +20,22 @@ class USDataCleanUp():
         df = self.original_df.copy()
         
         # Limit to US only
-        df = df.loc[df['country_region'] =='US']
+        df = df.loc[df['country_or_region'] =='US']
         
         # Split province and state by comma into 2 columns (city and state)
-        df = pd.concat([df, df['province_state'].str.split(', ', expand=True)], axis=1)
+        df = pd.concat([df, df['province_or_state'].str.split(', ', expand=True)], axis=1)
         df = df.rename(columns={0:'city',
                   1:'state'})
         
         # Add a state abbreviation for new US data 
-        df['US_new_data_state_abbrev'] = df['province_state'].map(us_state_abbrev)
+        #df['state_code'] = df['province_or_state'].map(us_state_abbrev)
+        df = df.merge(self.load_ref_data(),
+                        how='left',
+                        left_on='province_or_state',
+                        right_on='state_name')
         
         # The Diamond/Grand princess are in here but NOT states
-        df['state_cleaned'] = df['US_new_data_state_abbrev'].combine_first(df['state']).combine_first(df['province_state'])
+        df['state_cleaned'] = df['state_code'].combine_first(df['state']).combine_first(df['province_or_state'])
 
         # DC comes thru as DC and D.C.
         df['state_cleaned'] = df.state_cleaned.str.replace('.','')
@@ -121,8 +67,8 @@ class USDataCleanUp():
         """
         df = pd.concat([self.handle_old_data(),
                                 self.handle_new_data()])
-        df['country_region'] = 'US'
-        df = df.rename(columns={'state_cleaned':'province_state'})
+        df['country_or_region'] = 'US'
+        df = df.rename(columns={'state_cleaned':'province_or_state'})
         
         return df
         
@@ -131,11 +77,20 @@ class USDataCleanUp():
         df2 = self.combine_US_data()
 
         # Remove old US data
-        df1 = df1.loc[df1['country_region'] != 'US']
+        df1 = df1.loc[df1['country_or_region'] != 'US']
 
         # Combine old data with cleaned US
         self.data = pd.concat([df1,df2],
-                               axis=0)        
+                               axis=0)     
+        
+    def load_ref_data(self):
+        """
+        Load our state reference table
+        """
+        ref = pd.read_csv('ref_table_us_states.csv')
+        ref.columns = ref.columns.str.lower().str.replace(' ','_')
+        ref = ref[['state_code','state_name']]
+        return ref
 
     def run(self):
         self.setup_US_data()
