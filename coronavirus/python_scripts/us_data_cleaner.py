@@ -38,6 +38,11 @@ class USDataCleanUp:
         )
         df = df.rename(columns={0: "city", 1: "state"})
 
+        df['city'] = df['city'].str.strip()
+        df['state'] = df['state'].str.strip()
+
+        
+
         # Add a state abbreviation for new US data
         # df['state_code'] = df['province_or_state'].map(us_state_abbrev)
         df = df.merge(

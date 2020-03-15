@@ -1,0 +1,219 @@
+country,rank,median_years,male_years,female_years,country_code_2,country_code_3
+Afghanistan,208,18.9,18.8,18.9,AF,AFG
+Albania,95,32.9,31.6,34.3,AL,ALB
+Algeria,136,28.1,27.8,28.4,DZ,DZA
+American Samoa,122,25.5,25.1,26.0,AS,ASM
+Andorra,10,44.3,44.4,44.1,AD,AND
+Angola,214,15.9,15.4,16.3,AO,AGO
+Anguilla,79,34.8,32.9,36.7,AI,AIA
+Antigua and Barbuda,102,31.9,30.0,33.5,AG,ATG
+Argentina,105,31.7,30.5,32.9,AR,ARG
+Armenia,80,35.1,33.3,36.9,AM,ARM
+Aruba,55,39.3,37.5,41.1,AW,ABW
+Australia,58,38.7,37.9,39.5,AU,AUS
+Austria,13,44.0,42.8,45.1,AT,AUT
+Azerbaijan,107,31.3,29.8,33.0,AZ,AZE
+The Bahamas,100,32.0,30.9,33.2,BS,BHS
+Bahrain,99,32.3,33.8,29.5,BH,BHR
+Bangladesh,148,26.7,26.0,27.3,BD,BGD
+Barbados,59,38.6,37.5,39.8,BB,BRB
+Belarus,51,40.0,37.1,43.1,BY,BLR
+Belgium,39,41.4,40.2,42.7,BE,BEL
+Belize,177,22.7,22.5,22.9,BZ,BLZ
+Benin,216,18.2,17.9,18.6,BJ,BEN
+Bermuda,17,43.4,41.5,45.3,BM,BMU
+Bhutan,144,27.6,28.2,27.1,BT,BTN
+Bolivia,162,24.3,23.6,25.0,BO,BOL
+Bosnia and Herzegovina,32,42.1,40.5,43.5,BA,BIH
+Botswana,170,24.5,23.5,25.6,BW,BWA
+Brazil,103,32.6,31.1,32.8,BR,BRA
+British Virgin Islands,72,36.5,36.3,36.6,VG,VGB
+Brunei,116,30.2,29.7,30.7,BN,BRN
+Bulgaria,21,42.7,40.9,44.7,BG,BGR
+Burkina Faso,221,17.3,17.1,17.4,BF,BFA
+Burma,128,28.2,27.4,29.0,,
+Burundi,224,17.0,16.8,17.3,BI,BDI
+Cabo Verde,156,25.4,24.6,26.2,CV,CPV
+Cambodia,157,25.3,24.6,26.0,KH,KHM
+Cameroon,210,18.5,18.4,18.7,CM,CMR
+Canada,29,42.2,40.9,43.5,CA,CAN
+Cayman Islands,52,40.0,39.3,40.7,KY,CYM
+Central African Republic,195,19.7,19.4,20.0,CF,CAF
+Chad,219,17.8,16.8,18.8,TD,TCD
+Chile,85,34.4,33.2,35.6,CL,CHL
+China,67,37.4,36.5,38.4,CN,CHN
+Colombia,120,30.0,29.0,31.0,CO,COL
+Comoros,196,19.9,19.2,20.5,KM,COM
+Republic of the Congo,193,19.7,19.5,19.8,CG,COG
+Cook Islands,74,36.5,36.0,37.0,CK,COK
+Costa Rica,108,31.3,30.8,31.8,CR,CRI
+Cote d'Ivoire,187,20.9,21.0,20.9,CI,CIV
+Croatia,19,43.0,41.1,45.0,HR,HRV
+Cuba,37,41.5,40.1,42.6,CU,CUB
+Curacao,73,36.1,33.5,39.7,CW,CUW
+Cyprus,68,36.8,35.5,38.3,CY,CYP
+Czech Republic,33,42.1,40.8,43.4,CZ,CZE
+Denmark,30,42.2,41.2,43.2,DK,DNK
+Djibouti,167,23.9,22.1,25.3,DJ,DJI
+Dominica,89,33.5,33.0,34.0,DM,DMA
+Dominican Republic,137,28.1,27.9,28.3,DO,DOM
+Ecuador,143,27.7,27.0,28.4,EC,ECU
+Egypt,165,23.9,23.6,24.2,EG,EGY
+El Salvador,147,27.1,25.6,28.6,SV,SLV
+Equatorial Guinea,197,19.8,19.3,20.3,GQ,GNQ
+Eritrea,201,19.7,19.2,20.1,ER,ERI
+Estonia,22,42.7,39.4,46.1,EE,EST
+Ethiopia,218,17.9,17.7,18.1,ET,ETH
+EU,20,42.9,41.5,44.3,RE,REU
+Faroe Islands,64,37.6,37.1,38.3,FO,FRO
+Fiji,129,28.9,28.7,29.1,FJ,FJI
+Finland,26,42.5,40.9,44.3,FI,FIN
+France,40,41.4,39.6,43.1,FR,FRA
+French Polynesia,106,31.9,31.7,32.1,PF,PYF
+Gabon,209,18.6,18.4,18.8,GA,GAB
+The Gambia,188,21.0,20.7,21.3,GM,GMB
+Georgia,60,38.1,35.3,40.9,GE,GEO
+Germany,3,47.1,46.0,48.2,DE,DEU
+Ghana,184,21.1,20.6,21.6,GH,GHA
+Gibraltar,81,34.7,33.8,35.7,GI,GIB
+Greece,6,44.5,43.5,45.6,GR,GRC
+Greenland,86,33.9,35.0,32.7,GL,GRL
+Grenada,109,31.5,31.5,31.6,GD,GRD
+Guam,111,29.0,28.3,29.7,GU,GUM
+Guatemala,180,22.1,21.4,22.8,GT,GTM
+Guernsey,14,43.8,42.5,45.1,GG,GGY
+Guinea-Bissau,191,20.1,19.7,20.6,GW,GNB
+Guinea,205,18.9,18.7,19.1,GN,GIN
+Guyana,151,26.2,25.9,26.6,GY,GUY
+Haiti,174,23.0,22.7,23.2,HT,HTI
+Honduras,175,23.0,22.6,23.3,HN,HND
+Hong Kong,8,44.4,43.5,45.0,HK,HKG
+Hungary,28,42.3,40.4,44.3,HU,HUN
+Iceland,70,36.5,35.9,37.1,IS,ISL
+India,141,28.1,27.2,28.6,IN,IND
+Indonesia,117,30.2,29.6,30.8,ID,IDN
+Iran,123,30.3,30.0,30.5,IR,IRN
+Iraq,192,20.0,19.8,20.3,IQ,IRQ
+Ireland,69,36.8,36.4,37.1,IE,IRL
+Isle of Man,11,44.2,43.3,44.9,IM,IMN
+Israel,119,29.9,29.3,30.6,IL,ISR
+Italy,5,45.5,44.4,46.5,IT,ITA
+Jamaica,152,26.0,25.5,26.5,JM,JAM
+Japan,2,47.3,46.0,48.7,JP,JPN
+Jersey,62,38.0,36.3,40.7,JE,JEY
+Jordan,178,22.5,22.9,22.0,JO,JOR
+Kazakhstan,112,30.6,29.3,31.9,KZ,KAZ
+Kenya,199,19.7,19.6,19.9,KE,KEN
+Kiribati,159,24.6,23.8,25.5,KI,KIR
+Kosovo,127,29.1,28.8,29.5,XK,XKX
+Kuwait,124,29.3,30.4,27.4,KW,KWT
+Kyrgyzstan,149,26.5,25.4,27.6,KG,KGZ
+Latvia,16,43.6,39.7,46.9,LV,LVA
+Lebanon,118,30.5,29.9,31.1,LB,LBN
+Lesotho,163,24.2,24.2,24.2,LS,LSO
+Liberia,212,17.8,17.5,18.0,LR,LBR
+Libya,130,28.9,29.1,28.7,LY,LBY
+Liechtenstein,18,43.2,41.7,44.5,LI,LIE
+Lithuania,15,43.7,39.7,47.1,LT,LTU
+Luxembourg,54,39.3,38.7,39.9,LU,LUX
+North Macedonia,65,37.9,36.8,39.0,MK,MKD
+Madagascar,200,19.7,19.5,19.9,MG,MDG
+Malawi,227,16.5,16.4,16.7,MW,MWI
+Malaysia,131,28.5,28.2,28.8,MY,MYS
+Maldives,138,28.2,28.1,28.3,MV,MDV
+Mali,228,15.8,15.1,16.4,ML,MLI
+Malta,35,41.8,40.8,43.0,MT,MLT
+Marshall Islands,173,22.9,22.8,23.0,MH,MHL
+Mauritania,190,20.5,19.5,21.4,MR,MRT
+Mauritius,77,35.3,34.2,36.3,MU,MUS
+Mexico,133,28.3,27.2,29.4,MX,MEX
+Federated States of Micronesia,158,25.1,24.4,25.8,FM,FSM
+Moldova,71,36.7,34.9,38.6,MD,MDA
+Monaco,1,53.1,51.7,54.5,MC,MCO
+Mongolia,135,28.3,27.5,29.2,MN,MNG
+Montenegro,45,40.7,39.9,41.8,ME,MNE
+Montserrat,94,33.2,32.6,33.7,MS,MSR
+Morocco,125,29.3,28.6,29.9,MA,MAR
+Mozambique,222,17.2,16.6,17.8,MZ,MOZ
+Namibia,185,21.2,20.4,21.9,NA,NAM
+Nauru,150,26.4,27.0,25.7,NR,NRU
+Nepal,166,24.1,22.8,25.3,NP,NPL
+Netherlands,24,42.6,41.5,43.6,NL,NLD
+New Caledonia,101,32.0,31.3,32.7,NC,NCL
+New Zealand,63,37.9,37.1,38.8,NZ,NZL
+Nicaragua,154,25.7,24.8,26.6,NI,NIC
+Nigeria,213,18.4,18.3,18.5,NG,NGA
+Niger,230,15.4,15.3,15.5,NE,NER
+Northern Mariana Islands,93,33.6,32.8,34.4,MP,MNP
+Norway,57,39.2,38.4,40.0,NO,NOR
+Oman,153,25.6,26.6,24.2,OM,OMN
+Pakistan,168,23.8,23.7,23.8,PK,PAK
+Palau,88,33.4,32.7,35.0,PW,PLW
+Panama,126,29.2,28.8,29.6,PA,PAN
+Papua New Guinea,171,23.1,23.2,23.1,PG,PNG
+Paraguay,139,28.2,28.0,28.5,PY,PRY
+Peru,140,28.0,27.2,28.8,PE,PER
+Philippines,169,23.5,23.1,24.0,PH,PHL
+Poland,46,40.7,39.0,42.4,PL,POL
+Portugal,31,42.2,40.2,44.4,PT,PRT
+Puerto Rico,38,41.5,39.5,43.2,PR,PRI
+Qatar,90,33.2,34.3,28.1,QA,QAT
+Romania,42,41.1,39.7,42.6,RO,ROU
+Russia,53,39.6,36.6,42.5,RU,RUS
+Rwanda,203,19.0,18.3,19.8,RW,RWA
+Saint Barthelemy,12,44.1,44.1,44.2,BL,BLM
+Saint Kitts and Nevis,82,35.0,35.2,34.8,KN,KNA
+Saint Lucia,84,34.8,33.7,36.0,LC,LCA
+Saint Martin,98,32.5,31.6,33.4,MF,MAF
+Saint Pierre and Miquelon,4,46.5,46.0,47.0,PM,SPM
+Saint Vincent and the Grenadines,91,33.6,33.8,33.4,VC,VCT
+Samoa,164,24.4,24.1,24.6,WS,WSM
+San Marino,9,44.4,43.3,45.4,SM,SMR
+Sao Tome and Principe,215,18.4,18.0,18.8,ST,STP
+Saudi Arabia,145,27.5,28.2,26.7,SA,SAU
+Senegal,207,18.8,18.0,19.7,SN,SEN
+Serbia,25,42.6,40.9,44.3,RS,SRB
+Seychelles,76,35.4,34.9,36.0,SC,SYC
+Sierra Leone,204,19.0,18.4,19.6,SL,SLE
+Singapore,83,34.6,34.5,34.7,SG,SGP
+Sint Maarten,43,41.0,39.9,42.0,SX,SXM
+Slovakia,49,40.5,38.8,42.3,SK,SVK
+Slovenia,7,44.5,42.8,46.2,SI,SVN
+Solomon Islands,179,22.5,22.3,22.8,SB,SLB
+Somalia,217,18.1,18.3,17.9,SO,SOM
+South Africa,146,27.1,26.9,27.3,ZA,ZAF
+South Sudan,223,17.3,17.2,17.5,SS,SSD
+Spain,23,42.7,41.5,43.9,ES,ESP
+Sri Lanka,96,32.8,31.5,34.0,LK,LKA
+Sudan,198,19.9,19.7,20.1,SD,SDN
+Suriname,121,29.8,29.4,30.2,SR,SUR
+Sweden,41,41.2,40.2,42.2,SE,SWE
+Switzerland,27,42.4,41.4,43.4,CH,CHE
+Syria,161,24.3,23.9,24.8,SY,SYR
+Taiwan,47,40.7,40.0,41.5,TW,TWN
+Tajikistan,160,24.5,23.9,25.1,TJ,TJK
+Tanzania,220,17.7,17.5,18.0,TZ,TZA
+Thailand,66,37.7,36.6,38.7,TH,THA
+Togo,194,19.8,19.5,20.1,TG,TGO
+Tonga,176,23.0,22.5,23.4,TO,TON
+Trinidad and Tobago,75,36.0,35.6,36.6,TT,TTO
+Tunisia,97,31.6,31.0,32.2,TN,TUN
+Turkey,110,30.9,30.5,31.4,TR,TUR
+Turkmenistan,142,27.9,27.5,28.4,TM,TKM
+Turks and Caicos Islands,92,33.3,33.6,33.0,TC,TCA
+Tuvalu,155,25.7,24.7,26.9,TV,TUV
+Uganda,229,15.8,15.7,15.9,UG,UGA
+Ukraine,48,40.6,37.4,43.7,UA,UKR
+United Arab Emirates,113,30.3,32.1,25.0,AE,ARE
+United Kingdom,50,40.5,39.3,41.7,GB,GBR
+United States,61,38.1,36.8,39.4,US,USA
+Uruguay,78,35.0,33.1,36.7,UY,URY
+Uzbekistan,132,28.6,28.0,29.2,UZ,UZB
+Vanuatu,181,22.0,21.6,22.4,VU,VUT
+Venezuela,134,28.3,27.6,29.0,VE,VEN
+Vietnam,114,30.5,29.4,31.7,VN,VNM
+Wallis and Futuna,104,32.2,31.3,33.4,WF,WLF
+Western Sahara,183,21.1,20.9,21.3,EH,ESH
+Yemen,202,19.5,19.3,19.6,YE,YEM
+Zambia,226,16.8,16.6,16.9,ZM,ZMB
+Zimbabwe,189,20.0,19.6,20.4,ZW,ZWE

@@ -8,6 +8,7 @@ import os
 import pandas as pd
 from pycountry import countries
 from us_data_cleaner import USDataCleanUp
+import utils
 
 
 class HopkinsDataCleaner:
@@ -22,6 +23,7 @@ class HopkinsDataCleaner:
         self.col_confirmed_prev_day = f"{self.col_confirmed}_prev_day"
         self.col_daily_new = f"daily_new_{self.dataset_name}"
         self.data = pd.DataFrame()
+        self.JH_raw = pd.DataFrame()
 
     def read_initial_data(self):
         """Read data from URL"""
@@ -33,6 +35,9 @@ class HopkinsDataCleaner:
                 "country/region": "country_or_region",
             }
         )
+
+        self.JH_raw = JH_df
+
         self.data = JH_df
 
     def stack_initial_dataset(self):
@@ -241,7 +246,7 @@ class HopkinsDataFull:
         """
         df = self.data.copy()
 
-        cases_only = df.loc[df["running_total_cases"] > 0]
+        cases_only = df.loc[df["running_total_cases"] >= 20]
         cases_only["first_case_state_rank"] = cases_only.groupby(["state_and_country"])[
             "date"
         ].rank(ascending=True)
@@ -258,7 +263,7 @@ class HopkinsDataFull:
         from there
         """
         df = self.data.copy()
-        country_cases_only = df.loc[df["running_total_cases"] > 0]
+        country_cases_only = df.loc[df["running_total_cases"] >= 20]
 
         # Only keep 1 record for each date and country
         country_cases_only = country_cases_only.drop_duplicates(
@@ -314,7 +319,24 @@ class HopkinsDataFull:
 
         self.data = self.data.merge(ref,
                 how='left',
-                on='country_code_3')             
+                on='country_code_3')  
+
+    def add_country_median_age(self):
+        """
+        Add in country median age from ref utils
+        """        
+        df = self.data.copy()
+        
+        directory = os.path.dirname(os.path.dirname(__file__))
+        filepath = os.path.join(directory, 'ref_data','ref_median_age_country.csv')
+        df_age = pd.read_csv(filepath)
+
+        df = df.merge(df_age[['country_code_3','median_years']],
+                how='left',
+                on='country_code_3')
+        df = df.rename(columns={'median_years':'country_median_age'})
+        
+        self.data = df                           
 
     def run(self):
         """
@@ -327,3 +349,4 @@ class HopkinsDataFull:
         self.zero_day_case_country()
         self.add_in_country_codes()
         self.add_country_population()
+        self.add_country_median_age()
