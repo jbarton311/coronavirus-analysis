@@ -114,6 +114,7 @@ class USDataCleanUp:
         dirname = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
         ref_path = os.path.join(dirname, 'ref_data','ref_table_us_states.csv')
         ref = pd.read_csv(ref_path)
+        
         ref.columns = ref.columns.str.lower().str.replace(" ", "_")
         ref = ref[["state_code", "state_name"]]
         return ref

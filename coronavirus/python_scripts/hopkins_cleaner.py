@@ -4,6 +4,7 @@ Johns Hopkins GitHub repo that contains
 data on the Coronavirus
 """
 # pylint: disable=invalid-name, line-too-long
+import os
 import pandas as pd
 from us_data_cleaner import USDataCleanUp
 
@@ -197,8 +198,10 @@ class HopkinsDataFull:
         longitude and latitude for the states
         """
         df = self.data.copy()
+        dirname = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+        ref_path = os.path.join(dirname, 'ref_data','ref_table_us_states.csv')
 
-        ref_table = pd.read_csv("ref_table_us_states.csv")
+        ref_table = pd.read_csv(ref_path)
         ref_table.columns = ref_table.columns.str.lower().str.replace(" ", "_")
 
         # Join long/lat ref data to main data
