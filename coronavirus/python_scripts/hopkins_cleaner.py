@@ -246,7 +246,7 @@ class HopkinsDataFull:
         """
         df = self.data.copy()
 
-        cases_only = df.loc[df["running_total_cases"] >= 20]
+        cases_only = df.loc[df["running_total_cases"] >= 5]
         cases_only["first_case_state_rank"] = cases_only.groupby(["state_and_country"])[
             "date"
         ].rank(ascending=True)
@@ -263,7 +263,7 @@ class HopkinsDataFull:
         from there
         """
         df = self.data.copy()
-        country_cases_only = df.loc[df["running_total_cases"] >= 20]
+        country_cases_only = df.loc[df["running_total_cases"] >= 5]
 
         # Only keep 1 record for each date and country
         country_cases_only = country_cases_only.drop_duplicates(
