@@ -6,6 +6,7 @@ data on the Coronavirus
 # pylint: disable=invalid-name, line-too-long
 import os
 import pandas as pd
+from pycountry import countries
 from us_data_cleaner import USDataCleanUp
 
 
@@ -274,6 +275,47 @@ class HopkinsDataFull:
 
         self.data = df
 
+    def add_in_country_codes(self):
+        """
+        Add in 2 and 3 letter country codes using
+        pycountry module
+        """
+        df = self.data.copy()
+        JH_countries = df[['country_or_region']].copy().drop_duplicates()
+
+        JH_countries['country_code_2'] = ''
+        JH_countries['country_code_3'] = ''
+
+        for index, row in JH_countries.iterrows():
+            country = row[0]
+            #print(country)
+            try:
+                alpha_2 = countries.search_fuzzy(country)[0].alpha_2
+                alpha_3 = countries.search_fuzzy(country)[0].alpha_3
+                row['country_code_2'] = alpha_2
+                row['country_code_3'] = alpha_3
+            except LookupError:
+                pass
+            
+        df = df.merge(JH_countries,
+            how='left',
+            on='country_or_region')
+        
+        self.data = df   
+
+    def add_country_population(self):
+        """
+        Add in country population from ref table
+        """
+        dirname = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+        ref_path = os.path.join(dirname, 'ref_data','ref_country_population.csv')
+        ref = pd.read_csv(ref_path)
+        ref = ref[['country_code_3','country_population_2018']].drop_duplicates()
+
+        self.data = self.data.merge(ref,
+                how='left',
+                on='country_code_3')             
+
     def run(self):
         """
         Main run function to execute logic
@@ -283,3 +325,5 @@ class HopkinsDataFull:
         self.fix_latitude_longitude_us()
         self.zero_day_case_state()
         self.zero_day_case_country()
+        self.add_in_country_codes()
+        self.add_country_population()
