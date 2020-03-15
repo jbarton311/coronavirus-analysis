@@ -340,7 +340,7 @@ class HopkinsDataFull:
 
     def add_country_daily_new_agg(self):
         df = self.data
-        agg_country_new = df.groupby(['country_or_region','date'])['daily_new_cases'].sum().reset_index(name='country_daily_new_agg')
+        agg_country_new = df.groupby(['country_or_region','date'])['running_total_cases'].sum().reset_index(name='country_running_agg')
 
         df = df.merge(agg_country_new,
                 how='left',
