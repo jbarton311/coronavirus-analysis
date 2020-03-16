@@ -256,6 +256,24 @@ class HopkinsDataFull:
 
         self.data = df
 
+    def hundred_day_case_state(self):
+        """
+        Create a rank column for each STATE that tracks
+        the first date a case was seen and then increments
+        from there
+        """
+        df = self.data.copy()
+
+        cases_only = df.loc[df["running_total_cases"] >= 100]
+        cases_only["hundred_case_state_rank"] = cases_only.groupby(["state_and_country"])[
+            "date"
+        ].rank(ascending=True)
+        cases_only = cases_only[["date", "state_and_country", "hundred_case_state_rank"]]
+
+        df = df.merge(cases_only, how="left", on=["date", "state_and_country"])
+
+        self.data = df
+
     def zero_day_case_country(self):
         """
         Create a rank column for each COUNTRY that tracks
@@ -274,6 +292,30 @@ class HopkinsDataFull:
         )["date"].rank(ascending=True)
         country_cases_only = country_cases_only[
             ["date", "country_or_region", "first_case_country_rank"]
+        ]
+
+        df = df.merge(country_cases_only, how="left", on=["date", "country_or_region"])
+
+        self.data = df
+
+    def hundred_day_case_country(self):
+        """
+        Create a rank column for each COUNTRY that tracks
+        the first date a case was seen and then increments
+        from there
+        """
+        df = self.data.copy()
+        country_cases_only = df.loc[df["running_total_cases"] >= 100]
+
+        # Only keep 1 record for each date and country
+        country_cases_only = country_cases_only.drop_duplicates(
+            ["country_or_region", "date"]
+        )
+        country_cases_only["hundred_case_country_rank"] = country_cases_only.groupby(
+            ["country_or_region"]
+        )["date"].rank(ascending=True)
+        country_cases_only = country_cases_only[
+            ["date", "country_or_region", "hundred_case_country_rank"]
         ]
 
         df = df.merge(country_cases_only, how="left", on=["date", "country_or_region"])
@@ -357,6 +399,8 @@ class HopkinsDataFull:
         self.fix_latitude_longitude_us()
         self.zero_day_case_state()
         self.zero_day_case_country()
+        self.hundred_day_case_state()
+        self.hundred_day_case_country()
         self.add_in_country_codes()
         self.add_country_population()
         self.add_country_median_age()
