@@ -62,9 +62,21 @@ class USDataCleanUp:
         # DC comes thru as DC and D.C.
         df["state_cleaned"] = df.state_cleaned.str.replace(".", "")
 
+        df = self.rename_any_states(df)
+
         # Split between old and new
         self.US_old = df.loc[df["date"] <= datetime(2020, 3, 9)]
         self.US_new = df.loc[df["date"] > datetime(2020, 3, 9)]
+
+    def rename_any_states(self, df):
+        """
+        Will clean up some bad states
+        """
+        df.loc[df['state_cleaned'] == 'District of Columbia', 'province_or_state'] = 'DC'
+        df.loc[df['state_cleaned'] == 'District of Columbia', 'state_cleaned'] = 'DC'
+        
+        return df
+
 
     def handle_old_data(self):
         """

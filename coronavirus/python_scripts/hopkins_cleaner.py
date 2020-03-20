@@ -57,7 +57,13 @@ class HopkinsDataCleaner:
         df = df.rename(columns={"level_4": "date"})
         df["date"] = pd.to_datetime(df["date"])
 
+        self.country_name_cleanup(df)
         self.data = df
+
+    def country_name_cleanup(self, df):
+        df.loc[df['country_or_region'] == 'Korea, South', 'country_or_region'] = 'South Korea'
+        return df
+
 
     def handle_US_bad_data(self):
         """
