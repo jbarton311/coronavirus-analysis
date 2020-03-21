@@ -43,6 +43,16 @@ def test_daily_vs_total_logic(df):
     assert yesterday['running_total_recoveries'].sum() == df['daily_new_recoveries'].sum()
     assert yesterday['running_total_deaths'].sum() == df['daily_new_deaths'].sum()
 
+def log_quick_readout_last_5_days(df): 
+    global_df = df.groupby(['date'])[['daily_new_cases','daily_new_recoveries','daily_new_deaths']].sum().reset_index()
+    LOGGER.info("Global recent results")
+    LOGGER.info(f"\n{global_df.sort_values('date').tail(5)}")
+
+    us = df.loc[df['country_or_region'] == 'US']
+    us_grp = us.groupby(['date'])[['daily_new_cases','daily_new_recoveries','daily_new_deaths']].sum().reset_index()
+    LOGGER.info("US recent results")
+    LOGGER.info(f"\n{us_grp.sort_values('date').tail(5)}")   
+
 LOGGER.info("START")
 
 # Execute main logic
@@ -53,6 +63,7 @@ df = self.data
 # Execute test cases
 test_us_province_counts(df)
 test_daily_vs_total_logic(df)
+log_quick_readout_last_5_days(df)
 
 # Save CSV
 df.to_csv('../output_data/HOPKINS_CLEANED.csv', index=False)
