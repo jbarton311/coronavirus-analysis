@@ -141,7 +141,7 @@ class HopkinsDataCleaner:
         """
         self.read_initial_data()
         self.stack_initial_dataset()
-        self.handle_US_bad_data()
+        #self.handle_US_bad_data()
         self.clean_mid()
         self.create_daily_new_col()
         self.clean_final()
@@ -153,21 +153,19 @@ class HopkinsDataFull:
     JHU GitHub repo
     """
     def __init__(self):
-        url_confirmed = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv"
-        url_recovered = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Recovered.csv"
-        url_deaths = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Deaths.csv"
+        url_confirmed = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv"
+        #url_recovered = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Recovered.csv"
+        url_deaths = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv"
 
         self.confirmed = HopkinsDataCleaner(url=url_confirmed, dataset_name="cases")
-        self.recovered = HopkinsDataCleaner(
-            url=url_recovered, dataset_name="recoveries"
-        )
+        #self.recovered = HopkinsDataCleaner(url=url_recovered, dataset_name="recoveries")
         self.deaths = HopkinsDataCleaner(url=url_deaths, dataset_name="deaths")
         self.data = pd.DataFrame()
 
     def execute_clean_classes(self):
         """ Run all 3 different data classes """
         self.confirmed.run()
-        self.recovered.run()
+        #self.recovered.run()
         self.deaths.run()
 
     def initial_merge(self):
@@ -175,32 +173,28 @@ class HopkinsDataFull:
         Combine cases, recovered, and deaths
         into a single dataset
         """
-        df_recovered = self.recovered.data[
-            [
-                "running_total_recoveries",
-                "date",
-                "state_and_country",
-                "running_total_recoveries_prev_day",
-                "daily_new_recoveries",
-            ]
-        ]
-        df_deaths = self.deaths.data[
-            [
-                "running_total_deaths",
-                "date",
-                "state_and_country",
-                "running_total_deaths_prev_day",
-                "daily_new_deaths",
-            ]
-        ]
 
-        df_final = self.confirmed.data.merge(
-            df_recovered, how="left", on=["date", "state_and_country"]
-        )
+        """
+        df_recovered = self.recovered.data[["running_total_recoveries",
+                                            "date",
+                                            "state_and_country",
+                                            "running_total_recoveries_prev_day",
+                                            "daily_new_recoveries",
+                                          ]]
+        """
+        df_deaths = self.deaths.data[["running_total_deaths",
+                                     "date",
+                                     "state_and_country",
+                                     "running_total_deaths_prev_day",
+                                     "daily_new_deaths",
+                                    ]]
+        
+        #df_final = self.confirmed.data.merge(df_recovered, how="left", on=["date", "state_and_country"])
 
-        df_final = df_final.merge(
-            df_deaths, how="left", on=["date", "state_and_country"]
-        )
+        df_final = self.confirmed.data.merge(df_deaths, 
+                                             how="left", 
+                                             on=["date", "state_and_country"]
+                                            )
 
         self.data = df_final
 
@@ -396,6 +390,30 @@ class HopkinsDataFull:
 
         self.data = df
 
+    def order_cols(self):
+        self.data = self.data[['country_or_region',
+                'date',
+                'province_or_state',
+                'running_total_cases',
+                'state_and_country',
+                'running_total_cases_prev_day',
+                'daily_new_cases',
+                'running_total_deaths',
+                'running_total_deaths_prev_day',
+                'daily_new_deaths',
+                'state_name',
+                'latitude',
+                'longitude',
+                'first_case_state_rank',
+                'first_case_country_rank',
+                'country_code_2',
+                'country_code_3',
+                'country_population_2018',
+                'country_median_age',
+                'country_running_agg',
+                'hundred_case_state_rank',
+                'hundred_case_country_rank',]]
+
     def run(self):
         """
         Main run function to execute logic
@@ -411,3 +429,4 @@ class HopkinsDataFull:
         self.add_country_daily_new_agg()
         self.hundred_day_case_state()
         self.hundred_day_case_country()
+        self.order_cols()
