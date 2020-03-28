@@ -19,27 +19,26 @@ ch.setFormatter(formatter)
 
 LOGGER.addHandler(ch)
 
-def test_us_province_counts(df):
+def test_US_metrics(df):
     """
     Make sure all province and states have same number
     of records
     """
+    # Limit to only most recent day by source
+    df_max_date = df.groupby(['data_source'])['date'].max().reset_index()
+    latest_df = df.merge(df_max_date,
+            how='inner',
+            on=['data_source','date'])
+
     us = df.loc[df['country_or_region'] == 'US']
+    latest_us = latest_df.loc[latest_df['country_or_region'] == 'US']
 
-    grp = us.groupby(['province_or_state'])['daily_new_cases'].size().reset_index()
+    LOGGER.info(f"US Total Cases: {latest_us['running_total_cases'].sum()}")
+    LOGGER.info(f"US Total Deaths: {latest_us['running_total_deaths'].sum()}")
 
-    # Make sure all state names have same number of records
-    assert grp['daily_new_cases'].min() == grp['daily_new_cases'].max()
+    assert latest_us['running_total_cases'].sum() == us['daily_new_cases'].sum()
+    assert latest_us['running_total_deaths'].sum() == us['daily_new_deaths'].sum()
 
-def test_daily_vs_total_logic(df):
-    max_date = df['date'].max()
-    yesterday = df.loc[df['date'] == max_date]
-    
-    LOGGER.info(f"Total Cases: {df['daily_new_cases'].sum()}")
-    LOGGER.info(f"Total Deaths: {df['daily_new_deaths'].sum()}")                
-                
-    assert yesterday['running_total_cases'].sum() == df['daily_new_cases'].sum()
-    assert yesterday['running_total_deaths'].sum() == df['daily_new_deaths'].sum()
 
 def log_quick_readout_last_5_days(df): 
     global_df = df.groupby(['date'])[['daily_new_cases','daily_new_deaths']].sum().reset_index()
@@ -59,8 +58,7 @@ self.run()
 df = self.data
 
 # Execute test cases
-test_us_province_counts(df)
-test_daily_vs_total_logic(df)
+test_US_metrics(df)
 log_quick_readout_last_5_days(df)
 
 # Save CSV
