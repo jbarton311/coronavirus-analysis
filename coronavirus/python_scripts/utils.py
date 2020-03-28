@@ -38,6 +38,20 @@ def pull_median_country_age():
     
     df.to_csv(filename, index=False)
 
+def pull_US_state_population_data():
+    """
+    Scrapes a Wikipedia page to pull US state population data
+    """
+    wiki = pd.read_html('https://simple.wikipedia.org/wiki/List_of_U.S._states_by_population')
+    df = wiki[0]
+    df.columns = df.columns.str.lower().str.replace(' ','_')
+    df = df[['state','population_estimate,_july_1,_2019[2]']]
+    df.columns = ['state','us_state_pop_2019_estimate']
+
+    df.loc[df['state'] == 'District of Columbia', 'state'] = 'Washington DC'
+    df.loc[df['state'] == 'U.S. Virgin Islands', 'state'] = 'Virgin Islands'
+    return df
+
 def pandas_add_cc_2(row):
     """Pandas function for pulling 2-letter country code"""
     country = row['country']

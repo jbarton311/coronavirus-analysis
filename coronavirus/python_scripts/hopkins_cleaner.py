@@ -399,30 +399,39 @@ class HopkinsDataFull:
 
         self.data = df
 
+    def add_US_state_population(self):
+        state_pop = utils.pull_US_state_population_data()
+
+        self.data = self.data.merge(state_pop,
+                how='left',
+                left_on='province_or_state',
+                right_on='state')
+
     def order_cols(self):
         self.data = self.data[['country_or_region',
-                'date',
                 'province_or_state',
-                'running_total_cases',
-                'data_source',
                 'state_and_country',
-                'running_total_cases_prev_day',
+                'date',
                 'daily_new_cases',
+                'running_total_cases',
+                'running_total_cases_prev_day',
+                'daily_new_deaths',
                 'running_total_deaths',
                 'running_total_deaths_prev_day',
-                'daily_new_deaths',
-                'state_name',
+                'data_source',
                 'latitude',
                 'longitude',
                 'first_case_state_rank',
                 'first_case_country_rank',
+                'hundred_case_state_rank',
+                'hundred_case_country_rank',                
                 'country_code_2',
                 'country_code_3',
                 'country_population_2018',
+                'us_state_pop_2019_estimate',
                 'country_median_age',
                 'country_running_agg',
-                'hundred_case_state_rank',
-                'hundred_case_country_rank',]]
+                ]]
 
     def run(self):
         """
@@ -439,4 +448,5 @@ class HopkinsDataFull:
         self.add_country_daily_new_agg()
         self.hundred_day_case_state()
         self.hundred_day_case_country()
+        self.add_US_state_population()
         self.order_cols()
