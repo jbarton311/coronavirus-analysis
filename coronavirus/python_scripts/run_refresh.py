@@ -2,9 +2,7 @@ from datetime import datetime
 import os
 import logging
 import pandas as pd
-from pycountry import countries
-
-from hopkins_cleaner import HopkinsDataFull
+from data_aggregators import USDataNYT, GlobalDataJHU
 
 LOGGER = logging.getLogger()
 LOGGER.setLevel(logging.DEBUG)
