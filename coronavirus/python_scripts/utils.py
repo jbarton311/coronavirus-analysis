@@ -3,6 +3,59 @@ import pandas as pd
 from pycountry import countries
 
 
+class AddDailyFields():
+    """
+    Takes the daily running total columns and 
+    adds in daily new columns and PREV day
+    """
+    def __init__(self, data_obj):
+
+        self.data = data_obj.data
+        self.dataset_name = data_obj.dataset_name
+        self.key_col = data_obj.key_col
+        
+        self.col_confirmed = f"running_total_{self.dataset_name}"
+        self.col_confirmed_prev_day = f"{self.col_confirmed}_prev_day"
+        self.col_daily_new = f"daily_new_{self.dataset_name}"
+
+        
+    def create_daily_new_col(self):
+        """
+        Here we create a daily new column
+        """
+        df = self.data
+
+        # Prep dataset 1-day delta to get day-over-day change
+        df["previous_days_date"] = df["date"] + pd.np.timedelta64(1, "D")
+        previous_df = df.copy()
+        previous_df = previous_df[[
+                self.key_col,
+                "previous_days_date",
+                self.col_confirmed,
+                ]]
+        
+        previous_df = previous_df.rename(
+            columns={self.col_confirmed: self.col_confirmed_prev_day}
+        )
+
+        # Join dataset to itself with a one day offset to get daily diff
+        df = df.merge(
+            previous_df,
+            how="left",
+            left_on=[self.key_col, "date"],
+            right_on=[self.key_col, "previous_days_date"],
+        )
+
+        df = df.drop(["previous_days_date_x", "previous_days_date_y"], axis=1)
+
+        df[self.col_confirmed_prev_day] = df[self.col_confirmed_prev_day].fillna(0)
+        df[self.col_daily_new] = (
+            df[self.col_confirmed] - df[self.col_confirmed_prev_day]
+        )
+
+        self.data = df
+
+
 def pull_median_country_age():
     """
     Pull median age by country data from Wikipedia
@@ -50,6 +103,34 @@ def pull_US_state_population_data():
 
     df.loc[df['state'] == 'District of Columbia', 'state'] = 'Washington DC'
     df.loc[df['state'] == 'U.S. Virgin Islands', 'state'] = 'Virgin Islands'
+
+    directory = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+    filename = os.path.join(directory, 'ref_data', 'ref_us_state_population.csv')
+
+    df.to_csv(filename, index=False)
+
+    return df
+
+def create_FIPS_ref_data():
+    """
+    Load up a FIPS ref table from GitHub
+    """
+    FIPS = pd.read_json('https://raw.githubusercontent.com/josh-byster/fips_lat_long/master/fips_map.json')
+    FIPS = FIPS.transpose().reset_index()
+    FIPS = FIPS.rename(columns={'index':'fips'})
+    FIPS['fips'] = FIPS['fips'].astype(str)
+
+    directory = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+    filename = os.path.join(directory, 'ref_data', 'FIPS_ref_data.csv')
+
+    FIPS.to_csv(filename, index=False)
+
+
+def load_FIPS_data():
+    directory = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+    filename = os.path.join(directory, 'ref_data', 'FIPS_ref_data.csv')
+    df = pd.read_csv(filename)    
+    df['fips'] = df['fips'].astype(str)
     return df
 
 def pandas_add_cc_2(row):

@@ -5,23 +5,82 @@ data on the Coronavirus
 """
 # pylint: disable=invalid-name, line-too-long
 import os
+import logging
 import pandas as pd
 from pycountry import countries
-from nyt_us_data import NYTDataUS
+from nyt_us_data import NYTDataStateLevel, NYTDataCountyLevel
 import utils
 
+
+LOGGER = logging.getLogger()
+
+
+class AddDailyFields():
+    """
+    Takes the daily running total columns and 
+    adds in daily new columns and PREV day
+    """
+    def __init__(self, data_obj):
+
+        self.data = data_obj.data
+        self.dataset_name = data_obj.dataset_name
+        self.key_col = data_obj.key_col
+        
+        self.col_confirmed = f"running_total_{self.dataset_name}"
+        self.col_confirmed_prev_day = f"{self.col_confirmed}_prev_day"
+        self.col_daily_new = f"daily_new_{self.dataset_name}"
+
+        
+    def create_daily_new_col(self):
+        """
+        Here we create a daily new column
+        """
+        df = self.data
+
+        # Prep dataset 1-day delta to get day-over-day change
+        df["previous_days_date"] = df["date"] + pd.np.timedelta64(1, "D")
+        previous_df = df.copy()
+        previous_df = previous_df[[
+                self.key_col,
+                "previous_days_date",
+                self.col_confirmed,
+                ]]
+        
+        previous_df = previous_df.rename(
+            columns={self.col_confirmed: self.col_confirmed_prev_day}
+        )
+
+        # Join dataset to itself with a one day offset to get daily diff
+        df = df.merge(
+            previous_df,
+            how="left",
+            left_on=[self.key_col, "date"],
+            right_on=[self.key_col, "previous_days_date"],
+        )
+
+        df = df.drop(["previous_days_date_x", "previous_days_date_y"], axis=1)
+
+        df[self.col_confirmed_prev_day] = df[self.col_confirmed_prev_day].fillna(0)
+        df[self.col_daily_new] = (
+            df[self.col_confirmed] - df[self.col_confirmed_prev_day]
+        )
+
+        self.data = df
 
 class HopkinsDataCleaner:
     """
     Accepts a raw URL from Hopkins GitHub and formats the data
     to be fed into Power BI
     """
-    def __init__(self, url, dataset_name):
+    def __init__(self, dataset_name, url='not needed'):
         self.url = url
         self.dataset_name = dataset_name
         self.col_confirmed = f"running_total_{self.dataset_name}"
         self.col_confirmed_prev_day = f"{self.col_confirmed}_prev_day"
         self.col_daily_new = f"daily_new_{self.dataset_name}"
+
+        self.key_col = "state_and_country"
+
         self.data = pd.DataFrame()
         self.JH_raw = pd.DataFrame()
 
@@ -56,6 +115,7 @@ class HopkinsDataCleaner:
         df = df.set_index(index_cols).stack().reset_index(name=self.col_confirmed)
         df = df.rename(columns={"level_4": "date"})
         df["date"] = pd.to_datetime(df["date"])
+        df['data_source'] = 'JHU'
 
         self.country_name_cleanup(df)
         self.data = df
@@ -63,26 +123,6 @@ class HopkinsDataCleaner:
     def country_name_cleanup(self, df):
         df.loc[df['country_or_region'] == 'Korea, South', 'country_or_region'] = 'South Korea'
         return df
-
-
-    def handle_US_NYT_data(self):
-        """
-        US data is being sourced from NYT
-        This will combine all JHU data (excluding US)
-        with US data from NYT
-        """
-
-        nyt = NYTDataUS(dataset_name=self.dataset_name)
-        nyt.run()
-
-
-        # Remove US from JHU data
-        self.data = self.data.loc[self.data['country_or_region'] != 'US']
-        # Add in data source flags
-        self.data['data_source'] = 'JHU'
-        nyt.data['data_source'] = 'NYT'
-        self.data = pd.concat([self.data, nyt.data], 
-                             axis=0)
 
     def clean_mid(self):
         """
@@ -93,11 +133,9 @@ class HopkinsDataCleaner:
         df["province_or_state"] = df["province_or_state"].fillna("Not Provided")
         df["country_or_region"] = df["country_or_region"].fillna("Not Provided")
 
-        # Rank order dates by state/country
         df["state_and_country"] = (
             df["province_or_state"] + "-" + df["country_or_region"]
         )
-        # df['rank'] = df.groupby(['state_and_country'])['date'].rank(ascending=True)
 
         self.data = df
 
@@ -112,8 +150,7 @@ class HopkinsDataCleaner:
         previous_df = df.copy()
         previous_df = previous_df[
             [
-                "province_or_state",
-                "country_or_region",
+                self.key_col,
                 "previous_days_date",
                 self.col_confirmed,
             ]
@@ -126,8 +163,8 @@ class HopkinsDataCleaner:
         df = df.merge(
             previous_df,
             how="left",
-            left_on=["province_or_state", "country_or_region", "date"],
-            right_on=["province_or_state", "country_or_region", "previous_days_date"],
+            left_on=[self.key_col, "date"],
+            right_on=[self.key_col, "previous_days_date"],
         )
 
         df = df.drop(["previous_days_date_x", "previous_days_date_y"], axis=1)
@@ -150,10 +187,53 @@ class HopkinsDataCleaner:
         """
         self.read_initial_data()
         self.stack_initial_dataset()
-        self.handle_US_NYT_data()
+        #self.handle_US_NYT_data()
         self.clean_mid()
         self.create_daily_new_col()
         self.clean_final()
+        
+class JHUCases():
+    def __init__(self):
+        url_confirmed = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv"
+        self.data_cleaner = HopkinsDataCleaner(url=url_confirmed, dataset_name="cases")
+        
+class JHUDeaths():
+    def __init__(self):
+        url_deaths = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv"
+        self.data_cleaner = HopkinsDataCleaner(url=url_deaths, dataset_name="deaths")
+
+class NYTUSCountyAgg(HopkinsDataCleaner):
+    """
+    Class to pull US county level data from NYT
+    and then add our necessary columns for analysis
+    """
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs) 
+        self.key_col = "state_and_county"
+
+    def read_initial_data(self):
+        nyt = NYTDataCountyLevel(dataset_name=self.dataset_name)
+        nyt.run()
+        self.data = nyt.data
+        
+    def run(self):
+        """
+        Main run function to execute logic
+        """
+        self.read_initial_data()
+        self.clean_mid()
+        self.create_daily_new_col()
+        self.clean_final()
+
+class NYTCountyCases():
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs) 
+        self.data_cleaner = NYTUSCountyAgg(dataset_name='cases')
+
+class NYTCountyDeaths():
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs) 
+        self.data_cleaner = NYTUSCountyAgg(dataset_name='deaths')
 
 
 class HopkinsDataFull:
@@ -162,35 +242,28 @@ class HopkinsDataFull:
     JHU GitHub repo
     """
     def __init__(self):
-        url_confirmed = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv"
-        #url_recovered = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Recovered.csv"
-        url_deaths = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv"
+        cases = JHUCases()
+        self.confirmed = cases.data_cleaner
 
-        self.confirmed = HopkinsDataCleaner(url=url_confirmed, dataset_name="cases")
-        #self.recovered = HopkinsDataCleaner(url=url_recovered, dataset_name="recoveries")
-        self.deaths = HopkinsDataCleaner(url=url_deaths, dataset_name="deaths")
+        deaths = JHUDeaths()
+        self.deaths = deaths.data_cleaner
+        
         self.data = pd.DataFrame()
 
     def execute_clean_classes(self):
         """ Run all 3 different data classes """
+        print("Executing main data pulls")
         self.confirmed.run()
         #self.recovered.run()
         self.deaths.run()
+        print("Done with main data pulls")
 
     def initial_merge(self):
         """
         Combine cases, recovered, and deaths
         into a single dataset
         """
-
-        """
-        df_recovered = self.recovered.data[["running_total_recoveries",
-                                            "date",
-                                            "state_and_country",
-                                            "running_total_recoveries_prev_day",
-                                            "daily_new_recoveries",
-                                          ]]
-        """
+        print("Ok")
         df_deaths = self.deaths.data[["running_total_deaths",
                                      "date",
                                      "state_and_country",
@@ -198,13 +271,13 @@ class HopkinsDataFull:
                                      "daily_new_deaths",
                                     ]]
         
-        #df_final = self.confirmed.data.merge(df_recovered, how="left", on=["date", "state_and_country"])
-
+        print("No issue here")
         df_final = self.confirmed.data.merge(df_deaths, 
                                              how="left", 
                                              on=["date", "state_and_country"]
                                             )
 
+        print("Here we go")
         self.data = df_final
 
     def fix_latitude_longitude_us(self):
@@ -212,6 +285,7 @@ class HopkinsDataFull:
         This will ensure that the new US data has proper
         longitude and latitude for the states
         """
+        print("Fix US long/lat")
         df = self.data.copy()
         dirname = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
         ref_path = os.path.join(dirname, 'ref_data','ref_table_us_states.csv')
@@ -247,95 +321,53 @@ class HopkinsDataFull:
 
         self.data = df
 
-    def zero_day_case_state(self):
+    def zero_day_field_creator(self,
+                            key_col, 
+                            new_col_name,
+                            min_case_value):
         """
-        Create a rank column for each STATE that tracks
+        Create a rank column for each COUNTY that tracks
         the first date a case was seen and then increments
         from there
         """
-        df = self.data.copy()
+        print("Zero day for states")
+        df = self.data
 
-        cases_only = df.loc[df["running_total_cases"] >= 5]
-        cases_only["first_case_state_rank"] = cases_only.groupby(["state_and_country"])[
-            "date"
-        ].rank(ascending=True)
-        cases_only = cases_only[["date", "state_and_country", "first_case_state_rank"]]
+        cases_only = df.loc[df["running_total_cases"] >= min_case_value]
+        states = cases_only.groupby([key_col,'date'])['daily_new_cases'].sum().reset_index()
+        states[new_col_name] = states.groupby([key_col])["date"].rank(ascending=True)
 
-        df = df.merge(cases_only, how="left", on=["date", "state_and_country"])
-
-        self.data = df
-
-    def hundred_day_case_state(self):
-        """
-        Create a rank column for each STATE that tracks
-        the first date a case was seen and then increments
-        from there
-        """
-        df = self.data.copy()
-
-        cases_only = df.loc[df["running_total_cases"] >= 100]
-        cases_only["hundred_case_state_rank"] = cases_only.groupby(["state_and_country"])[
-            "date"
-        ].rank(ascending=True)
-        cases_only = cases_only[["date", "state_and_country", "hundred_case_state_rank"]]
-
-        df = df.merge(cases_only, how="left", on=["date", "state_and_country"])
+        states = states[[key_col, new_col_name, 'date']]
+        df = df.merge(states,
+                how='left',
+                on=[key_col,'date']) 
 
         self.data = df
 
-    def zero_day_case_country(self):
-        """
-        Create a rank column for each COUNTRY that tracks
-        the first date a case was seen and then increments
-        from there
-        """
-        df = self.data.copy()
-        country_cases_only = df.loc[df["running_total_cases"] >= 5]
+    def zero_day_adds(self):
+        self.zero_day_field_creator(key_col='state_and_country',
+                                    new_col_name='first_case_state_rank',
+                                    min_case_value=5)
+        
+        self.zero_day_field_creator(key_col='state_and_country',
+                                    new_col_name='hundred_case_state_rank',
+                                    min_case_value=100)
+        
+        self.zero_day_field_creator(key_col='country_or_region',
+                                    new_col_name='first_case_country_rank',
+                                    min_case_value=5)
+        
+        self.zero_day_field_creator(key_col='country_or_region',
+                                    new_col_name='hundred_case_country_rank',
+                                    min_case_value=100)  
 
-        # Only keep 1 record for each date and country
-        country_cases_only = country_cases_only.drop_duplicates(
-            ["country_or_region", "date"]
-        )
-        country_cases_only["first_case_country_rank"] = country_cases_only.groupby(
-            ["country_or_region"]
-        )["date"].rank(ascending=True)
-        country_cases_only = country_cases_only[
-            ["date", "country_or_region", "first_case_country_rank"]
-        ]
-
-        df = df.merge(country_cases_only, how="left", on=["date", "country_or_region"])
-
-        self.data = df
-
-    def hundred_day_case_country(self):
-        """
-        Create a rank column for each COUNTRY that tracks
-        the first date a case was seen and then increments
-        from there
-        """
-        df = self.data.copy()
-        country_cases_only = df.loc[df["running_total_cases"] >= 100]
-
-        # Only keep 1 record for each date and country
-        country_cases_only = country_cases_only.drop_duplicates(
-            ["country_or_region", "date"]
-        )
-        country_cases_only["hundred_case_country_rank"] = country_cases_only.groupby(
-            ["country_or_region"]
-        )["date"].rank(ascending=True)
-        country_cases_only = country_cases_only[
-            ["date", "country_or_region", "hundred_case_country_rank"]
-        ]
-
-        df = df.merge(country_cases_only, how="left", on=["date", "country_or_region"])
-
-        self.data = df
-
+    
     def add_in_country_codes(self):
         """
         Add in 2 and 3 letter country codes using
         pycountry module
         """
+        print("Adding in country codes")
         df = self.data.copy()
         JH_countries = df[['country_or_region']].copy().drop_duplicates()
 
@@ -428,7 +460,7 @@ class HopkinsDataFull:
                 'country_code_2',
                 'country_code_3',
                 'country_population_2018',
-                'us_state_pop_2019_estimate',
+                #'us_state_pop_2019_estimate',
                 'country_median_age',
                 'country_running_agg',
                 ]]
@@ -439,14 +471,15 @@ class HopkinsDataFull:
         """
         self.execute_clean_classes()
         self.initial_merge()
-        self.fix_latitude_longitude_us()
-        self.zero_day_case_state()
-        self.zero_day_case_country()
+        #self.fix_latitude_longitude_us()
+        self.zero_day_adds()
+        #self.zero_day_case_state()
+        #self.zero_day_case_country()
+        #self.hundred_day_case_state()
+        #self.hundred_day_case_country()        
         self.add_in_country_codes()
         self.add_country_population()
         self.add_country_median_age()
         self.add_country_daily_new_agg()
-        self.hundred_day_case_state()
-        self.hundred_day_case_country()
-        self.add_US_state_population()
+        #self.add_US_state_population()
         self.order_cols()
