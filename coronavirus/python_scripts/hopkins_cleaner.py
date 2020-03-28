@@ -7,7 +7,7 @@ data on the Coronavirus
 import os
 import pandas as pd
 from pycountry import countries
-from us_data_cleaner import USDataCleanUp
+from nyt_us_data import NYTDataUS
 import utils
 
 
@@ -65,16 +65,24 @@ class HopkinsDataCleaner:
         return df
 
 
-    def handle_US_bad_data(self):
+    def handle_US_NYT_data(self):
         """
-        Pass data to a separate class that can
-        clean up the bad US data
+        US data is being sourced from NYT
+        This will combine all JHU data (excluding US)
+        with US data from NYT
         """
-        # Clean up column values
-        # This class here will handle cleaning up the US porition of the data
-        US_cleaner = USDataCleanUp(df=self.data, key_col=self.col_confirmed)
-        US_cleaner.run()
-        self.data = US_cleaner.data.copy()
+
+        nyt = NYTDataUS(dataset_name=self.dataset_name)
+        nyt.run()
+
+
+        # Remove US from JHU data
+        self.data = self.data.loc[self.data['country_or_region'] != 'US']
+        # Add in data source flags
+        self.data['data_source'] = 'JHU'
+        nyt.data['data_source'] = 'NYT'
+        self.data = pd.concat([self.data, nyt.data], 
+                             axis=0)
 
     def clean_mid(self):
         """
@@ -133,7 +141,8 @@ class HopkinsDataCleaner:
 
     def clean_final(self):
         """ Final data clean """
-        self.data = self.data.rename(columns={"lat": "latitude", "long": "longitude"})
+        self.data = self.data.rename(columns={"lat": "latitude", 
+                                              "long": "longitude"})
 
     def run(self):
         """
@@ -141,7 +150,7 @@ class HopkinsDataCleaner:
         """
         self.read_initial_data()
         self.stack_initial_dataset()
-        #self.handle_US_bad_data()
+        self.handle_US_NYT_data()
         self.clean_mid()
         self.create_daily_new_col()
         self.clean_final()
@@ -395,6 +404,7 @@ class HopkinsDataFull:
                 'date',
                 'province_or_state',
                 'running_total_cases',
+                'data_source',
                 'state_and_country',
                 'running_total_cases_prev_day',
                 'daily_new_cases',
