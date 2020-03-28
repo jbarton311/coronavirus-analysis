@@ -62,4 +62,4 @@ test_US_metrics(df)
 log_quick_readout_last_5_days(df)
 
 # Save CSV
-df.to_csv('../output_data/HOPKINS_CLEANED.csv', index=False)
+df.to_csv('../output_data/coronavirus_data.csv', index=False)
