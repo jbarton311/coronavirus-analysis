@@ -248,6 +248,9 @@ class USDataNYT(GlobalDataJHU):
                 'country_median_age',
                 'country_running_agg',
                 'state_code',
+                'county_zipcode',
+                'zipcode_population',
+                'zipcode_population_density',
                 ]]     
     
     def add_US_state_population(self):
@@ -268,7 +271,23 @@ class USDataNYT(GlobalDataJHU):
         
         self.data.drop('state_name', 
                        axis=1,
-                       inplace=True)                                
+                       inplace=True)     
+
+    def add_US_county_zip(self):
+        ref = utils.load_ref_US_county_info()
+
+        ref.drop(['lat','long','test_county','test_state'], 
+                axis=1,
+                inplace=True)
+
+        ref.rename(columns={'test_zipcode':'county_zipcode',
+                        'test_population':'zipcode_population',
+                        'test_population_density':'zipcode_population_density'},
+                inplace=True)   
+
+        self.data = self.data.merge(ref,
+            how='left',
+            on=['state_code','county'])                                                               
 
 
     def run(self):
@@ -283,6 +302,7 @@ class USDataNYT(GlobalDataJHU):
         self.add_country_daily_new_agg()
         self.add_US_state_population()
         self.add_US_state_codes()
+        self.add_US_county_zip()
         self.order_cols()  
         
                 
