@@ -95,9 +95,12 @@ class NYTDataCountyLevel(NYTDataStateLevel):
                                   'deaths':'running_total_deaths'},
                          inplace=True)
         self.data['state_and_county'] = self.data['province_or_state'] + "-" + self.data['county']
+        
         # Clean up DC for later REF mapping
         self.data.loc[self.data['province_or_state'] == 'District of Columbia', 
                                 'province_or_state'] = 'Washington DC'
+
+        self.data.loc[self.data['county'] == 'New York City', 'fips'] = '36061'                     
 
     def grab_lat_long_from_ref(self):
         FIPS = utils.load_FIPS_data()
@@ -106,6 +109,8 @@ class NYTDataCountyLevel(NYTDataStateLevel):
                  how='left',
                  on='fips',
                  )
+
+        
 
 class NYTCountyCases():
     def __init__(self):

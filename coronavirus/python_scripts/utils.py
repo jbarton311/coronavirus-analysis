@@ -127,11 +127,30 @@ def create_FIPS_ref_data():
 
 
 def load_FIPS_data():
+    """ Load FIPS ref table """
     directory = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
     filename = os.path.join(directory, 'ref_data', 'FIPS_ref_data.csv')
     df = pd.read_csv(filename)    
     df['fips'] = df['fips'].astype(str)
     return df
+
+def load_ref_US_state():
+    """ Load US state code ref table """
+    directory = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+    filename = os.path.join(directory, 'ref_data', 'ref_table_us_states.csv')
+    df = pd.read_csv(filename)    
+    df.columns = df.columns.str.lower().str.replace(' ','_')
+    return df
+
+def load_ref_US_county_info():
+    """ Load US county info ref table 
+    Unique to the county, state, latitude, and longitude
+    """
+    directory = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+    filename = os.path.join(directory, 'ref_data', 'county_to_zip_ref.csv')
+    df = pd.read_csv(filename)    
+    df.columns = df.columns.str.lower().str.replace(' ','_')
+    return df    
 
 def pandas_add_cc_2(row):
     """Pandas function for pulling 2-letter country code"""

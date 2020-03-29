@@ -28,10 +28,13 @@ class GlobalDataJHU():
                                      "daily_new_deaths",
                                     ]]
         
-        self.data = self.cases.merge(deaths, 
+        df = self.cases.merge(deaths, 
                      how="left", 
                      on=["date", "state_and_country"]
                     )
+
+        self.df_original = df
+        self.data = df                    
     
     def zero_day_field_creator(self,
                             key_col, 
@@ -210,10 +213,13 @@ class USDataNYT(GlobalDataJHU):
                                      "daily_new_deaths",
                                     ]]
         
-        self.data = self.cases.merge(deaths, 
+        df = self.cases.merge(deaths, 
                      how="left", 
                      on=["date", "state_and_county"]
                     )    
+        
+        self.df_original = df
+        self.data = df
         
     def order_cols(self):        
                self.data = self.data[['country_or_region',
@@ -228,6 +234,7 @@ class USDataNYT(GlobalDataJHU):
                 'running_total_deaths',
                 'running_total_deaths_prev_day',
                 'data_source',
+                'fips',
                 'lat',
                 'long',
                 'first_case_state_rank',
@@ -240,6 +247,7 @@ class USDataNYT(GlobalDataJHU):
                 'us_state_pop_2019_estimate',
                 'country_median_age',
                 'country_running_agg',
+                'state_code',
                 ]]     
     
     def add_US_state_population(self):
@@ -248,7 +256,20 @@ class USDataNYT(GlobalDataJHU):
         self.data = self.data.merge(state_pop,
                 how='left',
                 left_on='province_or_state',
-                right_on='state')            
+                right_on='state')   
+
+    def add_US_state_codes(self):
+        ref = utils.load_ref_US_state()
+
+        self.data = self.data.merge(ref[['state_code','state_name']].drop_duplicates('state_name'),
+                                    how='left',
+                                    left_on='province_or_state',
+                                    right_on='state_name')     
+        
+        self.data.drop('state_name', 
+                       axis=1,
+                       inplace=True)                                
+
 
     def run(self):
         """
@@ -261,5 +282,7 @@ class USDataNYT(GlobalDataJHU):
         self.add_country_median_age()
         self.add_country_daily_new_agg()
         self.add_US_state_population()
+        self.add_US_state_codes()
         self.order_cols()  
+        
                 
