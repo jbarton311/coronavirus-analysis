@@ -1,6 +1,8 @@
 import os
+from datetime import datetime
 import pandas as pd
 from pycountry import countries
+from git import Repo
 
 
 class AddDailyFields():
@@ -55,6 +57,30 @@ class AddDailyFields():
 
         self.data = df
 
+
+def push_output_to_github():
+    """
+    Automatically push changes in output_data/ to GitHub
+    """
+    repo_dir = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+
+    repo = Repo(repo_dir)
+
+    file_list = [
+        'coronavirus/output_data/HOPKINS_CLEANED.csv',
+        'coronavirus/output_data/JHU_aggregated_country_and_day.csv',
+        'coronavirus/output_data/NYT_US_state_data.csv',
+        'coronavirus/output_data/US_causes_of_death.csv', 
+    ]
+    # Add and commit
+    today = datetime.today().strftime('%Y-%m-%d')
+    commit_message = f'Adding output data for {today}'
+    repo.index.add(file_list)
+    repo.index.commit(commit_message)
+
+    # Push
+    origin = repo.remote('origin')
+    origin.push()
 
 def pull_median_country_age():
     """
@@ -173,3 +199,4 @@ def pandas_add_cc_3(row):
     except LookupError:
         print("no dice")
         pass        
+

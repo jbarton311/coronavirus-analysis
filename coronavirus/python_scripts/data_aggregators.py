@@ -415,4 +415,61 @@ class CauseOfDeath():
         self.prep_US_by_day()
         self.prep_death_ref()
         self.prep_output()
-        self.save_output_to_CSV()                        
+        self.save_output_to_CSV()
+
+class JHUCountryAggregate():
+    def __init__(self, JHU_obj):
+        self.JHU = JHU_obj
+
+        self.cols_to_sum = ['daily_new_cases',
+                'running_total_cases',
+                'running_total_cases_prev_day',
+                'daily_new_deaths',
+                'running_total_deaths',
+                'running_total_deaths_prev_day',]
+        
+    def prep_country_ref(self):
+        df = self.JHU.data.copy()
+
+        df.drop_duplicates(['country_or_region','date'], inplace=True)
+
+        df = df[['country_or_region',
+                         'date',                                     
+                         'data_source',
+                         'lat',
+                         'long',
+                         'first_case_country_rank',
+                         'hundred_case_country_rank',
+                         'country_code_2',
+                         'country_code_3',
+                         'country_population_2018',
+                         'country_median_age',
+                         'country_running_agg']]
+        
+        return df
+    
+    def create_final_data(self):
+        jh = self.JHU.data
+
+        df = jh.groupby(['date','country_or_region'])[self.cols_to_sum].sum().reset_index()
+        country_info_ref = self.prep_country_ref()
+
+        final_df = df.merge(country_info_ref,
+                             how='left',
+                             on=['country_or_region','date'])
+
+        self.data = final_df    
+        
+    def save_output_to_CSV(self):
+        """ Save to CSV """
+        #LOGGER.info("Saving Cause of Death to CSV")
+        filename = os.path.abspath(__file__)
+        directory = os.path.dirname(os.path.dirname(filename))
+        output_file = os.path.join(directory, 'output_data/', 'JHU_aggregated_country_and_day.csv')
+        
+        self.data.to_csv(output_file, index=False) 
+        
+    def run(self):
+        self.create_final_data()
+        self.save_output_to_CSV()        
+
