@@ -170,6 +170,14 @@ class GlobalDataJHU():
                 'country_running_agg',
                 ]]
 
+    def save_output_to_CSV(self):
+        LOGGER.info("Saving JHU to CSV")
+        filename = os.path.abspath(__file__)
+        directory = os.path.dirname(os.path.dirname(filename))
+        output_file = os.path.join(directory, 'output_data/', 'HOPKINS_CLEANED.csv')
+        
+        self.data.to_csv(output_file, index=False)                
+
     def run(self):
         """
         Main run function to execute logic
@@ -181,6 +189,7 @@ class GlobalDataJHU():
         self.add_country_median_age()
         self.add_country_daily_new_agg()
         self.order_cols()  
+        self.save_output_to_CSV()
 
 
 class USDataNYT(GlobalDataJHU):
@@ -289,6 +298,13 @@ class USDataNYT(GlobalDataJHU):
             how='left',
             on=['state_code','county'])                                                               
 
+    def save_output_to_CSV(self):
+        LOGGER.info("Saving NYT to CSV")
+        filename = os.path.abspath(__file__)
+        directory = os.path.dirname(os.path.dirname(filename))
+        output_file = os.path.join(directory, 'output_data/', 'NYT_US_state_data.csv')
+        
+        self.data.to_csv(output_file, index=False)
 
     def run(self):
         """
@@ -304,5 +320,99 @@ class USDataNYT(GlobalDataJHU):
         self.add_US_state_codes()
         self.add_US_county_zip()
         self.order_cols()  
+        self.save_output_to_CSV()
         
                 
+
+class CauseOfDeath():
+    def __init__(self, NYT_obj):
+        # We need the NYT class to use that data
+        self.NYT = NYT_obj
+    
+    def prep_ref_table(self):
+        """
+        Return a DataFrame reference table for cause of death
+        """
+        data = {'cause_of_death':['Heart disease',
+                        'Cancer',
+                        'Accidents (unintentional injuries)',
+                        'Chronic lower respiratory diseases',
+                        'Stroke (cerebrovascular diseases)',
+                        'Alzheimer’s disease',
+                        'Diabetes',
+                        'Influenza and pneumonia',
+                        'Nephritis, nephrotic syndrome, and nephrosis',
+                        'Intentional self-harm (suicide)',]
+                ,
+                'deaths_2017': [647457,
+                                    599108,
+                                    169936,
+                                    160201,
+                                    146383,
+                                    121404,
+                                    83564,
+                                    55672,
+                                    50633,
+                                    47173,]}
+
+        ref_cause_of_death = pd.DataFrame(data)
+        ref_cause_of_death['daily_average'] = ref_cause_of_death['deaths_2017'] / 365
+
+        return ref_cause_of_death
+
+    def prep_US_by_day(self):
+        """
+        Take the NYT US data and return a grouped DataFrame that has
+        COVID deaths by day
+        """
+        df = self.NYT.data.groupby(['date'])['daily_new_deaths'].sum().reset_index()
+        df['cause_of_death'] = 'COVID-19'
+        df = df.rename(columns={'daily_new_deaths':'daily_deaths'})   
+
+        self.df_US_by_day = df
+
+
+    def prep_death_ref(self):  
+        """
+        Return an expanded reference table that has cause of death
+        records for each date in US daily data
+        """
+        # Create a copy of ref table for each date in main data
+        ref_list = []
+        for date in self.df_US_by_day.date.unique():
+            #print(date)
+            new_ref = self.prep_ref_table()
+            new_ref['date'] = date
+            ref_list.append(new_ref)
+
+        death_ref = pd.concat(ref_list, axis=0)
+        death_ref = death_ref.drop('deaths_2017', axis=1)
+        death_ref = death_ref.rename(columns={'daily_average':'daily_deaths'})
+
+        self.df_death_ref = death_ref
+        
+    def prep_output(self):
+        """
+        Combine ref data with COVID data
+        """
+        df = pd.concat([self.df_US_by_day, self.df_death_ref], axis=0)
+        df = df.sort_values('date', ascending=False)
+        df['country'] = 'US'
+        self.data = df  
+        
+    def save_output_to_CSV(self):
+        """ Save to CSV """
+        LOGGER.info("Saving Cause of Death to CSV")
+        filename = os.path.abspath(__file__)
+        directory = os.path.dirname(os.path.dirname(filename))
+        output_file = os.path.join(directory, 'output_data/', 'US_causes_of_death.csv')
+        
+        self.data.to_csv(output_file, index=False)        
+        
+        
+    def run(self):
+        """ Execute main logic """
+        self.prep_US_by_day()
+        self.prep_death_ref()
+        self.prep_output()
+        self.save_output_to_CSV()                        
