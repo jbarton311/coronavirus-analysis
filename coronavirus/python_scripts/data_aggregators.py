@@ -304,6 +304,8 @@ class USDataNYT(GlobalDataJHU):
         directory = os.path.dirname(os.path.dirname(filename))
         output_file = os.path.join(directory, 'output_data/', 'NYT_US_state_data.csv')
         
+        #LOGGER.warning("TEST OF GITHUB FUNCTIONALITY")
+        #self.data.sort_values('county', inplace=True)
         self.data.to_csv(output_file, index=False)
 
     def run(self):
