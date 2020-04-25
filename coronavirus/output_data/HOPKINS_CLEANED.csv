@@ -830,12 +830,12 @@ Australia,Australian Capital Territory,Australian Capital Territory-Australia,20
 Australia,Australian Capital Territory,Australian Capital Territory-Australia,2020-04-15,0.0,103,103.0,1.0,3,2.0,JHU,-35.4735,149.0124,27.0,69.0,7.0,33.0,AU,AUS,24992369.0,38.7,6440
 Australia,Australian Capital Territory,Australian Capital Territory-Australia,2020-04-16,0.0,103,103.0,0.0,3,3.0,JHU,-35.4735,149.0124,28.0,70.0,8.0,34.0,AU,AUS,24992369.0,38.7,6462
 Australia,Australian Capital Territory,Australian Capital Territory-Australia,2020-04-17,0.0,103,103.0,0.0,3,3.0,JHU,-35.4735,149.0124,29.0,71.0,9.0,35.0,AU,AUS,24992369.0,38.7,6522
-Australia,Australian Capital Territory,Australian Capital Territory-Australia,2020-04-18,0.0,103,103.0,0.0,3,3.0,JHU,-35.4735,149.0124,30.0,72.0,10.0,36.0,AU,AUS,24992369.0,38.7,6547
-Australia,Australian Capital Territory,Australian Capital Territory-Australia,2020-04-19,0.0,103,103.0,0.0,3,3.0,JHU,-35.4735,149.0124,31.0,73.0,11.0,37.0,AU,AUS,24992369.0,38.7,6547
-Australia,Australian Capital Territory,Australian Capital Territory-Australia,2020-04-20,0.0,103,103.0,0.0,3,3.0,JHU,-35.4735,149.0124,32.0,74.0,12.0,38.0,AU,AUS,24992369.0,38.7,6547
-Australia,Australian Capital Territory,Australian Capital Territory-Australia,2020-04-21,0.0,103,103.0,0.0,3,3.0,JHU,-35.4735,149.0124,33.0,75.0,13.0,39.0,AU,AUS,24992369.0,38.7,6547
-Australia,Australian Capital Territory,Australian Capital Territory-Australia,2020-04-22,0.0,103,103.0,0.0,3,3.0,JHU,-35.4735,149.0124,34.0,76.0,14.0,40.0,AU,AUS,24992369.0,38.7,6547
-Australia,Australian Capital Territory,Australian Capital Territory-Australia,2020-04-23,1.0,104,103.0,0.0,3,3.0,JHU,-35.4735,149.0124,35.0,77.0,15.0,41.0,AU,AUS,24992369.0,38.7,6661
+Australia,Australian Capital Territory,Australian Capital Territory-Australia,2020-04-18,0.0,103,103.0,0.0,3,3.0,JHU,-35.4735,149.0124,30.0,72.0,10.0,36.0,AU,AUS,24992369.0,38.7,6568
+Australia,Australian Capital Territory,Australian Capital Territory-Australia,2020-04-19,0.0,103,103.0,0.0,3,3.0,JHU,-35.4735,149.0124,31.0,73.0,11.0,37.0,AU,AUS,24992369.0,38.7,6610
+Australia,Australian Capital Territory,Australian Capital Territory-Australia,2020-04-20,1.0,104,103.0,0.0,3,3.0,JHU,-35.4735,149.0124,32.0,74.0,12.0,38.0,AU,AUS,24992369.0,38.7,6623
+Australia,Australian Capital Territory,Australian Capital Territory-Australia,2020-04-21,0.0,104,104.0,0.0,3,3.0,JHU,-35.4735,149.0124,33.0,75.0,13.0,39.0,AU,AUS,24992369.0,38.7,6645
+Australia,Australian Capital Territory,Australian Capital Territory-Australia,2020-04-22,0.0,104,104.0,0.0,3,3.0,JHU,-35.4735,149.0124,34.0,76.0,14.0,40.0,AU,AUS,24992369.0,38.7,6652
+Australia,Australian Capital Territory,Australian Capital Territory-Australia,2020-04-23,0.0,104,104.0,0.0,3,3.0,JHU,-35.4735,149.0124,35.0,77.0,15.0,41.0,AU,AUS,24992369.0,38.7,6662
 Australia,New South Wales,New South Wales-Australia,2020-01-22,0.0,0,0.0,0.0,0,0.0,JHU,-33.8688,151.2093,,,,,AU,AUS,24992369.0,38.7,0
 Australia,New South Wales,New South Wales-Australia,2020-01-23,0.0,0,0.0,0.0,0,0.0,JHU,-33.8688,151.2093,,,,,AU,AUS,24992369.0,38.7,0
 Australia,New South Wales,New South Wales-Australia,2020-01-24,0.0,0,0.0,0.0,0,0.0,JHU,-33.8688,151.2093,,,,,AU,AUS,24992369.0,38.7,0
@@ -923,12 +923,12 @@ Australia,New South Wales,New South Wales-Australia,2020-04-14,7.0,2870,2863.0,0
 Australia,New South Wales,New South Wales-Australia,2020-04-15,16.0,2886,2870.0,0.0,25,25.0,JHU,-33.8688,151.2093,46.0,69.0,33.0,33.0,AU,AUS,24992369.0,38.7,6440
 Australia,New South Wales,New South Wales-Australia,2020-04-16,11.0,2897,2886.0,0.0,25,25.0,JHU,-33.8688,151.2093,47.0,70.0,34.0,34.0,AU,AUS,24992369.0,38.7,6462
 Australia,New South Wales,New South Wales-Australia,2020-04-17,29.0,2926,2897.0,1.0,26,25.0,JHU,-33.8688,151.2093,48.0,71.0,35.0,35.0,AU,AUS,24992369.0,38.7,6522
-Australia,New South Wales,New South Wales-Australia,2020-04-18,0.0,2926,2926.0,0.0,26,26.0,JHU,-33.8688,151.2093,49.0,72.0,36.0,36.0,AU,AUS,24992369.0,38.7,6547
-Australia,New South Wales,New South Wales-Australia,2020-04-19,0.0,2926,2926.0,0.0,26,26.0,JHU,-33.8688,151.2093,50.0,73.0,37.0,37.0,AU,AUS,24992369.0,38.7,6547
-Australia,New South Wales,New South Wales-Australia,2020-04-20,0.0,2926,2926.0,0.0,26,26.0,JHU,-33.8688,151.2093,51.0,74.0,38.0,38.0,AU,AUS,24992369.0,38.7,6547
-Australia,New South Wales,New South Wales-Australia,2020-04-21,0.0,2926,2926.0,0.0,26,26.0,JHU,-33.8688,151.2093,52.0,75.0,39.0,39.0,AU,AUS,24992369.0,38.7,6547
-Australia,New South Wales,New South Wales-Australia,2020-04-22,0.0,2926,2926.0,0.0,26,26.0,JHU,-33.8688,151.2093,53.0,76.0,40.0,40.0,AU,AUS,24992369.0,38.7,6547
-Australia,New South Wales,New South Wales-Australia,2020-04-23,50.0,2976,2926.0,5.0,31,26.0,JHU,-33.8688,151.2093,54.0,77.0,41.0,41.0,AU,AUS,24992369.0,38.7,6661
+Australia,New South Wales,New South Wales-Australia,2020-04-18,10.0,2936,2926.0,0.0,26,26.0,JHU,-33.8688,151.2093,49.0,72.0,36.0,36.0,AU,AUS,24992369.0,38.7,6568
+Australia,New South Wales,New South Wales-Australia,2020-04-19,21.0,2957,2936.0,0.0,26,26.0,JHU,-33.8688,151.2093,50.0,73.0,37.0,37.0,AU,AUS,24992369.0,38.7,6610
+Australia,New South Wales,New South Wales-Australia,2020-04-20,6.0,2963,2957.0,0.0,26,26.0,JHU,-33.8688,151.2093,51.0,74.0,38.0,38.0,AU,AUS,24992369.0,38.7,6623
+Australia,New South Wales,New South Wales-Australia,2020-04-21,6.0,2969,2963.0,0.0,26,26.0,JHU,-33.8688,151.2093,52.0,75.0,39.0,39.0,AU,AUS,24992369.0,38.7,6645
+Australia,New South Wales,New South Wales-Australia,2020-04-22,2.0,2971,2969.0,0.0,26,26.0,JHU,-33.8688,151.2093,53.0,76.0,40.0,40.0,AU,AUS,24992369.0,38.7,6652
+Australia,New South Wales,New South Wales-Australia,2020-04-23,5.0,2976,2971.0,5.0,31,26.0,JHU,-33.8688,151.2093,54.0,77.0,41.0,41.0,AU,AUS,24992369.0,38.7,6662
 Australia,Northern Territory,Northern Territory-Australia,2020-01-22,0.0,0,0.0,0.0,0,0.0,JHU,-12.4634,130.8456,,,,,AU,AUS,24992369.0,38.7,0
 Australia,Northern Territory,Northern Territory-Australia,2020-01-23,0.0,0,0.0,0.0,0,0.0,JHU,-12.4634,130.8456,,,,,AU,AUS,24992369.0,38.7,0
 Australia,Northern Territory,Northern Territory-Australia,2020-01-24,0.0,0,0.0,0.0,0,0.0,JHU,-12.4634,130.8456,,,,,AU,AUS,24992369.0,38.7,0
@@ -1016,12 +1016,12 @@ Australia,Northern Territory,Northern Territory-Australia,2020-04-14,0.0,28,28.0
 Australia,Northern Territory,Northern Territory-Australia,2020-04-15,0.0,28,28.0,0.0,0,0.0,JHU,-12.4634,130.8456,25.0,69.0,,33.0,AU,AUS,24992369.0,38.7,6440
 Australia,Northern Territory,Northern Territory-Australia,2020-04-16,0.0,28,28.0,0.0,0,0.0,JHU,-12.4634,130.8456,26.0,70.0,,34.0,AU,AUS,24992369.0,38.7,6462
 Australia,Northern Territory,Northern Territory-Australia,2020-04-17,0.0,28,28.0,0.0,0,0.0,JHU,-12.4634,130.8456,27.0,71.0,,35.0,AU,AUS,24992369.0,38.7,6522
-Australia,Northern Territory,Northern Territory-Australia,2020-04-18,0.0,28,28.0,0.0,0,0.0,JHU,-12.4634,130.8456,28.0,72.0,,36.0,AU,AUS,24992369.0,38.7,6547
-Australia,Northern Territory,Northern Territory-Australia,2020-04-19,0.0,28,28.0,0.0,0,0.0,JHU,-12.4634,130.8456,29.0,73.0,,37.0,AU,AUS,24992369.0,38.7,6547
-Australia,Northern Territory,Northern Territory-Australia,2020-04-20,0.0,28,28.0,0.0,0,0.0,JHU,-12.4634,130.8456,30.0,74.0,,38.0,AU,AUS,24992369.0,38.7,6547
-Australia,Northern Territory,Northern Territory-Australia,2020-04-21,0.0,28,28.0,0.0,0,0.0,JHU,-12.4634,130.8456,31.0,75.0,,39.0,AU,AUS,24992369.0,38.7,6547
-Australia,Northern Territory,Northern Territory-Australia,2020-04-22,0.0,28,28.0,0.0,0,0.0,JHU,-12.4634,130.8456,32.0,76.0,,40.0,AU,AUS,24992369.0,38.7,6547
-Australia,Northern Territory,Northern Territory-Australia,2020-04-23,-1.0,27,28.0,0.0,0,0.0,JHU,-12.4634,130.8456,33.0,77.0,,41.0,AU,AUS,24992369.0,38.7,6661
+Australia,Northern Territory,Northern Territory-Australia,2020-04-18,0.0,28,28.0,0.0,0,0.0,JHU,-12.4634,130.8456,28.0,72.0,,36.0,AU,AUS,24992369.0,38.7,6568
+Australia,Northern Territory,Northern Territory-Australia,2020-04-19,0.0,28,28.0,0.0,0,0.0,JHU,-12.4634,130.8456,29.0,73.0,,37.0,AU,AUS,24992369.0,38.7,6610
+Australia,Northern Territory,Northern Territory-Australia,2020-04-20,0.0,28,28.0,0.0,0,0.0,JHU,-12.4634,130.8456,30.0,74.0,,38.0,AU,AUS,24992369.0,38.7,6623
+Australia,Northern Territory,Northern Territory-Australia,2020-04-21,0.0,28,28.0,0.0,0,0.0,JHU,-12.4634,130.8456,31.0,75.0,,39.0,AU,AUS,24992369.0,38.7,6645
+Australia,Northern Territory,Northern Territory-Australia,2020-04-22,0.0,28,28.0,0.0,0,0.0,JHU,-12.4634,130.8456,32.0,76.0,,40.0,AU,AUS,24992369.0,38.7,6652
+Australia,Northern Territory,Northern Territory-Australia,2020-04-23,0.0,28,28.0,0.0,0,0.0,JHU,-12.4634,130.8456,33.0,77.0,,41.0,AU,AUS,24992369.0,38.7,6662
 Australia,Queensland,Queensland-Australia,2020-01-22,0.0,0,0.0,0.0,0,0.0,JHU,-28.0167,153.4,,,,,AU,AUS,24992369.0,38.7,0
 Australia,Queensland,Queensland-Australia,2020-01-23,0.0,0,0.0,0.0,0,0.0,JHU,-28.0167,153.4,,,,,AU,AUS,24992369.0,38.7,0
 Australia,Queensland,Queensland-Australia,2020-01-24,0.0,0,0.0,0.0,0,0.0,JHU,-28.0167,153.4,,,,,AU,AUS,24992369.0,38.7,0
@@ -1109,12 +1109,12 @@ Australia,Queensland,Queensland-Australia,2020-04-14,11.0,998,987.0,0.0,5,5.0,JH
 Australia,Queensland,Queensland-Australia,2020-04-15,1.0,999,998.0,0.0,5,5.0,JHU,-28.0167,153.4,69.0,69.0,28.0,33.0,AU,AUS,24992369.0,38.7,6440
 Australia,Queensland,Queensland-Australia,2020-04-16,2.0,1001,999.0,0.0,5,5.0,JHU,-28.0167,153.4,70.0,70.0,29.0,34.0,AU,AUS,24992369.0,38.7,6462
 Australia,Queensland,Queensland-Australia,2020-04-17,6.0,1007,1001.0,0.0,5,5.0,JHU,-28.0167,153.4,71.0,71.0,30.0,35.0,AU,AUS,24992369.0,38.7,6522
-Australia,Queensland,Queensland-Australia,2020-04-18,8.0,1015,1007.0,1.0,6,5.0,JHU,-28.0167,153.4,72.0,72.0,31.0,36.0,AU,AUS,24992369.0,38.7,6547
-Australia,Queensland,Queensland-Australia,2020-04-19,0.0,1015,1015.0,0.0,6,6.0,JHU,-28.0167,153.4,73.0,73.0,32.0,37.0,AU,AUS,24992369.0,38.7,6547
-Australia,Queensland,Queensland-Australia,2020-04-20,0.0,1015,1015.0,0.0,6,6.0,JHU,-28.0167,153.4,74.0,74.0,33.0,38.0,AU,AUS,24992369.0,38.7,6547
-Australia,Queensland,Queensland-Australia,2020-04-21,0.0,1015,1015.0,0.0,6,6.0,JHU,-28.0167,153.4,75.0,75.0,34.0,39.0,AU,AUS,24992369.0,38.7,6547
-Australia,Queensland,Queensland-Australia,2020-04-22,0.0,1015,1015.0,0.0,6,6.0,JHU,-28.0167,153.4,76.0,76.0,35.0,40.0,AU,AUS,24992369.0,38.7,6547
-Australia,Queensland,Queensland-Australia,2020-04-23,11.0,1026,1015.0,0.0,6,6.0,JHU,-28.0167,153.4,77.0,77.0,36.0,41.0,AU,AUS,24992369.0,38.7,6661
+Australia,Queensland,Queensland-Australia,2020-04-18,8.0,1015,1007.0,1.0,6,5.0,JHU,-28.0167,153.4,72.0,72.0,31.0,36.0,AU,AUS,24992369.0,38.7,6568
+Australia,Queensland,Queensland-Australia,2020-04-19,4.0,1019,1015.0,0.0,6,6.0,JHU,-28.0167,153.4,73.0,73.0,32.0,37.0,AU,AUS,24992369.0,38.7,6610
+Australia,Queensland,Queensland-Australia,2020-04-20,0.0,1019,1019.0,0.0,6,6.0,JHU,-28.0167,153.4,74.0,74.0,33.0,38.0,AU,AUS,24992369.0,38.7,6623
+Australia,Queensland,Queensland-Australia,2020-04-21,5.0,1024,1019.0,0.0,6,6.0,JHU,-28.0167,153.4,75.0,75.0,34.0,39.0,AU,AUS,24992369.0,38.7,6645
+Australia,Queensland,Queensland-Australia,2020-04-22,0.0,1024,1024.0,0.0,6,6.0,JHU,-28.0167,153.4,76.0,76.0,35.0,40.0,AU,AUS,24992369.0,38.7,6652
+Australia,Queensland,Queensland-Australia,2020-04-23,2.0,1026,1024.0,0.0,6,6.0,JHU,-28.0167,153.4,77.0,77.0,36.0,41.0,AU,AUS,24992369.0,38.7,6662
 Australia,South Australia,South Australia-Australia,2020-01-22,0.0,0,0.0,0.0,0,0.0,JHU,-34.9285,138.6007,,,,,AU,AUS,24992369.0,38.7,0
 Australia,South Australia,South Australia-Australia,2020-01-23,0.0,0,0.0,0.0,0,0.0,JHU,-34.9285,138.6007,,,,,AU,AUS,24992369.0,38.7,0
 Australia,South Australia,South Australia-Australia,2020-01-24,0.0,0,0.0,0.0,0,0.0,JHU,-34.9285,138.6007,,,,,AU,AUS,24992369.0,38.7,0
@@ -1202,12 +1202,12 @@ Australia,South Australia,South Australia-Australia,2020-04-14,4.0,433,429.0,0.0
 Australia,South Australia,South Australia-Australia,2020-04-15,0.0,433,433.0,0.0,4,4.0,JHU,-34.9285,138.6007,43.0,69.0,25.0,33.0,AU,AUS,24992369.0,38.7,6440
 Australia,South Australia,South Australia-Australia,2020-04-16,0.0,433,433.0,0.0,4,4.0,JHU,-34.9285,138.6007,44.0,70.0,26.0,34.0,AU,AUS,24992369.0,38.7,6462
 Australia,South Australia,South Australia-Australia,2020-04-17,2.0,435,433.0,0.0,4,4.0,JHU,-34.9285,138.6007,45.0,71.0,27.0,35.0,AU,AUS,24992369.0,38.7,6522
-Australia,South Australia,South Australia-Australia,2020-04-18,0.0,435,435.0,0.0,4,4.0,JHU,-34.9285,138.6007,46.0,72.0,28.0,36.0,AU,AUS,24992369.0,38.7,6547
-Australia,South Australia,South Australia-Australia,2020-04-19,0.0,435,435.0,0.0,4,4.0,JHU,-34.9285,138.6007,47.0,73.0,29.0,37.0,AU,AUS,24992369.0,38.7,6547
-Australia,South Australia,South Australia-Australia,2020-04-20,0.0,435,435.0,0.0,4,4.0,JHU,-34.9285,138.6007,48.0,74.0,30.0,38.0,AU,AUS,24992369.0,38.7,6547
-Australia,South Australia,South Australia-Australia,2020-04-21,0.0,435,435.0,0.0,4,4.0,JHU,-34.9285,138.6007,49.0,75.0,31.0,39.0,AU,AUS,24992369.0,38.7,6547
-Australia,South Australia,South Australia-Australia,2020-04-22,0.0,435,435.0,0.0,4,4.0,JHU,-34.9285,138.6007,50.0,76.0,32.0,40.0,AU,AUS,24992369.0,38.7,6547
-Australia,South Australia,South Australia-Australia,2020-04-23,3.0,438,435.0,0.0,4,4.0,JHU,-34.9285,138.6007,51.0,77.0,33.0,41.0,AU,AUS,24992369.0,38.7,6661
+Australia,South Australia,South Australia-Australia,2020-04-18,0.0,435,435.0,0.0,4,4.0,JHU,-34.9285,138.6007,46.0,72.0,28.0,36.0,AU,AUS,24992369.0,38.7,6568
+Australia,South Australia,South Australia-Australia,2020-04-19,0.0,435,435.0,0.0,4,4.0,JHU,-34.9285,138.6007,47.0,73.0,29.0,37.0,AU,AUS,24992369.0,38.7,6610
+Australia,South Australia,South Australia-Australia,2020-04-20,0.0,435,435.0,0.0,4,4.0,JHU,-34.9285,138.6007,48.0,74.0,30.0,38.0,AU,AUS,24992369.0,38.7,6623
+Australia,South Australia,South Australia-Australia,2020-04-21,2.0,437,435.0,0.0,4,4.0,JHU,-34.9285,138.6007,49.0,75.0,31.0,39.0,AU,AUS,24992369.0,38.7,6645
+Australia,South Australia,South Australia-Australia,2020-04-22,1.0,438,437.0,0.0,4,4.0,JHU,-34.9285,138.6007,50.0,76.0,32.0,40.0,AU,AUS,24992369.0,38.7,6652
+Australia,South Australia,South Australia-Australia,2020-04-23,0.0,438,438.0,0.0,4,4.0,JHU,-34.9285,138.6007,51.0,77.0,33.0,41.0,AU,AUS,24992369.0,38.7,6662
 Australia,Tasmania,Tasmania-Australia,2020-01-22,0.0,0,0.0,0.0,0,0.0,JHU,-41.4545,145.9707,,,,,AU,AUS,24992369.0,38.7,0
 Australia,Tasmania,Tasmania-Australia,2020-01-23,0.0,0,0.0,0.0,0,0.0,JHU,-41.4545,145.9707,,,,,AU,AUS,24992369.0,38.7,0
 Australia,Tasmania,Tasmania-Australia,2020-01-24,0.0,0,0.0,0.0,0,0.0,JHU,-41.4545,145.9707,,,,,AU,AUS,24992369.0,38.7,0
@@ -1295,12 +1295,12 @@ Australia,Tasmania,Tasmania-Australia,2020-04-14,21.0,165,144.0,1.0,6,5.0,JHU,-4
 Australia,Tasmania,Tasmania-Australia,2020-04-15,0.0,165,165.0,0.0,6,6.0,JHU,-41.4545,145.9707,34.0,69.0,7.0,33.0,AU,AUS,24992369.0,38.7,6440
 Australia,Tasmania,Tasmania-Australia,2020-04-16,4.0,169,165.0,0.0,6,6.0,JHU,-41.4545,145.9707,35.0,70.0,8.0,34.0,AU,AUS,24992369.0,38.7,6462
 Australia,Tasmania,Tasmania-Australia,2020-04-17,11.0,180,169.0,1.0,7,6.0,JHU,-41.4545,145.9707,36.0,71.0,9.0,35.0,AU,AUS,24992369.0,38.7,6522
-Australia,Tasmania,Tasmania-Australia,2020-04-18,0.0,180,180.0,0.0,7,7.0,JHU,-41.4545,145.9707,37.0,72.0,10.0,36.0,AU,AUS,24992369.0,38.7,6547
-Australia,Tasmania,Tasmania-Australia,2020-04-19,0.0,180,180.0,0.0,7,7.0,JHU,-41.4545,145.9707,38.0,73.0,11.0,37.0,AU,AUS,24992369.0,38.7,6547
-Australia,Tasmania,Tasmania-Australia,2020-04-20,0.0,180,180.0,0.0,7,7.0,JHU,-41.4545,145.9707,39.0,74.0,12.0,38.0,AU,AUS,24992369.0,38.7,6547
-Australia,Tasmania,Tasmania-Australia,2020-04-21,0.0,180,180.0,0.0,7,7.0,JHU,-41.4545,145.9707,40.0,75.0,13.0,39.0,AU,AUS,24992369.0,38.7,6547
-Australia,Tasmania,Tasmania-Australia,2020-04-22,0.0,180,180.0,0.0,7,7.0,JHU,-41.4545,145.9707,41.0,76.0,14.0,40.0,AU,AUS,24992369.0,38.7,6547
-Australia,Tasmania,Tasmania-Australia,2020-04-23,27.0,207,180.0,1.0,8,7.0,JHU,-41.4545,145.9707,42.0,77.0,15.0,41.0,AU,AUS,24992369.0,38.7,6661
+Australia,Tasmania,Tasmania-Australia,2020-04-18,8.0,188,180.0,0.0,7,7.0,JHU,-41.4545,145.9707,37.0,72.0,10.0,36.0,AU,AUS,24992369.0,38.7,6568
+Australia,Tasmania,Tasmania-Australia,2020-04-19,7.0,195,188.0,0.0,7,7.0,JHU,-41.4545,145.9707,38.0,73.0,11.0,37.0,AU,AUS,24992369.0,38.7,6610
+Australia,Tasmania,Tasmania-Australia,2020-04-20,5.0,200,195.0,0.0,7,7.0,JHU,-41.4545,145.9707,39.0,74.0,12.0,38.0,AU,AUS,24992369.0,38.7,6623
+Australia,Tasmania,Tasmania-Australia,2020-04-21,1.0,201,200.0,0.0,7,7.0,JHU,-41.4545,145.9707,40.0,75.0,13.0,39.0,AU,AUS,24992369.0,38.7,6645
+Australia,Tasmania,Tasmania-Australia,2020-04-22,4.0,205,201.0,0.0,7,7.0,JHU,-41.4545,145.9707,41.0,76.0,14.0,40.0,AU,AUS,24992369.0,38.7,6652
+Australia,Tasmania,Tasmania-Australia,2020-04-23,2.0,207,205.0,1.0,8,7.0,JHU,-41.4545,145.9707,42.0,77.0,15.0,41.0,AU,AUS,24992369.0,38.7,6662
 Australia,Victoria,Victoria-Australia,2020-01-22,0.0,0,0.0,0.0,0,0.0,JHU,-37.8136,144.9631,,,,,AU,AUS,24992369.0,38.7,0
 Australia,Victoria,Victoria-Australia,2020-01-23,0.0,0,0.0,0.0,0,0.0,JHU,-37.8136,144.9631,,,,,AU,AUS,24992369.0,38.7,0
 Australia,Victoria,Victoria-Australia,2020-01-24,0.0,0,0.0,0.0,0,0.0,JHU,-37.8136,144.9631,,,,,AU,AUS,24992369.0,38.7,0
@@ -1388,12 +1388,12 @@ Australia,Victoria,Victoria-Australia,2020-04-14,10.0,1291,1281.0,0.0,14,14.0,JH
 Australia,Victoria,Victoria-Australia,2020-04-15,8.0,1299,1291.0,0.0,14,14.0,JHU,-37.8136,144.9631,47.0,69.0,29.0,33.0,AU,AUS,24992369.0,38.7,6440
 Australia,Victoria,Victoria-Australia,2020-04-16,0.0,1299,1299.0,0.0,14,14.0,JHU,-37.8136,144.9631,48.0,70.0,30.0,34.0,AU,AUS,24992369.0,38.7,6462
 Australia,Victoria,Victoria-Australia,2020-04-17,3.0,1302,1299.0,0.0,14,14.0,JHU,-37.8136,144.9631,49.0,71.0,31.0,35.0,AU,AUS,24992369.0,38.7,6522
-Australia,Victoria,Victoria-Australia,2020-04-18,17.0,1319,1302.0,0.0,14,14.0,JHU,-37.8136,144.9631,50.0,72.0,32.0,36.0,AU,AUS,24992369.0,38.7,6547
-Australia,Victoria,Victoria-Australia,2020-04-19,0.0,1319,1319.0,0.0,14,14.0,JHU,-37.8136,144.9631,51.0,73.0,33.0,37.0,AU,AUS,24992369.0,38.7,6547
-Australia,Victoria,Victoria-Australia,2020-04-20,0.0,1319,1319.0,0.0,14,14.0,JHU,-37.8136,144.9631,52.0,74.0,34.0,38.0,AU,AUS,24992369.0,38.7,6547
-Australia,Victoria,Victoria-Australia,2020-04-21,0.0,1319,1319.0,0.0,14,14.0,JHU,-37.8136,144.9631,53.0,75.0,35.0,39.0,AU,AUS,24992369.0,38.7,6547
-Australia,Victoria,Victoria-Australia,2020-04-22,0.0,1319,1319.0,0.0,14,14.0,JHU,-37.8136,144.9631,54.0,76.0,36.0,40.0,AU,AUS,24992369.0,38.7,6547
-Australia,Victoria,Victoria-Australia,2020-04-23,18.0,1337,1319.0,2.0,16,14.0,JHU,-37.8136,144.9631,55.0,77.0,37.0,41.0,AU,AUS,24992369.0,38.7,6661
+Australia,Victoria,Victoria-Australia,2020-04-18,17.0,1319,1302.0,0.0,14,14.0,JHU,-37.8136,144.9631,50.0,72.0,32.0,36.0,AU,AUS,24992369.0,38.7,6568
+Australia,Victoria,Victoria-Australia,2020-04-19,9.0,1328,1319.0,0.0,14,14.0,JHU,-37.8136,144.9631,51.0,73.0,33.0,37.0,AU,AUS,24992369.0,38.7,6610
+Australia,Victoria,Victoria-Australia,2020-04-20,1.0,1329,1328.0,0.0,14,14.0,JHU,-37.8136,144.9631,52.0,74.0,34.0,38.0,AU,AUS,24992369.0,38.7,6623
+Australia,Victoria,Victoria-Australia,2020-04-21,7.0,1336,1329.0,0.0,14,14.0,JHU,-37.8136,144.9631,53.0,75.0,35.0,39.0,AU,AUS,24992369.0,38.7,6645
+Australia,Victoria,Victoria-Australia,2020-04-22,0.0,1336,1336.0,0.0,14,14.0,JHU,-37.8136,144.9631,54.0,76.0,36.0,40.0,AU,AUS,24992369.0,38.7,6652
+Australia,Victoria,Victoria-Australia,2020-04-23,1.0,1337,1336.0,2.0,16,14.0,JHU,-37.8136,144.9631,55.0,77.0,37.0,41.0,AU,AUS,24992369.0,38.7,6662
 Australia,Western Australia,Western Australia-Australia,2020-01-22,0.0,0,0.0,0.0,0,0.0,JHU,-31.9505,115.8605,,,,,AU,AUS,24992369.0,38.7,0
 Australia,Western Australia,Western Australia-Australia,2020-01-23,0.0,0,0.0,0.0,0,0.0,JHU,-31.9505,115.8605,,,,,AU,AUS,24992369.0,38.7,0
 Australia,Western Australia,Western Australia-Australia,2020-01-24,0.0,0,0.0,0.0,0,0.0,JHU,-31.9505,115.8605,,,,,AU,AUS,24992369.0,38.7,0
@@ -1481,12 +1481,12 @@ Australia,Western Australia,Western Australia-Australia,2020-04-14,10.0,527,517.
 Australia,Western Australia,Western Australia-Australia,2020-04-15,0.0,527,527.0,0.0,6,6.0,JHU,-31.9505,115.8605,37.0,69.0,25.0,33.0,AU,AUS,24992369.0,38.7,6440
 Australia,Western Australia,Western Australia-Australia,2020-04-16,5.0,532,527.0,0.0,6,6.0,JHU,-31.9505,115.8605,38.0,70.0,26.0,34.0,AU,AUS,24992369.0,38.7,6462
 Australia,Western Australia,Western Australia-Australia,2020-04-17,9.0,541,532.0,1.0,7,6.0,JHU,-31.9505,115.8605,39.0,71.0,27.0,35.0,AU,AUS,24992369.0,38.7,6522
-Australia,Western Australia,Western Australia-Australia,2020-04-18,0.0,541,541.0,0.0,7,7.0,JHU,-31.9505,115.8605,40.0,72.0,28.0,36.0,AU,AUS,24992369.0,38.7,6547
-Australia,Western Australia,Western Australia-Australia,2020-04-19,0.0,541,541.0,0.0,7,7.0,JHU,-31.9505,115.8605,41.0,73.0,29.0,37.0,AU,AUS,24992369.0,38.7,6547
-Australia,Western Australia,Western Australia-Australia,2020-04-20,0.0,541,541.0,0.0,7,7.0,JHU,-31.9505,115.8605,42.0,74.0,30.0,38.0,AU,AUS,24992369.0,38.7,6547
-Australia,Western Australia,Western Australia-Australia,2020-04-21,0.0,541,541.0,0.0,7,7.0,JHU,-31.9505,115.8605,43.0,75.0,31.0,39.0,AU,AUS,24992369.0,38.7,6547
-Australia,Western Australia,Western Australia-Australia,2020-04-22,0.0,541,541.0,0.0,7,7.0,JHU,-31.9505,115.8605,44.0,76.0,32.0,40.0,AU,AUS,24992369.0,38.7,6547
-Australia,Western Australia,Western Australia-Australia,2020-04-23,5.0,546,541.0,0.0,7,7.0,JHU,-31.9505,115.8605,45.0,77.0,33.0,41.0,AU,AUS,24992369.0,38.7,6661
+Australia,Western Australia,Western Australia-Australia,2020-04-18,3.0,544,541.0,0.0,7,7.0,JHU,-31.9505,115.8605,40.0,72.0,28.0,36.0,AU,AUS,24992369.0,38.7,6568
+Australia,Western Australia,Western Australia-Australia,2020-04-19,1.0,545,544.0,0.0,7,7.0,JHU,-31.9505,115.8605,41.0,73.0,29.0,37.0,AU,AUS,24992369.0,38.7,6610
+Australia,Western Australia,Western Australia-Australia,2020-04-20,0.0,545,545.0,0.0,7,7.0,JHU,-31.9505,115.8605,42.0,74.0,30.0,38.0,AU,AUS,24992369.0,38.7,6623
+Australia,Western Australia,Western Australia-Australia,2020-04-21,1.0,546,545.0,0.0,7,7.0,JHU,-31.9505,115.8605,43.0,75.0,31.0,39.0,AU,AUS,24992369.0,38.7,6645
+Australia,Western Australia,Western Australia-Australia,2020-04-22,0.0,546,546.0,0.0,7,7.0,JHU,-31.9505,115.8605,44.0,76.0,32.0,40.0,AU,AUS,24992369.0,38.7,6652
+Australia,Western Australia,Western Australia-Australia,2020-04-23,0.0,546,546.0,0.0,7,7.0,JHU,-31.9505,115.8605,45.0,77.0,33.0,41.0,AU,AUS,24992369.0,38.7,6662
 Austria,Not Provided,Not Provided-Austria,2020-01-22,0.0,0,0.0,0.0,0,0.0,JHU,47.5162,14.5501,,,,,AT,AUT,8847037.0,44.0,0
 Austria,Not Provided,Not Provided-Austria,2020-01-23,0.0,0,0.0,0.0,0,0.0,JHU,47.5162,14.5501,,,,,AT,AUT,8847037.0,44.0,0
 Austria,Not Provided,Not Provided-Austria,2020-01-24,0.0,0,0.0,0.0,0,0.0,JHU,47.5162,14.5501,,,,,AT,AUT,8847037.0,44.0,0
@@ -10033,16 +10033,16 @@ France,French Guiana,French Guiana-France,2020-04-10,0.0,83,83.0,0.0,0,0.0,JHU,3
 France,French Guiana,French Guiana-France,2020-04-11,0.0,83,83.0,0.0,0,0.0,JHU,3.9339,-53.1258,36.0,74.0,,43.0,FR,FRA,66987244.0,41.4,94863
 France,French Guiana,French Guiana-France,2020-04-12,3.0,86,83.0,0.0,0,0.0,JHU,3.9339,-53.1258,37.0,75.0,,44.0,FR,FRA,66987244.0,41.4,121712
 France,French Guiana,French Guiana-France,2020-04-13,0.0,86,86.0,0.0,0,0.0,JHU,3.9339,-53.1258,38.0,76.0,,45.0,FR,FRA,66987244.0,41.4,125394
-France,French Guiana,French Guiana-France,2020-04-14,0.0,86,86.0,0.0,0,0.0,JHU,3.9339,-53.1258,39.0,77.0,,46.0,FR,FRA,66987244.0,41.4,131361
-France,French Guiana,French Guiana-France,2020-04-15,0.0,86,86.0,0.0,0,0.0,JHU,3.9339,-53.1258,40.0,78.0,,47.0,FR,FRA,66987244.0,41.4,134582
-France,French Guiana,French Guiana-France,2020-04-16,0.0,86,86.0,0.0,0,0.0,JHU,3.9339,-53.1258,41.0,79.0,,48.0,FR,FRA,66987244.0,41.4,147091
-France,French Guiana,French Guiana-France,2020-04-17,10.0,96,86.0,0.0,0,0.0,JHU,3.9339,-53.1258,42.0,80.0,,49.0,FR,FRA,66987244.0,41.4,149130
-France,French Guiana,French Guiana-France,2020-04-18,0.0,96,96.0,0.0,0,0.0,JHU,3.9339,-53.1258,43.0,81.0,,50.0,FR,FRA,66987244.0,41.4,149149
-France,French Guiana,French Guiana-France,2020-04-19,0.0,96,96.0,0.0,0,0.0,JHU,3.9339,-53.1258,44.0,82.0,,51.0,FR,FRA,66987244.0,41.4,154097
-France,French Guiana,French Guiana-France,2020-04-20,1.0,97,96.0,1.0,1,0.0,JHU,3.9339,-53.1258,45.0,83.0,,52.0,FR,FRA,66987244.0,41.4,156480
-France,French Guiana,French Guiana-France,2020-04-21,0.0,97,97.0,0.0,1,1.0,JHU,3.9339,-53.1258,46.0,84.0,,53.0,FR,FRA,66987244.0,41.4,159297
-France,French Guiana,French Guiana-France,2020-04-22,0.0,97,97.0,0.0,1,1.0,JHU,3.9339,-53.1258,47.0,85.0,,54.0,FR,FRA,66987244.0,41.4,157125
-France,French Guiana,French Guiana-France,2020-04-23,10.0,107,97.0,0.0,1,1.0,JHU,3.9339,-53.1258,48.0,86.0,1.0,55.0,FR,FRA,66987244.0,41.4,159460
+France,French Guiana,French Guiana-France,2020-04-14,0.0,86,86.0,0.0,0,0.0,JHU,3.9339,-53.1258,39.0,77.0,,46.0,FR,FRA,66987244.0,41.4,130365
+France,French Guiana,French Guiana-France,2020-04-15,0.0,86,86.0,0.0,0,0.0,JHU,3.9339,-53.1258,40.0,78.0,,47.0,FR,FRA,66987244.0,41.4,133585
+France,French Guiana,French Guiana-France,2020-04-16,0.0,86,86.0,0.0,0,0.0,JHU,3.9339,-53.1258,41.0,79.0,,48.0,FR,FRA,66987244.0,41.4,146075
+France,French Guiana,French Guiana-France,2020-04-17,10.0,96,86.0,0.0,0,0.0,JHU,3.9339,-53.1258,42.0,80.0,,49.0,FR,FRA,66987244.0,41.4,148084
+France,French Guiana,French Guiana-France,2020-04-18,0.0,96,96.0,0.0,0,0.0,JHU,3.9339,-53.1258,43.0,81.0,,50.0,FR,FRA,66987244.0,41.4,148086
+France,French Guiana,French Guiana-France,2020-04-19,0.0,96,96.0,0.0,0,0.0,JHU,3.9339,-53.1258,44.0,82.0,,51.0,FR,FRA,66987244.0,41.4,153011
+France,French Guiana,French Guiana-France,2020-04-20,1.0,97,96.0,1.0,1,0.0,JHU,3.9339,-53.1258,45.0,83.0,,52.0,FR,FRA,66987244.0,41.4,155393
+France,French Guiana,French Guiana-France,2020-04-21,0.0,97,97.0,0.0,1,1.0,JHU,3.9339,-53.1258,46.0,84.0,,53.0,FR,FRA,66987244.0,41.4,158168
+France,French Guiana,French Guiana-France,2020-04-22,0.0,97,97.0,0.0,1,1.0,JHU,3.9339,-53.1258,47.0,85.0,,54.0,FR,FRA,66987244.0,41.4,155980
+France,French Guiana,French Guiana-France,2020-04-23,10.0,107,97.0,0.0,1,1.0,JHU,3.9339,-53.1258,48.0,86.0,1.0,55.0,FR,FRA,66987244.0,41.4,158303
 France,French Polynesia,French Polynesia-France,2020-01-22,0.0,0,0.0,0.0,0,0.0,JHU,-17.6797,149.4068,,,,,FR,FRA,66987244.0,41.4,0
 France,French Polynesia,French Polynesia-France,2020-01-23,0.0,0,0.0,0.0,0,0.0,JHU,-17.6797,149.4068,,,,,FR,FRA,66987244.0,41.4,0
 France,French Polynesia,French Polynesia-France,2020-01-24,0.0,0,0.0,0.0,0,0.0,JHU,-17.6797,149.4068,,,,,FR,FRA,66987244.0,41.4,2
@@ -10126,16 +10126,16 @@ France,French Polynesia,French Polynesia-France,2020-04-10,0.0,51,51.0,0.0,0,0.0
 France,French Polynesia,French Polynesia-France,2020-04-11,0.0,51,51.0,0.0,0,0.0,JHU,-17.6797,149.4068,24.0,74.0,,43.0,FR,FRA,66987244.0,41.4,94863
 France,French Polynesia,French Polynesia-France,2020-04-12,2.0,53,51.0,0.0,0,0.0,JHU,-17.6797,149.4068,25.0,75.0,,44.0,FR,FRA,66987244.0,41.4,121712
 France,French Polynesia,French Polynesia-France,2020-04-13,2.0,55,53.0,0.0,0,0.0,JHU,-17.6797,149.4068,26.0,76.0,,45.0,FR,FRA,66987244.0,41.4,125394
-France,French Polynesia,French Polynesia-France,2020-04-14,0.0,55,55.0,0.0,0,0.0,JHU,-17.6797,149.4068,27.0,77.0,,46.0,FR,FRA,66987244.0,41.4,131361
-France,French Polynesia,French Polynesia-France,2020-04-15,0.0,55,55.0,0.0,0,0.0,JHU,-17.6797,149.4068,28.0,78.0,,47.0,FR,FRA,66987244.0,41.4,134582
-France,French Polynesia,French Polynesia-France,2020-04-16,0.0,55,55.0,0.0,0,0.0,JHU,-17.6797,149.4068,29.0,79.0,,48.0,FR,FRA,66987244.0,41.4,147091
-France,French Polynesia,French Polynesia-France,2020-04-17,0.0,55,55.0,0.0,0,0.0,JHU,-17.6797,149.4068,30.0,80.0,,49.0,FR,FRA,66987244.0,41.4,149130
-France,French Polynesia,French Polynesia-France,2020-04-18,0.0,55,55.0,0.0,0,0.0,JHU,-17.6797,149.4068,31.0,81.0,,50.0,FR,FRA,66987244.0,41.4,149149
-France,French Polynesia,French Polynesia-France,2020-04-19,0.0,55,55.0,0.0,0,0.0,JHU,-17.6797,149.4068,32.0,82.0,,51.0,FR,FRA,66987244.0,41.4,154097
-France,French Polynesia,French Polynesia-France,2020-04-20,1.0,56,55.0,0.0,0,0.0,JHU,-17.6797,149.4068,33.0,83.0,,52.0,FR,FRA,66987244.0,41.4,156480
-France,French Polynesia,French Polynesia-France,2020-04-21,0.0,56,56.0,0.0,0,0.0,JHU,-17.6797,149.4068,34.0,84.0,,53.0,FR,FRA,66987244.0,41.4,159297
-France,French Polynesia,French Polynesia-France,2020-04-22,1.0,57,56.0,0.0,0,0.0,JHU,-17.6797,149.4068,35.0,85.0,,54.0,FR,FRA,66987244.0,41.4,157125
-France,French Polynesia,French Polynesia-France,2020-04-23,0.0,57,57.0,0.0,0,0.0,JHU,-17.6797,149.4068,36.0,86.0,,55.0,FR,FRA,66987244.0,41.4,159460
+France,French Polynesia,French Polynesia-France,2020-04-14,0.0,55,55.0,0.0,0,0.0,JHU,-17.6797,149.4068,27.0,77.0,,46.0,FR,FRA,66987244.0,41.4,130365
+France,French Polynesia,French Polynesia-France,2020-04-15,0.0,55,55.0,0.0,0,0.0,JHU,-17.6797,149.4068,28.0,78.0,,47.0,FR,FRA,66987244.0,41.4,133585
+France,French Polynesia,French Polynesia-France,2020-04-16,0.0,55,55.0,0.0,0,0.0,JHU,-17.6797,149.4068,29.0,79.0,,48.0,FR,FRA,66987244.0,41.4,146075
+France,French Polynesia,French Polynesia-France,2020-04-17,0.0,55,55.0,0.0,0,0.0,JHU,-17.6797,149.4068,30.0,80.0,,49.0,FR,FRA,66987244.0,41.4,148084
+France,French Polynesia,French Polynesia-France,2020-04-18,0.0,55,55.0,0.0,0,0.0,JHU,-17.6797,149.4068,31.0,81.0,,50.0,FR,FRA,66987244.0,41.4,148086
+France,French Polynesia,French Polynesia-France,2020-04-19,0.0,55,55.0,0.0,0,0.0,JHU,-17.6797,149.4068,32.0,82.0,,51.0,FR,FRA,66987244.0,41.4,153011
+France,French Polynesia,French Polynesia-France,2020-04-20,1.0,56,55.0,0.0,0,0.0,JHU,-17.6797,149.4068,33.0,83.0,,52.0,FR,FRA,66987244.0,41.4,155393
+France,French Polynesia,French Polynesia-France,2020-04-21,0.0,56,56.0,0.0,0,0.0,JHU,-17.6797,149.4068,34.0,84.0,,53.0,FR,FRA,66987244.0,41.4,158168
+France,French Polynesia,French Polynesia-France,2020-04-22,1.0,57,56.0,0.0,0,0.0,JHU,-17.6797,149.4068,35.0,85.0,,54.0,FR,FRA,66987244.0,41.4,155980
+France,French Polynesia,French Polynesia-France,2020-04-23,0.0,57,57.0,0.0,0,0.0,JHU,-17.6797,149.4068,36.0,86.0,,55.0,FR,FRA,66987244.0,41.4,158303
 France,Guadeloupe,Guadeloupe-France,2020-01-22,0.0,0,0.0,0.0,0,0.0,JHU,16.25,-61.5833,,,,,FR,FRA,66987244.0,41.4,0
 France,Guadeloupe,Guadeloupe-France,2020-01-23,0.0,0,0.0,0.0,0,0.0,JHU,16.25,-61.5833,,,,,FR,FRA,66987244.0,41.4,0
 France,Guadeloupe,Guadeloupe-France,2020-01-24,0.0,0,0.0,0.0,0,0.0,JHU,16.25,-61.5833,,,,,FR,FRA,66987244.0,41.4,2
@@ -10219,16 +10219,16 @@ France,Guadeloupe,Guadeloupe-France,2020-04-10,2.0,143,141.0,0.0,8,8.0,JHU,16.25
 France,Guadeloupe,Guadeloupe-France,2020-04-11,0.0,143,143.0,0.0,8,8.0,JHU,16.25,-61.5833,27.0,74.0,15.0,43.0,FR,FRA,66987244.0,41.4,94863
 France,Guadeloupe,Guadeloupe-France,2020-04-12,0.0,143,143.0,0.0,8,8.0,JHU,16.25,-61.5833,28.0,75.0,16.0,44.0,FR,FRA,66987244.0,41.4,121712
 France,Guadeloupe,Guadeloupe-France,2020-04-13,0.0,143,143.0,0.0,8,8.0,JHU,16.25,-61.5833,29.0,76.0,17.0,45.0,FR,FRA,66987244.0,41.4,125394
-France,Guadeloupe,Guadeloupe-France,2020-04-14,2.0,145,143.0,0.0,8,8.0,JHU,16.25,-61.5833,30.0,77.0,18.0,46.0,FR,FRA,66987244.0,41.4,131361
-France,Guadeloupe,Guadeloupe-France,2020-04-15,0.0,145,145.0,0.0,8,8.0,JHU,16.25,-61.5833,31.0,78.0,19.0,47.0,FR,FRA,66987244.0,41.4,134582
-France,Guadeloupe,Guadeloupe-France,2020-04-16,0.0,145,145.0,0.0,8,8.0,JHU,16.25,-61.5833,32.0,79.0,20.0,48.0,FR,FRA,66987244.0,41.4,147091
-France,Guadeloupe,Guadeloupe-France,2020-04-17,0.0,145,145.0,0.0,8,8.0,JHU,16.25,-61.5833,33.0,80.0,21.0,49.0,FR,FRA,66987244.0,41.4,149130
-France,Guadeloupe,Guadeloupe-France,2020-04-18,3.0,148,145.0,0.0,8,8.0,JHU,16.25,-61.5833,34.0,81.0,22.0,50.0,FR,FRA,66987244.0,41.4,149149
-France,Guadeloupe,Guadeloupe-France,2020-04-19,0.0,148,148.0,0.0,8,8.0,JHU,16.25,-61.5833,35.0,82.0,23.0,51.0,FR,FRA,66987244.0,41.4,154097
-France,Guadeloupe,Guadeloupe-France,2020-04-20,0.0,148,148.0,0.0,8,8.0,JHU,16.25,-61.5833,36.0,83.0,24.0,52.0,FR,FRA,66987244.0,41.4,156480
-France,Guadeloupe,Guadeloupe-France,2020-04-21,0.0,148,148.0,4.0,12,8.0,JHU,16.25,-61.5833,37.0,84.0,25.0,53.0,FR,FRA,66987244.0,41.4,159297
-France,Guadeloupe,Guadeloupe-France,2020-04-22,0.0,148,148.0,0.0,12,12.0,JHU,16.25,-61.5833,38.0,85.0,26.0,54.0,FR,FRA,66987244.0,41.4,157125
-France,Guadeloupe,Guadeloupe-France,2020-04-23,0.0,148,148.0,0.0,12,12.0,JHU,16.25,-61.5833,39.0,86.0,27.0,55.0,FR,FRA,66987244.0,41.4,159460
+France,Guadeloupe,Guadeloupe-France,2020-04-14,2.0,145,143.0,0.0,8,8.0,JHU,16.25,-61.5833,30.0,77.0,18.0,46.0,FR,FRA,66987244.0,41.4,130365
+France,Guadeloupe,Guadeloupe-France,2020-04-15,0.0,145,145.0,0.0,8,8.0,JHU,16.25,-61.5833,31.0,78.0,19.0,47.0,FR,FRA,66987244.0,41.4,133585
+France,Guadeloupe,Guadeloupe-France,2020-04-16,0.0,145,145.0,0.0,8,8.0,JHU,16.25,-61.5833,32.0,79.0,20.0,48.0,FR,FRA,66987244.0,41.4,146075
+France,Guadeloupe,Guadeloupe-France,2020-04-17,0.0,145,145.0,0.0,8,8.0,JHU,16.25,-61.5833,33.0,80.0,21.0,49.0,FR,FRA,66987244.0,41.4,148084
+France,Guadeloupe,Guadeloupe-France,2020-04-18,3.0,148,145.0,0.0,8,8.0,JHU,16.25,-61.5833,34.0,81.0,22.0,50.0,FR,FRA,66987244.0,41.4,148086
+France,Guadeloupe,Guadeloupe-France,2020-04-19,0.0,148,148.0,0.0,8,8.0,JHU,16.25,-61.5833,35.0,82.0,23.0,51.0,FR,FRA,66987244.0,41.4,153011
+France,Guadeloupe,Guadeloupe-France,2020-04-20,0.0,148,148.0,0.0,8,8.0,JHU,16.25,-61.5833,36.0,83.0,24.0,52.0,FR,FRA,66987244.0,41.4,155393
+France,Guadeloupe,Guadeloupe-France,2020-04-21,0.0,148,148.0,4.0,12,8.0,JHU,16.25,-61.5833,37.0,84.0,25.0,53.0,FR,FRA,66987244.0,41.4,158168
+France,Guadeloupe,Guadeloupe-France,2020-04-22,0.0,148,148.0,0.0,12,12.0,JHU,16.25,-61.5833,38.0,85.0,26.0,54.0,FR,FRA,66987244.0,41.4,155980
+France,Guadeloupe,Guadeloupe-France,2020-04-23,0.0,148,148.0,0.0,12,12.0,JHU,16.25,-61.5833,39.0,86.0,27.0,55.0,FR,FRA,66987244.0,41.4,158303
 France,Mayotte,Mayotte-France,2020-01-22,0.0,0,0.0,0.0,0,0.0,JHU,-12.8275,45.1662,,,,,FR,FRA,66987244.0,41.4,0
 France,Mayotte,Mayotte-France,2020-01-23,0.0,0,0.0,0.0,0,0.0,JHU,-12.8275,45.1662,,,,,FR,FRA,66987244.0,41.4,0
 France,Mayotte,Mayotte-France,2020-01-24,0.0,0,0.0,0.0,0,0.0,JHU,-12.8275,45.1662,,,,,FR,FRA,66987244.0,41.4,2
@@ -10312,16 +10312,16 @@ France,Mayotte,Mayotte-France,2020-04-10,7.0,191,184.0,0.0,2,2.0,JHU,-12.8275,45
 France,Mayotte,Mayotte-France,2020-04-11,5.0,196,191.0,1.0,3,2.0,JHU,-12.8275,45.1662,23.0,74.0,10.0,43.0,FR,FRA,66987244.0,41.4,94863
 France,Mayotte,Mayotte-France,2020-04-12,0.0,196,196.0,0.0,3,3.0,JHU,-12.8275,45.1662,24.0,75.0,11.0,44.0,FR,FRA,66987244.0,41.4,121712
 France,Mayotte,Mayotte-France,2020-04-13,11.0,207,196.0,0.0,3,3.0,JHU,-12.8275,45.1662,25.0,76.0,12.0,45.0,FR,FRA,66987244.0,41.4,125394
-France,Mayotte,Mayotte-France,2020-04-14,10.0,217,207.0,0.0,3,3.0,JHU,-12.8275,45.1662,26.0,77.0,13.0,46.0,FR,FRA,66987244.0,41.4,131361
-France,Mayotte,Mayotte-France,2020-04-15,0.0,217,217.0,0.0,3,3.0,JHU,-12.8275,45.1662,27.0,78.0,14.0,47.0,FR,FRA,66987244.0,41.4,134582
-France,Mayotte,Mayotte-France,2020-04-16,16.0,233,217.0,0.0,3,3.0,JHU,-12.8275,45.1662,28.0,79.0,15.0,48.0,FR,FRA,66987244.0,41.4,147091
-France,Mayotte,Mayotte-France,2020-04-17,12.0,245,233.0,1.0,4,3.0,JHU,-12.8275,45.1662,29.0,80.0,16.0,49.0,FR,FRA,66987244.0,41.4,149130
-France,Mayotte,Mayotte-France,2020-04-18,9.0,254,245.0,0.0,4,4.0,JHU,-12.8275,45.1662,30.0,81.0,17.0,50.0,FR,FRA,66987244.0,41.4,149149
-France,Mayotte,Mayotte-France,2020-04-19,17.0,271,254.0,0.0,4,4.0,JHU,-12.8275,45.1662,31.0,82.0,18.0,51.0,FR,FRA,66987244.0,41.4,154097
-France,Mayotte,Mayotte-France,2020-04-20,0.0,271,271.0,0.0,4,4.0,JHU,-12.8275,45.1662,32.0,83.0,19.0,52.0,FR,FRA,66987244.0,41.4,156480
-France,Mayotte,Mayotte-France,2020-04-21,40.0,311,271.0,0.0,4,4.0,JHU,-12.8275,45.1662,33.0,84.0,20.0,53.0,FR,FRA,66987244.0,41.4,159297
-France,Mayotte,Mayotte-France,2020-04-22,15.0,326,311.0,0.0,4,4.0,JHU,-12.8275,45.1662,34.0,85.0,21.0,54.0,FR,FRA,66987244.0,41.4,157125
-France,Mayotte,Mayotte-France,2020-04-23,0.0,326,326.0,0.0,4,4.0,JHU,-12.8275,45.1662,35.0,86.0,22.0,55.0,FR,FRA,66987244.0,41.4,159460
+France,Mayotte,Mayotte-France,2020-04-14,10.0,217,207.0,0.0,3,3.0,JHU,-12.8275,45.1662,26.0,77.0,13.0,46.0,FR,FRA,66987244.0,41.4,130365
+France,Mayotte,Mayotte-France,2020-04-15,0.0,217,217.0,0.0,3,3.0,JHU,-12.8275,45.1662,27.0,78.0,14.0,47.0,FR,FRA,66987244.0,41.4,133585
+France,Mayotte,Mayotte-France,2020-04-16,16.0,233,217.0,0.0,3,3.0,JHU,-12.8275,45.1662,28.0,79.0,15.0,48.0,FR,FRA,66987244.0,41.4,146075
+France,Mayotte,Mayotte-France,2020-04-17,12.0,245,233.0,1.0,4,3.0,JHU,-12.8275,45.1662,29.0,80.0,16.0,49.0,FR,FRA,66987244.0,41.4,148084
+France,Mayotte,Mayotte-France,2020-04-18,9.0,254,245.0,0.0,4,4.0,JHU,-12.8275,45.1662,30.0,81.0,17.0,50.0,FR,FRA,66987244.0,41.4,148086
+France,Mayotte,Mayotte-France,2020-04-19,17.0,271,254.0,0.0,4,4.0,JHU,-12.8275,45.1662,31.0,82.0,18.0,51.0,FR,FRA,66987244.0,41.4,153011
+France,Mayotte,Mayotte-France,2020-04-20,0.0,271,271.0,0.0,4,4.0,JHU,-12.8275,45.1662,32.0,83.0,19.0,52.0,FR,FRA,66987244.0,41.4,155393
+France,Mayotte,Mayotte-France,2020-04-21,40.0,311,271.0,0.0,4,4.0,JHU,-12.8275,45.1662,33.0,84.0,20.0,53.0,FR,FRA,66987244.0,41.4,158168
+France,Mayotte,Mayotte-France,2020-04-22,15.0,326,311.0,0.0,4,4.0,JHU,-12.8275,45.1662,34.0,85.0,21.0,54.0,FR,FRA,66987244.0,41.4,155980
+France,Mayotte,Mayotte-France,2020-04-23,0.0,326,326.0,0.0,4,4.0,JHU,-12.8275,45.1662,35.0,86.0,22.0,55.0,FR,FRA,66987244.0,41.4,158303
 France,New Caledonia,New Caledonia-France,2020-01-22,0.0,0,0.0,0.0,0,0.0,JHU,-20.9043,165.618,,,,,FR,FRA,66987244.0,41.4,0
 France,New Caledonia,New Caledonia-France,2020-01-23,0.0,0,0.0,0.0,0,0.0,JHU,-20.9043,165.618,,,,,FR,FRA,66987244.0,41.4,0
 France,New Caledonia,New Caledonia-France,2020-01-24,0.0,0,0.0,0.0,0,0.0,JHU,-20.9043,165.618,,,,,FR,FRA,66987244.0,41.4,2
@@ -10405,16 +10405,16 @@ France,New Caledonia,New Caledonia-France,2020-04-10,0.0,18,18.0,0.0,0,0.0,JHU,-
 France,New Caledonia,New Caledonia-France,2020-04-11,0.0,18,18.0,0.0,0,0.0,JHU,-20.9043,165.618,20.0,74.0,,43.0,FR,FRA,66987244.0,41.4,94863
 France,New Caledonia,New Caledonia-France,2020-04-12,0.0,18,18.0,0.0,0,0.0,JHU,-20.9043,165.618,21.0,75.0,,44.0,FR,FRA,66987244.0,41.4,121712
 France,New Caledonia,New Caledonia-France,2020-04-13,0.0,18,18.0,0.0,0,0.0,JHU,-20.9043,165.618,22.0,76.0,,45.0,FR,FRA,66987244.0,41.4,125394
-France,New Caledonia,New Caledonia-France,2020-04-14,0.0,18,18.0,0.0,0,0.0,JHU,-20.9043,165.618,23.0,77.0,,46.0,FR,FRA,66987244.0,41.4,131361
-France,New Caledonia,New Caledonia-France,2020-04-15,0.0,18,18.0,0.0,0,0.0,JHU,-20.9043,165.618,24.0,78.0,,47.0,FR,FRA,66987244.0,41.4,134582
-France,New Caledonia,New Caledonia-France,2020-04-16,0.0,18,18.0,0.0,0,0.0,JHU,-20.9043,165.618,25.0,79.0,,48.0,FR,FRA,66987244.0,41.4,147091
-France,New Caledonia,New Caledonia-France,2020-04-17,0.0,18,18.0,0.0,0,0.0,JHU,-20.9043,165.618,26.0,80.0,,49.0,FR,FRA,66987244.0,41.4,149130
-France,New Caledonia,New Caledonia-France,2020-04-18,0.0,18,18.0,0.0,0,0.0,JHU,-20.9043,165.618,27.0,81.0,,50.0,FR,FRA,66987244.0,41.4,149149
-France,New Caledonia,New Caledonia-France,2020-04-19,0.0,18,18.0,0.0,0,0.0,JHU,-20.9043,165.618,28.0,82.0,,51.0,FR,FRA,66987244.0,41.4,154097
-France,New Caledonia,New Caledonia-France,2020-04-20,0.0,18,18.0,0.0,0,0.0,JHU,-20.9043,165.618,29.0,83.0,,52.0,FR,FRA,66987244.0,41.4,156480
-France,New Caledonia,New Caledonia-France,2020-04-21,0.0,18,18.0,0.0,0,0.0,JHU,-20.9043,165.618,30.0,84.0,,53.0,FR,FRA,66987244.0,41.4,159297
-France,New Caledonia,New Caledonia-France,2020-04-22,0.0,18,18.0,0.0,0,0.0,JHU,-20.9043,165.618,31.0,85.0,,54.0,FR,FRA,66987244.0,41.4,157125
-France,New Caledonia,New Caledonia-France,2020-04-23,0.0,18,18.0,0.0,0,0.0,JHU,-20.9043,165.618,32.0,86.0,,55.0,FR,FRA,66987244.0,41.4,159460
+France,New Caledonia,New Caledonia-France,2020-04-14,0.0,18,18.0,0.0,0,0.0,JHU,-20.9043,165.618,23.0,77.0,,46.0,FR,FRA,66987244.0,41.4,130365
+France,New Caledonia,New Caledonia-France,2020-04-15,0.0,18,18.0,0.0,0,0.0,JHU,-20.9043,165.618,24.0,78.0,,47.0,FR,FRA,66987244.0,41.4,133585
+France,New Caledonia,New Caledonia-France,2020-04-16,0.0,18,18.0,0.0,0,0.0,JHU,-20.9043,165.618,25.0,79.0,,48.0,FR,FRA,66987244.0,41.4,146075
+France,New Caledonia,New Caledonia-France,2020-04-17,0.0,18,18.0,0.0,0,0.0,JHU,-20.9043,165.618,26.0,80.0,,49.0,FR,FRA,66987244.0,41.4,148084
+France,New Caledonia,New Caledonia-France,2020-04-18,0.0,18,18.0,0.0,0,0.0,JHU,-20.9043,165.618,27.0,81.0,,50.0,FR,FRA,66987244.0,41.4,148086
+France,New Caledonia,New Caledonia-France,2020-04-19,0.0,18,18.0,0.0,0,0.0,JHU,-20.9043,165.618,28.0,82.0,,51.0,FR,FRA,66987244.0,41.4,153011
+France,New Caledonia,New Caledonia-France,2020-04-20,0.0,18,18.0,0.0,0,0.0,JHU,-20.9043,165.618,29.0,83.0,,52.0,FR,FRA,66987244.0,41.4,155393
+France,New Caledonia,New Caledonia-France,2020-04-21,0.0,18,18.0,0.0,0,0.0,JHU,-20.9043,165.618,30.0,84.0,,53.0,FR,FRA,66987244.0,41.4,158168
+France,New Caledonia,New Caledonia-France,2020-04-22,0.0,18,18.0,0.0,0,0.0,JHU,-20.9043,165.618,31.0,85.0,,54.0,FR,FRA,66987244.0,41.4,155980
+France,New Caledonia,New Caledonia-France,2020-04-23,0.0,18,18.0,0.0,0,0.0,JHU,-20.9043,165.618,32.0,86.0,,55.0,FR,FRA,66987244.0,41.4,158303
 France,Reunion,Reunion-France,2020-01-22,0.0,0,0.0,0.0,0,0.0,JHU,-21.1351,55.2471,,,,,FR,FRA,66987244.0,41.4,0
 France,Reunion,Reunion-France,2020-01-23,0.0,0,0.0,0.0,0,0.0,JHU,-21.1351,55.2471,,,,,FR,FRA,66987244.0,41.4,0
 France,Reunion,Reunion-France,2020-01-24,0.0,0,0.0,0.0,0,0.0,JHU,-21.1351,55.2471,,,,,FR,FRA,66987244.0,41.4,2
@@ -10498,16 +10498,16 @@ France,Reunion,Reunion-France,2020-04-10,20.0,382,362.0,0.0,0,0.0,JHU,-21.1351,5
 France,Reunion,Reunion-France,2020-04-11,6.0,388,382.0,0.0,0,0.0,JHU,-21.1351,55.2471,30.0,74.0,18.0,43.0,FR,FRA,66987244.0,41.4,94863
 France,Reunion,Reunion-France,2020-04-12,1.0,389,388.0,0.0,0,0.0,JHU,-21.1351,55.2471,31.0,75.0,19.0,44.0,FR,FRA,66987244.0,41.4,121712
 France,Reunion,Reunion-France,2020-04-13,2.0,391,389.0,0.0,0,0.0,JHU,-21.1351,55.2471,32.0,76.0,20.0,45.0,FR,FRA,66987244.0,41.4,125394
-France,Reunion,Reunion-France,2020-04-14,0.0,391,391.0,0.0,0,0.0,JHU,-21.1351,55.2471,33.0,77.0,21.0,46.0,FR,FRA,66987244.0,41.4,131361
-France,Reunion,Reunion-France,2020-04-15,0.0,391,391.0,0.0,0,0.0,JHU,-21.1351,55.2471,34.0,78.0,22.0,47.0,FR,FRA,66987244.0,41.4,134582
-France,Reunion,Reunion-France,2020-04-16,3.0,394,391.0,0.0,0,0.0,JHU,-21.1351,55.2471,35.0,79.0,23.0,48.0,FR,FRA,66987244.0,41.4,147091
-France,Reunion,Reunion-France,2020-04-17,8.0,402,394.0,0.0,0,0.0,JHU,-21.1351,55.2471,36.0,80.0,24.0,49.0,FR,FRA,66987244.0,41.4,149130
-France,Reunion,Reunion-France,2020-04-18,5.0,407,402.0,0.0,0,0.0,JHU,-21.1351,55.2471,37.0,81.0,25.0,50.0,FR,FRA,66987244.0,41.4,149149
-France,Reunion,Reunion-France,2020-04-19,1.0,408,407.0,0.0,0,0.0,JHU,-21.1351,55.2471,38.0,82.0,26.0,51.0,FR,FRA,66987244.0,41.4,154097
-France,Reunion,Reunion-France,2020-04-20,0.0,408,408.0,0.0,0,0.0,JHU,-21.1351,55.2471,39.0,83.0,27.0,52.0,FR,FRA,66987244.0,41.4,156480
-France,Reunion,Reunion-France,2020-04-21,2.0,410,408.0,0.0,0,0.0,JHU,-21.1351,55.2471,40.0,84.0,28.0,53.0,FR,FRA,66987244.0,41.4,159297
-France,Reunion,Reunion-France,2020-04-22,0.0,410,410.0,0.0,0,0.0,JHU,-21.1351,55.2471,41.0,85.0,29.0,54.0,FR,FRA,66987244.0,41.4,157125
-France,Reunion,Reunion-France,2020-04-23,2.0,412,410.0,0.0,0,0.0,JHU,-21.1351,55.2471,42.0,86.0,30.0,55.0,FR,FRA,66987244.0,41.4,159460
+France,Reunion,Reunion-France,2020-04-14,0.0,391,391.0,0.0,0,0.0,JHU,-21.1351,55.2471,33.0,77.0,21.0,46.0,FR,FRA,66987244.0,41.4,130365
+France,Reunion,Reunion-France,2020-04-15,0.0,391,391.0,0.0,0,0.0,JHU,-21.1351,55.2471,34.0,78.0,22.0,47.0,FR,FRA,66987244.0,41.4,133585
+France,Reunion,Reunion-France,2020-04-16,3.0,394,391.0,0.0,0,0.0,JHU,-21.1351,55.2471,35.0,79.0,23.0,48.0,FR,FRA,66987244.0,41.4,146075
+France,Reunion,Reunion-France,2020-04-17,8.0,402,394.0,0.0,0,0.0,JHU,-21.1351,55.2471,36.0,80.0,24.0,49.0,FR,FRA,66987244.0,41.4,148084
+France,Reunion,Reunion-France,2020-04-18,5.0,407,402.0,0.0,0,0.0,JHU,-21.1351,55.2471,37.0,81.0,25.0,50.0,FR,FRA,66987244.0,41.4,148086
+France,Reunion,Reunion-France,2020-04-19,1.0,408,407.0,0.0,0,0.0,JHU,-21.1351,55.2471,38.0,82.0,26.0,51.0,FR,FRA,66987244.0,41.4,153011
+France,Reunion,Reunion-France,2020-04-20,0.0,408,408.0,0.0,0,0.0,JHU,-21.1351,55.2471,39.0,83.0,27.0,52.0,FR,FRA,66987244.0,41.4,155393
+France,Reunion,Reunion-France,2020-04-21,2.0,410,408.0,0.0,0,0.0,JHU,-21.1351,55.2471,40.0,84.0,28.0,53.0,FR,FRA,66987244.0,41.4,158168
+France,Reunion,Reunion-France,2020-04-22,0.0,410,410.0,0.0,0,0.0,JHU,-21.1351,55.2471,41.0,85.0,29.0,54.0,FR,FRA,66987244.0,41.4,155980
+France,Reunion,Reunion-France,2020-04-23,2.0,412,410.0,0.0,0,0.0,JHU,-21.1351,55.2471,42.0,86.0,30.0,55.0,FR,FRA,66987244.0,41.4,158303
 France,Saint Barthelemy,Saint Barthelemy-France,2020-01-22,0.0,0,0.0,0.0,0,0.0,JHU,17.9,-62.8333,,,,,FR,FRA,66987244.0,41.4,0
 France,Saint Barthelemy,Saint Barthelemy-France,2020-01-23,0.0,0,0.0,0.0,0,0.0,JHU,17.9,-62.8333,,,,,FR,FRA,66987244.0,41.4,0
 France,Saint Barthelemy,Saint Barthelemy-France,2020-01-24,0.0,0,0.0,0.0,0,0.0,JHU,17.9,-62.8333,,,,,FR,FRA,66987244.0,41.4,2
@@ -10591,16 +10591,16 @@ France,Saint Barthelemy,Saint Barthelemy-France,2020-04-10,0.0,6,6.0,0.0,0,0.0,J
 France,Saint Barthelemy,Saint Barthelemy-France,2020-04-11,0.0,6,6.0,0.0,0,0.0,JHU,17.9,-62.8333,16.0,74.0,,43.0,FR,FRA,66987244.0,41.4,94863
 France,Saint Barthelemy,Saint Barthelemy-France,2020-04-12,0.0,6,6.0,0.0,0,0.0,JHU,17.9,-62.8333,17.0,75.0,,44.0,FR,FRA,66987244.0,41.4,121712
 France,Saint Barthelemy,Saint Barthelemy-France,2020-04-13,0.0,6,6.0,0.0,0,0.0,JHU,17.9,-62.8333,18.0,76.0,,45.0,FR,FRA,66987244.0,41.4,125394
-France,Saint Barthelemy,Saint Barthelemy-France,2020-04-14,0.0,6,6.0,0.0,0,0.0,JHU,17.9,-62.8333,19.0,77.0,,46.0,FR,FRA,66987244.0,41.4,131361
-France,Saint Barthelemy,Saint Barthelemy-France,2020-04-15,0.0,6,6.0,0.0,0,0.0,JHU,17.9,-62.8333,20.0,78.0,,47.0,FR,FRA,66987244.0,41.4,134582
-France,Saint Barthelemy,Saint Barthelemy-France,2020-04-16,0.0,6,6.0,0.0,0,0.0,JHU,17.9,-62.8333,21.0,79.0,,48.0,FR,FRA,66987244.0,41.4,147091
-France,Saint Barthelemy,Saint Barthelemy-France,2020-04-17,0.0,6,6.0,0.0,0,0.0,JHU,17.9,-62.8333,22.0,80.0,,49.0,FR,FRA,66987244.0,41.4,149130
-France,Saint Barthelemy,Saint Barthelemy-France,2020-04-18,0.0,6,6.0,0.0,0,0.0,JHU,17.9,-62.8333,23.0,81.0,,50.0,FR,FRA,66987244.0,41.4,149149
-France,Saint Barthelemy,Saint Barthelemy-France,2020-04-19,0.0,6,6.0,0.0,0,0.0,JHU,17.9,-62.8333,24.0,82.0,,51.0,FR,FRA,66987244.0,41.4,154097
-France,Saint Barthelemy,Saint Barthelemy-France,2020-04-20,0.0,6,6.0,0.0,0,0.0,JHU,17.9,-62.8333,25.0,83.0,,52.0,FR,FRA,66987244.0,41.4,156480
-France,Saint Barthelemy,Saint Barthelemy-France,2020-04-21,0.0,6,6.0,0.0,0,0.0,JHU,17.9,-62.8333,26.0,84.0,,53.0,FR,FRA,66987244.0,41.4,159297
-France,Saint Barthelemy,Saint Barthelemy-France,2020-04-22,0.0,6,6.0,0.0,0,0.0,JHU,17.9,-62.8333,27.0,85.0,,54.0,FR,FRA,66987244.0,41.4,157125
-France,Saint Barthelemy,Saint Barthelemy-France,2020-04-23,0.0,6,6.0,0.0,0,0.0,JHU,17.9,-62.8333,28.0,86.0,,55.0,FR,FRA,66987244.0,41.4,159460
+France,Saint Barthelemy,Saint Barthelemy-France,2020-04-14,0.0,6,6.0,0.0,0,0.0,JHU,17.9,-62.8333,19.0,77.0,,46.0,FR,FRA,66987244.0,41.4,130365
+France,Saint Barthelemy,Saint Barthelemy-France,2020-04-15,0.0,6,6.0,0.0,0,0.0,JHU,17.9,-62.8333,20.0,78.0,,47.0,FR,FRA,66987244.0,41.4,133585
+France,Saint Barthelemy,Saint Barthelemy-France,2020-04-16,0.0,6,6.0,0.0,0,0.0,JHU,17.9,-62.8333,21.0,79.0,,48.0,FR,FRA,66987244.0,41.4,146075
+France,Saint Barthelemy,Saint Barthelemy-France,2020-04-17,0.0,6,6.0,0.0,0,0.0,JHU,17.9,-62.8333,22.0,80.0,,49.0,FR,FRA,66987244.0,41.4,148084
+France,Saint Barthelemy,Saint Barthelemy-France,2020-04-18,0.0,6,6.0,0.0,0,0.0,JHU,17.9,-62.8333,23.0,81.0,,50.0,FR,FRA,66987244.0,41.4,148086
+France,Saint Barthelemy,Saint Barthelemy-France,2020-04-19,0.0,6,6.0,0.0,0,0.0,JHU,17.9,-62.8333,24.0,82.0,,51.0,FR,FRA,66987244.0,41.4,153011
+France,Saint Barthelemy,Saint Barthelemy-France,2020-04-20,0.0,6,6.0,0.0,0,0.0,JHU,17.9,-62.8333,25.0,83.0,,52.0,FR,FRA,66987244.0,41.4,155393
+France,Saint Barthelemy,Saint Barthelemy-France,2020-04-21,0.0,6,6.0,0.0,0,0.0,JHU,17.9,-62.8333,26.0,84.0,,53.0,FR,FRA,66987244.0,41.4,158168
+France,Saint Barthelemy,Saint Barthelemy-France,2020-04-22,0.0,6,6.0,0.0,0,0.0,JHU,17.9,-62.8333,27.0,85.0,,54.0,FR,FRA,66987244.0,41.4,155980
+France,Saint Barthelemy,Saint Barthelemy-France,2020-04-23,0.0,6,6.0,0.0,0,0.0,JHU,17.9,-62.8333,28.0,86.0,,55.0,FR,FRA,66987244.0,41.4,158303
 France,St Martin,St Martin-France,2020-01-22,0.0,0,0.0,0.0,0,0.0,JHU,18.0708,-63.0501,,,,,FR,FRA,66987244.0,41.4,0
 France,St Martin,St Martin-France,2020-01-23,0.0,0,0.0,0.0,0,0.0,JHU,18.0708,-63.0501,,,,,FR,FRA,66987244.0,41.4,0
 France,St Martin,St Martin-France,2020-01-24,0.0,0,0.0,0.0,0,0.0,JHU,18.0708,-63.0501,,,,,FR,FRA,66987244.0,41.4,2
@@ -10684,16 +10684,16 @@ France,St Martin,St Martin-France,2020-04-10,0.0,32,32.0,0.0,2,2.0,JHU,18.0708,-
 France,St Martin,St Martin-France,2020-04-11,0.0,32,32.0,0.0,2,2.0,JHU,18.0708,-63.0501,21.0,74.0,,43.0,FR,FRA,66987244.0,41.4,94863
 France,St Martin,St Martin-France,2020-04-12,0.0,32,32.0,0.0,2,2.0,JHU,18.0708,-63.0501,22.0,75.0,,44.0,FR,FRA,66987244.0,41.4,121712
 France,St Martin,St Martin-France,2020-04-13,0.0,32,32.0,0.0,2,2.0,JHU,18.0708,-63.0501,23.0,76.0,,45.0,FR,FRA,66987244.0,41.4,125394
-France,St Martin,St Martin-France,2020-04-14,0.0,32,32.0,0.0,2,2.0,JHU,18.0708,-63.0501,24.0,77.0,,46.0,FR,FRA,66987244.0,41.4,131361
-France,St Martin,St Martin-France,2020-04-15,3.0,35,32.0,0.0,2,2.0,JHU,18.0708,-63.0501,25.0,78.0,,47.0,FR,FRA,66987244.0,41.4,134582
-France,St Martin,St Martin-France,2020-04-16,0.0,35,35.0,0.0,2,2.0,JHU,18.0708,-63.0501,26.0,79.0,,48.0,FR,FRA,66987244.0,41.4,147091
-France,St Martin,St Martin-France,2020-04-17,0.0,35,35.0,0.0,2,2.0,JHU,18.0708,-63.0501,27.0,80.0,,49.0,FR,FRA,66987244.0,41.4,149130
-France,St Martin,St Martin-France,2020-04-18,2.0,37,35.0,0.0,2,2.0,JHU,18.0708,-63.0501,28.0,81.0,,50.0,FR,FRA,66987244.0,41.4,149149
-France,St Martin,St Martin-France,2020-04-19,0.0,37,37.0,0.0,2,2.0,JHU,18.0708,-63.0501,29.0,82.0,,51.0,FR,FRA,66987244.0,41.4,154097
-France,St Martin,St Martin-France,2020-04-20,0.0,37,37.0,0.0,2,2.0,JHU,18.0708,-63.0501,30.0,83.0,,52.0,FR,FRA,66987244.0,41.4,156480
-France,St Martin,St Martin-France,2020-04-21,0.0,37,37.0,0.0,2,2.0,JHU,18.0708,-63.0501,31.0,84.0,,53.0,FR,FRA,66987244.0,41.4,159297
-France,St Martin,St Martin-France,2020-04-22,1.0,38,37.0,0.0,2,2.0,JHU,18.0708,-63.0501,32.0,85.0,,54.0,FR,FRA,66987244.0,41.4,157125
-France,St Martin,St Martin-France,2020-04-23,0.0,38,38.0,0.0,2,2.0,JHU,18.0708,-63.0501,33.0,86.0,,55.0,FR,FRA,66987244.0,41.4,159460
+France,St Martin,St Martin-France,2020-04-14,0.0,32,32.0,0.0,2,2.0,JHU,18.0708,-63.0501,24.0,77.0,,46.0,FR,FRA,66987244.0,41.4,130365
+France,St Martin,St Martin-France,2020-04-15,3.0,35,32.0,0.0,2,2.0,JHU,18.0708,-63.0501,25.0,78.0,,47.0,FR,FRA,66987244.0,41.4,133585
+France,St Martin,St Martin-France,2020-04-16,0.0,35,35.0,0.0,2,2.0,JHU,18.0708,-63.0501,26.0,79.0,,48.0,FR,FRA,66987244.0,41.4,146075
+France,St Martin,St Martin-France,2020-04-17,0.0,35,35.0,0.0,2,2.0,JHU,18.0708,-63.0501,27.0,80.0,,49.0,FR,FRA,66987244.0,41.4,148084
+France,St Martin,St Martin-France,2020-04-18,2.0,37,35.0,0.0,2,2.0,JHU,18.0708,-63.0501,28.0,81.0,,50.0,FR,FRA,66987244.0,41.4,148086
+France,St Martin,St Martin-France,2020-04-19,0.0,37,37.0,0.0,2,2.0,JHU,18.0708,-63.0501,29.0,82.0,,51.0,FR,FRA,66987244.0,41.4,153011
+France,St Martin,St Martin-France,2020-04-20,0.0,37,37.0,0.0,2,2.0,JHU,18.0708,-63.0501,30.0,83.0,,52.0,FR,FRA,66987244.0,41.4,155393
+France,St Martin,St Martin-France,2020-04-21,0.0,37,37.0,0.0,2,2.0,JHU,18.0708,-63.0501,31.0,84.0,,53.0,FR,FRA,66987244.0,41.4,158168
+France,St Martin,St Martin-France,2020-04-22,1.0,38,37.0,0.0,2,2.0,JHU,18.0708,-63.0501,32.0,85.0,,54.0,FR,FRA,66987244.0,41.4,155980
+France,St Martin,St Martin-France,2020-04-23,0.0,38,38.0,0.0,2,2.0,JHU,18.0708,-63.0501,33.0,86.0,,55.0,FR,FRA,66987244.0,41.4,158303
 France,Martinique,Martinique-France,2020-01-22,0.0,0,0.0,0.0,0,0.0,JHU,14.6415,-61.0242,,,,,FR,FRA,66987244.0,41.4,0
 France,Martinique,Martinique-France,2020-01-23,0.0,0,0.0,0.0,0,0.0,JHU,14.6415,-61.0242,,,,,FR,FRA,66987244.0,41.4,0
 France,Martinique,Martinique-France,2020-01-24,0.0,0,0.0,0.0,0,0.0,JHU,14.6415,-61.0242,,,,,FR,FRA,66987244.0,41.4,2
@@ -10777,16 +10777,16 @@ France,Martinique,Martinique-France,2020-04-10,1.0,155,154.0,0.0,6,6.0,JHU,14.64
 France,Martinique,Martinique-France,2020-04-11,0.0,155,155.0,0.0,6,6.0,JHU,14.6415,-61.0242,29.0,74.0,12.0,43.0,FR,FRA,66987244.0,41.4,94863
 France,Martinique,Martinique-France,2020-04-12,0.0,155,155.0,0.0,6,6.0,JHU,14.6415,-61.0242,30.0,75.0,13.0,44.0,FR,FRA,66987244.0,41.4,121712
 France,Martinique,Martinique-France,2020-04-13,2.0,157,155.0,0.0,6,6.0,JHU,14.6415,-61.0242,31.0,76.0,14.0,45.0,FR,FRA,66987244.0,41.4,125394
-France,Martinique,Martinique-France,2020-04-14,0.0,157,157.0,0.0,6,6.0,JHU,14.6415,-61.0242,32.0,77.0,15.0,46.0,FR,FRA,66987244.0,41.4,131361
-France,Martinique,Martinique-France,2020-04-15,1.0,158,157.0,2.0,8,6.0,JHU,14.6415,-61.0242,33.0,78.0,16.0,47.0,FR,FRA,66987244.0,41.4,134582
-France,Martinique,Martinique-France,2020-04-16,0.0,158,158.0,0.0,8,8.0,JHU,14.6415,-61.0242,34.0,79.0,17.0,48.0,FR,FRA,66987244.0,41.4,147091
-France,Martinique,Martinique-France,2020-04-17,0.0,158,158.0,0.0,8,8.0,JHU,14.6415,-61.0242,35.0,80.0,18.0,49.0,FR,FRA,66987244.0,41.4,149130
-France,Martinique,Martinique-France,2020-04-18,0.0,158,158.0,0.0,8,8.0,JHU,14.6415,-61.0242,36.0,81.0,19.0,50.0,FR,FRA,66987244.0,41.4,149149
-France,Martinique,Martinique-France,2020-04-19,5.0,163,158.0,4.0,12,8.0,JHU,14.6415,-61.0242,37.0,82.0,20.0,51.0,FR,FRA,66987244.0,41.4,154097
-France,Martinique,Martinique-France,2020-04-20,0.0,163,163.0,0.0,12,12.0,JHU,14.6415,-61.0242,38.0,83.0,21.0,52.0,FR,FRA,66987244.0,41.4,156480
-France,Martinique,Martinique-France,2020-04-21,0.0,163,163.0,2.0,14,12.0,JHU,14.6415,-61.0242,39.0,84.0,22.0,53.0,FR,FRA,66987244.0,41.4,159297
-France,Martinique,Martinique-France,2020-04-22,1.0,164,163.0,0.0,14,14.0,JHU,14.6415,-61.0242,40.0,85.0,23.0,54.0,FR,FRA,66987244.0,41.4,157125
-France,Martinique,Martinique-France,2020-04-23,0.0,164,164.0,0.0,14,14.0,JHU,14.6415,-61.0242,41.0,86.0,24.0,55.0,FR,FRA,66987244.0,41.4,159460
+France,Martinique,Martinique-France,2020-04-14,0.0,157,157.0,0.0,6,6.0,JHU,14.6415,-61.0242,32.0,77.0,15.0,46.0,FR,FRA,66987244.0,41.4,130365
+France,Martinique,Martinique-France,2020-04-15,1.0,158,157.0,2.0,8,6.0,JHU,14.6415,-61.0242,33.0,78.0,16.0,47.0,FR,FRA,66987244.0,41.4,133585
+France,Martinique,Martinique-France,2020-04-16,0.0,158,158.0,0.0,8,8.0,JHU,14.6415,-61.0242,34.0,79.0,17.0,48.0,FR,FRA,66987244.0,41.4,146075
+France,Martinique,Martinique-France,2020-04-17,0.0,158,158.0,0.0,8,8.0,JHU,14.6415,-61.0242,35.0,80.0,18.0,49.0,FR,FRA,66987244.0,41.4,148084
+France,Martinique,Martinique-France,2020-04-18,0.0,158,158.0,0.0,8,8.0,JHU,14.6415,-61.0242,36.0,81.0,19.0,50.0,FR,FRA,66987244.0,41.4,148086
+France,Martinique,Martinique-France,2020-04-19,5.0,163,158.0,4.0,12,8.0,JHU,14.6415,-61.0242,37.0,82.0,20.0,51.0,FR,FRA,66987244.0,41.4,153011
+France,Martinique,Martinique-France,2020-04-20,0.0,163,163.0,0.0,12,12.0,JHU,14.6415,-61.0242,38.0,83.0,21.0,52.0,FR,FRA,66987244.0,41.4,155393
+France,Martinique,Martinique-France,2020-04-21,0.0,163,163.0,2.0,14,12.0,JHU,14.6415,-61.0242,39.0,84.0,22.0,53.0,FR,FRA,66987244.0,41.4,158168
+France,Martinique,Martinique-France,2020-04-22,1.0,164,163.0,0.0,14,14.0,JHU,14.6415,-61.0242,40.0,85.0,23.0,54.0,FR,FRA,66987244.0,41.4,155980
+France,Martinique,Martinique-France,2020-04-23,0.0,164,164.0,0.0,14,14.0,JHU,14.6415,-61.0242,41.0,86.0,24.0,55.0,FR,FRA,66987244.0,41.4,158303
 France,Not Provided,Not Provided-France,2020-01-22,0.0,0,0.0,0.0,0,0.0,JHU,46.2276,2.2137,,,,,FR,FRA,66987244.0,41.4,0
 France,Not Provided,Not Provided-France,2020-01-23,0.0,0,0.0,0.0,0,0.0,JHU,46.2276,2.2137,,,,,FR,FRA,66987244.0,41.4,0
 France,Not Provided,Not Provided-France,2020-01-24,2.0,2,0.0,0.0,0,0.0,JHU,46.2276,2.2137,,,,,FR,FRA,66987244.0,41.4,2
@@ -10870,16 +10870,16 @@ France,Not Provided,Not Provided-France,2020-04-10,4342.0,90676,86334.0,987.0,13
 France,Not Provided,Not Provided-France,2020-04-11,3114.0,93790,90676.0,635.0,13832,13197.0,JHU,46.2276,2.2137,74.0,74.0,43.0,43.0,FR,FRA,66987244.0,41.4,94863
 France,Not Provided,Not Provided-France,2020-04-12,26843.0,120633,93790.0,561.0,14393,13832.0,JHU,46.2276,2.2137,75.0,75.0,44.0,44.0,FR,FRA,66987244.0,41.4,121712
 France,Not Provided,Not Provided-France,2020-04-13,3665.0,124298,120633.0,574.0,14967,14393.0,JHU,46.2276,2.2137,76.0,76.0,45.0,45.0,FR,FRA,66987244.0,41.4,125394
-France,Not Provided,Not Provided-France,2020-04-14,5955.0,130253,124298.0,762.0,15729,14967.0,JHU,46.2276,2.2137,77.0,77.0,46.0,46.0,FR,FRA,66987244.0,41.4,131361
-France,Not Provided,Not Provided-France,2020-04-15,3217.0,133470,130253.0,1438.0,17167,15729.0,JHU,46.2276,2.2137,78.0,78.0,47.0,47.0,FR,FRA,66987244.0,41.4,134582
-France,Not Provided,Not Provided-France,2020-04-16,12490.0,145960,133470.0,753.0,17920,17167.0,JHU,46.2276,2.2137,79.0,79.0,48.0,48.0,FR,FRA,66987244.0,41.4,147091
-France,Not Provided,Not Provided-France,2020-04-17,2009.0,147969,145960.0,761.0,18681,17920.0,JHU,46.2276,2.2137,80.0,80.0,49.0,49.0,FR,FRA,66987244.0,41.4,149130
-France,Not Provided,Not Provided-France,2020-04-18,0.0,147969,147969.0,642.0,19323,18681.0,JHU,46.2276,2.2137,81.0,81.0,50.0,50.0,FR,FRA,66987244.0,41.4,149149
-France,Not Provided,Not Provided-France,2020-04-19,4925.0,152894,147969.0,395.0,19718,19323.0,JHU,46.2276,2.2137,82.0,82.0,51.0,51.0,FR,FRA,66987244.0,41.4,154097
-France,Not Provided,Not Provided-France,2020-04-20,2381.0,155275,152894.0,547.0,20265,19718.0,JHU,46.2276,2.2137,83.0,83.0,52.0,52.0,FR,FRA,66987244.0,41.4,156480
-France,Not Provided,Not Provided-France,2020-04-21,2775.0,158050,155275.0,531.0,20796,20265.0,JHU,46.2276,2.2137,84.0,84.0,53.0,53.0,FR,FRA,66987244.0,41.4,159297
-France,Not Provided,Not Provided-France,2020-04-22,-2190.0,155860,158050.0,544.0,21340,20796.0,JHU,46.2276,2.2137,85.0,85.0,54.0,54.0,FR,FRA,66987244.0,41.4,157125
-France,Not Provided,Not Provided-France,2020-04-23,2323.0,158183,155860.0,516.0,21856,21340.0,JHU,46.2276,2.2137,86.0,86.0,55.0,55.0,FR,FRA,66987244.0,41.4,159460
+France,Not Provided,Not Provided-France,2020-04-14,4959.0,129257,124298.0,762.0,15729,14967.0,JHU,46.2276,2.2137,77.0,77.0,46.0,46.0,FR,FRA,66987244.0,41.4,130365
+France,Not Provided,Not Provided-France,2020-04-15,3216.0,132473,129257.0,1438.0,17167,15729.0,JHU,46.2276,2.2137,78.0,78.0,47.0,47.0,FR,FRA,66987244.0,41.4,133585
+France,Not Provided,Not Provided-France,2020-04-16,12471.0,144944,132473.0,753.0,17920,17167.0,JHU,46.2276,2.2137,79.0,79.0,48.0,48.0,FR,FRA,66987244.0,41.4,146075
+France,Not Provided,Not Provided-France,2020-04-17,1979.0,146923,144944.0,761.0,18681,17920.0,JHU,46.2276,2.2137,80.0,80.0,49.0,49.0,FR,FRA,66987244.0,41.4,148084
+France,Not Provided,Not Provided-France,2020-04-18,-17.0,146906,146923.0,642.0,19323,18681.0,JHU,46.2276,2.2137,81.0,81.0,50.0,50.0,FR,FRA,66987244.0,41.4,148086
+France,Not Provided,Not Provided-France,2020-04-19,4902.0,151808,146906.0,395.0,19718,19323.0,JHU,46.2276,2.2137,82.0,82.0,51.0,51.0,FR,FRA,66987244.0,41.4,153011
+France,Not Provided,Not Provided-France,2020-04-20,2380.0,154188,151808.0,547.0,20265,19718.0,JHU,46.2276,2.2137,83.0,83.0,52.0,52.0,FR,FRA,66987244.0,41.4,155393
+France,Not Provided,Not Provided-France,2020-04-21,2733.0,156921,154188.0,531.0,20796,20265.0,JHU,46.2276,2.2137,84.0,84.0,53.0,53.0,FR,FRA,66987244.0,41.4,158168
+France,Not Provided,Not Provided-France,2020-04-22,-2206.0,154715,156921.0,544.0,21340,20796.0,JHU,46.2276,2.2137,85.0,85.0,54.0,54.0,FR,FRA,66987244.0,41.4,155980
+France,Not Provided,Not Provided-France,2020-04-23,2311.0,157026,154715.0,516.0,21856,21340.0,JHU,46.2276,2.2137,86.0,86.0,55.0,55.0,FR,FRA,66987244.0,41.4,158303
 Gabon,Not Provided,Not Provided-Gabon,2020-01-22,0.0,0,0.0,0.0,0,0.0,JHU,-0.8037,11.6094,,,,,GA,GAB,2119275.0,18.6,0
 Gabon,Not Provided,Not Provided-Gabon,2020-01-23,0.0,0,0.0,0.0,0,0.0,JHU,-0.8037,11.6094,,,,,GA,GAB,2119275.0,18.6,0
 Gabon,Not Provided,Not Provided-Gabon,2020-01-24,0.0,0,0.0,0.0,0,0.0,JHU,-0.8037,11.6094,,,,,GA,GAB,2119275.0,18.6,0
@@ -24169,16 +24169,16 @@ France,Saint Pierre and Miquelon,Saint Pierre and Miquelon-France,2020-04-10,0.0
 France,Saint Pierre and Miquelon,Saint Pierre and Miquelon-France,2020-04-11,0.0,1,1.0,0.0,0,0.0,JHU,46.8852,-56.3159,,74.0,,43.0,FR,FRA,66987244.0,41.4,94863
 France,Saint Pierre and Miquelon,Saint Pierre and Miquelon-France,2020-04-12,0.0,1,1.0,0.0,0,0.0,JHU,46.8852,-56.3159,,75.0,,44.0,FR,FRA,66987244.0,41.4,121712
 France,Saint Pierre and Miquelon,Saint Pierre and Miquelon-France,2020-04-13,0.0,1,1.0,0.0,0,0.0,JHU,46.8852,-56.3159,,76.0,,45.0,FR,FRA,66987244.0,41.4,125394
-France,Saint Pierre and Miquelon,Saint Pierre and Miquelon-France,2020-04-14,0.0,1,1.0,0.0,0,0.0,JHU,46.8852,-56.3159,,77.0,,46.0,FR,FRA,66987244.0,41.4,131361
-France,Saint Pierre and Miquelon,Saint Pierre and Miquelon-France,2020-04-15,0.0,1,1.0,0.0,0,0.0,JHU,46.8852,-56.3159,,78.0,,47.0,FR,FRA,66987244.0,41.4,134582
-France,Saint Pierre and Miquelon,Saint Pierre and Miquelon-France,2020-04-16,0.0,1,1.0,0.0,0,0.0,JHU,46.8852,-56.3159,,79.0,,48.0,FR,FRA,66987244.0,41.4,147091
-France,Saint Pierre and Miquelon,Saint Pierre and Miquelon-France,2020-04-17,0.0,1,1.0,0.0,0,0.0,JHU,46.8852,-56.3159,,80.0,,49.0,FR,FRA,66987244.0,41.4,149130
-France,Saint Pierre and Miquelon,Saint Pierre and Miquelon-France,2020-04-18,0.0,1,1.0,0.0,0,0.0,JHU,46.8852,-56.3159,,81.0,,50.0,FR,FRA,66987244.0,41.4,149149
-France,Saint Pierre and Miquelon,Saint Pierre and Miquelon-France,2020-04-19,0.0,1,1.0,0.0,0,0.0,JHU,46.8852,-56.3159,,82.0,,51.0,FR,FRA,66987244.0,41.4,154097
-France,Saint Pierre and Miquelon,Saint Pierre and Miquelon-France,2020-04-20,0.0,1,1.0,0.0,0,0.0,JHU,46.8852,-56.3159,,83.0,,52.0,FR,FRA,66987244.0,41.4,156480
-France,Saint Pierre and Miquelon,Saint Pierre and Miquelon-France,2020-04-21,0.0,1,1.0,0.0,0,0.0,JHU,46.8852,-56.3159,,84.0,,53.0,FR,FRA,66987244.0,41.4,159297
-France,Saint Pierre and Miquelon,Saint Pierre and Miquelon-France,2020-04-22,0.0,1,1.0,0.0,0,0.0,JHU,46.8852,-56.3159,,85.0,,54.0,FR,FRA,66987244.0,41.4,157125
-France,Saint Pierre and Miquelon,Saint Pierre and Miquelon-France,2020-04-23,0.0,1,1.0,0.0,0,0.0,JHU,46.8852,-56.3159,,86.0,,55.0,FR,FRA,66987244.0,41.4,159460
+France,Saint Pierre and Miquelon,Saint Pierre and Miquelon-France,2020-04-14,0.0,1,1.0,0.0,0,0.0,JHU,46.8852,-56.3159,,77.0,,46.0,FR,FRA,66987244.0,41.4,130365
+France,Saint Pierre and Miquelon,Saint Pierre and Miquelon-France,2020-04-15,0.0,1,1.0,0.0,0,0.0,JHU,46.8852,-56.3159,,78.0,,47.0,FR,FRA,66987244.0,41.4,133585
+France,Saint Pierre and Miquelon,Saint Pierre and Miquelon-France,2020-04-16,0.0,1,1.0,0.0,0,0.0,JHU,46.8852,-56.3159,,79.0,,48.0,FR,FRA,66987244.0,41.4,146075
+France,Saint Pierre and Miquelon,Saint Pierre and Miquelon-France,2020-04-17,0.0,1,1.0,0.0,0,0.0,JHU,46.8852,-56.3159,,80.0,,49.0,FR,FRA,66987244.0,41.4,148084
+France,Saint Pierre and Miquelon,Saint Pierre and Miquelon-France,2020-04-18,0.0,1,1.0,0.0,0,0.0,JHU,46.8852,-56.3159,,81.0,,50.0,FR,FRA,66987244.0,41.4,148086
+France,Saint Pierre and Miquelon,Saint Pierre and Miquelon-France,2020-04-19,0.0,1,1.0,0.0,0,0.0,JHU,46.8852,-56.3159,,82.0,,51.0,FR,FRA,66987244.0,41.4,153011
+France,Saint Pierre and Miquelon,Saint Pierre and Miquelon-France,2020-04-20,0.0,1,1.0,0.0,0,0.0,JHU,46.8852,-56.3159,,83.0,,52.0,FR,FRA,66987244.0,41.4,155393
+France,Saint Pierre and Miquelon,Saint Pierre and Miquelon-France,2020-04-21,0.0,1,1.0,0.0,0,0.0,JHU,46.8852,-56.3159,,84.0,,53.0,FR,FRA,66987244.0,41.4,158168
+France,Saint Pierre and Miquelon,Saint Pierre and Miquelon-France,2020-04-22,0.0,1,1.0,0.0,0,0.0,JHU,46.8852,-56.3159,,85.0,,54.0,FR,FRA,66987244.0,41.4,155980
+France,Saint Pierre and Miquelon,Saint Pierre and Miquelon-France,2020-04-23,0.0,1,1.0,0.0,0,0.0,JHU,46.8852,-56.3159,,86.0,,55.0,FR,FRA,66987244.0,41.4,158303
 South Sudan,Not Provided,Not Provided-South Sudan,2020-01-22,0.0,0,0.0,0.0,0,0.0,JHU,6.8770000000000024,31.307,,,,,SS,SSD,10975920.0,17.3,0
 South Sudan,Not Provided,Not Provided-South Sudan,2020-01-23,0.0,0,0.0,0.0,0,0.0,JHU,6.8770000000000024,31.307,,,,,SS,SSD,10975920.0,17.3,0
 South Sudan,Not Provided,Not Provided-South Sudan,2020-01-24,0.0,0,0.0,0.0,0,0.0,JHU,6.8770000000000024,31.307,,,,,SS,SSD,10975920.0,17.3,0
