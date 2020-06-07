@@ -174,7 +174,7 @@ class GlobalDataJHU():
         LOGGER.info("Saving JHU to CSV")
         filename = os.path.abspath(__file__)
         directory = os.path.dirname(os.path.dirname(filename))
-        output_file = os.path.join(directory, 'output_data/', 'HOPKINS_CLEANED.csv')
+        output_file = os.path.join(directory, 'output_data', 'HOPKINS_CLEANED.csv')
         
         self.data.to_csv(output_file, index=False)                
 
@@ -302,7 +302,7 @@ class USDataNYT(GlobalDataJHU):
         LOGGER.info("Saving NYT to CSV")
         filename = os.path.abspath(__file__)
         directory = os.path.dirname(os.path.dirname(filename))
-        output_file = os.path.join(directory, 'output_data/', 'NYT_US_state_data.csv')
+        output_file = os.path.join(directory, 'output_data', 'NYT_US_state_data.csv')
         
         #LOGGER.warning("TEST OF GITHUB FUNCTIONALITY")
         #self.data.sort_values('county', inplace=True)
@@ -407,7 +407,7 @@ class CauseOfDeath():
         LOGGER.info("Saving Cause of Death to CSV")
         filename = os.path.abspath(__file__)
         directory = os.path.dirname(os.path.dirname(filename))
-        output_file = os.path.join(directory, 'output_data/', 'US_causes_of_death.csv')
+        output_file = os.path.join(directory, 'output_data', 'US_causes_of_death.csv')
         
         self.data.to_csv(output_file, index=False)        
         
@@ -467,7 +467,7 @@ class JHUCountryAggregate():
         #LOGGER.info("Saving Cause of Death to CSV")
         filename = os.path.abspath(__file__)
         directory = os.path.dirname(os.path.dirname(filename))
-        output_file = os.path.join(directory, 'output_data/', 'JHU_aggregated_country_and_day.csv')
+        output_file = os.path.join(directory, 'output_data', 'JHU_aggregated_country_and_day.csv')
         
         self.data.to_csv(output_file, index=False) 
         
