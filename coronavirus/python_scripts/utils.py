@@ -1,8 +1,28 @@
 import os
 from datetime import datetime
+import logging
+import requests
+import json
 import pandas as pd
 from pycountry import countries
 from git import Repo
+from config_corona import ConfigCorona
+
+
+# Set LOGGER
+LOGGER = logging.getLogger()
+LOGGER.setLevel(logging.DEBUG)
+
+formatter = logging.Formatter(
+    '%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+
+# Adding a stream handler
+ch = logging.StreamHandler()
+ch.setLevel(logging.DEBUG)
+ch.setFormatter(formatter)
+
+LOGGER.addHandler(ch)
+LOGGER.info("Added StreamHandler")
 
 
 class AddDailyFields():
@@ -81,6 +101,25 @@ def push_output_to_github():
     # Push
     origin = repo.remote('origin')
     origin.push()
+
+def send_slack(text):
+    """
+    Sends simple Slack message
+    """
+    config = ConfigCorona()
+    try:
+        url = config.slack_url
+        data = {'text':text}
+        response = requests.post(url,
+                                data=json.dumps(data),
+                                headers={'Content-Type': 'application/json'})
+        if response:
+            LOGGER.info("======= Slack Success =======")
+        else:
+            LOGGER.warning("SLACK ERROR")
+    except Exception as e:
+        LOGGER.warning(f"Slack message is failing {e}")
+
 
 def pull_median_country_age():
     """

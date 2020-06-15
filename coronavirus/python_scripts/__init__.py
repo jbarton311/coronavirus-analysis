@@ -1,0 +1,1 @@
+from .config_corona import ConfigCorona
