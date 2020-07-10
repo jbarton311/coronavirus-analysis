@@ -1,15 +1,26 @@
 date,daily_deaths,cause_of_death,country
-2020-07-08,129.24109589041095,Intentional self-harm (suicide),US
-2020-07-08,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-07-08,152.52602739726026,Influenza and pneumonia,US
-2020-07-08,228.94246575342467,Diabetes,US
-2020-07-08,332.613698630137,Alzheimer’s disease,US
-2020-07-08,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-07-09,129.24109589041095,Intentional self-harm (suicide),US
+2020-07-09,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-07-09,152.52602739726026,Influenza and pneumonia,US
+2020-07-09,228.94246575342467,Diabetes,US
+2020-07-09,332.613698630137,Alzheimer’s disease,US
+2020-07-09,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-07-09,438.9068493150685,Chronic lower respiratory diseases,US
+2020-07-09,465.5780821917808,Accidents (unintentional injuries),US
+2020-07-09,1641.3917808219178,Cancer,US
+2020-07-09,1773.854794520548,Heart disease,US
+2020-07-09,842.0,COVID-19,US
 2020-07-08,438.9068493150685,Chronic lower respiratory diseases,US
-2020-07-08,465.5780821917808,Accidents (unintentional injuries),US
-2020-07-08,1641.3917808219178,Cancer,US
-2020-07-08,1773.854794520548,Heart disease,US
 2020-07-08,948.0,COVID-19,US
+2020-07-08,1773.854794520548,Heart disease,US
+2020-07-08,1641.3917808219178,Cancer,US
+2020-07-08,465.5780821917808,Accidents (unintentional injuries),US
+2020-07-08,152.52602739726026,Influenza and pneumonia,US
+2020-07-08,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-07-08,332.613698630137,Alzheimer’s disease,US
+2020-07-08,228.94246575342467,Diabetes,US
+2020-07-08,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-07-08,129.24109589041095,Intentional self-harm (suicide),US
 2020-07-07,438.9068493150685,Chronic lower respiratory diseases,US
 2020-07-07,957.0,COVID-19,US
 2020-07-07,1773.854794520548,Heart disease,US
@@ -19,141 +30,141 @@ date,daily_deaths,cause_of_death,country
 2020-07-07,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-07-07,332.613698630137,Alzheimer’s disease,US
 2020-07-07,228.94246575342467,Diabetes,US
-2020-07-07,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-07-07,129.24109589041095,Intentional self-harm (suicide),US
-2020-07-06,438.9068493150685,Chronic lower respiratory diseases,US
+2020-07-07,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-07-06,391.0,COVID-19,US
 2020-07-06,1773.854794520548,Heart disease,US
 2020-07-06,1641.3917808219178,Cancer,US
 2020-07-06,465.5780821917808,Accidents (unintentional injuries),US
-2020-07-06,228.94246575342467,Diabetes,US
+2020-07-06,438.9068493150685,Chronic lower respiratory diseases,US
 2020-07-06,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-07-06,129.24109589041095,Intentional self-harm (suicide),US
-2020-07-06,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-07-06,152.52602739726026,Influenza and pneumonia,US
 2020-07-06,332.613698630137,Alzheimer’s disease,US
-2020-07-05,438.9068493150685,Chronic lower respiratory diseases,US
+2020-07-06,228.94246575342467,Diabetes,US
+2020-07-06,152.52602739726026,Influenza and pneumonia,US
+2020-07-06,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-07-06,129.24109589041095,Intentional self-harm (suicide),US
+2020-07-05,465.5780821917808,Accidents (unintentional injuries),US
 2020-07-05,262.0,COVID-19,US
 2020-07-05,1773.854794520548,Heart disease,US
 2020-07-05,1641.3917808219178,Cancer,US
-2020-07-05,465.5780821917808,Accidents (unintentional injuries),US
-2020-07-05,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-07-05,332.613698630137,Alzheimer’s disease,US
-2020-07-05,228.94246575342467,Diabetes,US
+2020-07-05,438.9068493150685,Chronic lower respiratory diseases,US
 2020-07-05,152.52602739726026,Influenza and pneumonia,US
+2020-07-05,332.613698630137,Alzheimer’s disease,US
 2020-07-05,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-07-05,129.24109589041095,Intentional self-harm (suicide),US
-2020-07-04,465.5780821917808,Accidents (unintentional injuries),US
-2020-07-04,263.0,COVID-19,US
-2020-07-04,1773.854794520548,Heart disease,US
-2020-07-04,1641.3917808219178,Cancer,US
-2020-07-04,129.24109589041095,Intentional self-harm (suicide),US
-2020-07-04,438.9068493150685,Chronic lower respiratory diseases,US
-2020-07-04,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-07-04,332.613698630137,Alzheimer’s disease,US
+2020-07-05,228.94246575342467,Diabetes,US
+2020-07-05,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-07-04,228.94246575342467,Diabetes,US
+2020-07-04,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-07-04,438.9068493150685,Chronic lower respiratory diseases,US
+2020-07-04,465.5780821917808,Accidents (unintentional injuries),US
+2020-07-04,1641.3917808219178,Cancer,US
+2020-07-04,1773.854794520548,Heart disease,US
+2020-07-04,263.0,COVID-19,US
 2020-07-04,152.52602739726026,Influenza and pneumonia,US
+2020-07-04,129.24109589041095,Intentional self-harm (suicide),US
 2020-07-04,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-07-03,465.5780821917808,Accidents (unintentional injuries),US
+2020-07-04,332.613698630137,Alzheimer’s disease,US
+2020-07-03,1641.3917808219178,Cancer,US
 2020-07-03,617.0,COVID-19,US
 2020-07-03,1773.854794520548,Heart disease,US
-2020-07-03,1641.3917808219178,Cancer,US
 2020-07-03,438.9068493150685,Chronic lower respiratory diseases,US
+2020-07-03,465.5780821917808,Accidents (unintentional injuries),US
 2020-07-03,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-07-03,332.613698630137,Alzheimer’s disease,US
-2020-07-03,228.94246575342467,Diabetes,US
 2020-07-03,152.52602739726026,Influenza and pneumonia,US
 2020-07-03,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-07-03,129.24109589041095,Intentional self-harm (suicide),US
-2020-07-02,1641.3917808219178,Cancer,US
-2020-07-02,724.0,COVID-19,US
+2020-07-03,228.94246575342467,Diabetes,US
 2020-07-02,1773.854794520548,Heart disease,US
-2020-07-02,332.613698630137,Alzheimer’s disease,US
+2020-07-02,1641.3917808219178,Cancer,US
 2020-07-02,465.5780821917808,Accidents (unintentional injuries),US
 2020-07-02,438.9068493150685,Chronic lower respiratory diseases,US
-2020-07-02,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-07-02,228.94246575342467,Diabetes,US
 2020-07-02,152.52602739726026,Influenza and pneumonia,US
+2020-07-02,724.0,COVID-19,US
+2020-07-02,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-07-02,332.613698630137,Alzheimer’s disease,US
+2020-07-02,228.94246575342467,Diabetes,US
 2020-07-02,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-07-02,129.24109589041095,Intentional self-harm (suicide),US
-2020-07-01,642.0,COVID-19,US
 2020-07-01,1773.854794520548,Heart disease,US
-2020-07-01,438.9068493150685,Chronic lower respiratory diseases,US
-2020-07-01,465.5780821917808,Accidents (unintentional injuries),US
-2020-07-01,1641.3917808219178,Cancer,US
-2020-07-01,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-07-01,332.613698630137,Alzheimer’s disease,US
 2020-07-01,129.24109589041095,Intentional self-harm (suicide),US
 2020-07-01,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-07-01,152.52602739726026,Influenza and pneumonia,US
 2020-07-01,228.94246575342467,Diabetes,US
+2020-07-01,332.613698630137,Alzheimer’s disease,US
+2020-07-01,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-07-01,438.9068493150685,Chronic lower respiratory diseases,US
+2020-07-01,465.5780821917808,Accidents (unintentional injuries),US
+2020-07-01,1641.3917808219178,Cancer,US
+2020-07-01,642.0,COVID-19,US
 2020-06-30,332.613698630137,Alzheimer’s disease,US
-2020-06-30,152.52602739726026,Influenza and pneumonia,US
 2020-06-30,1773.854794520548,Heart disease,US
+2020-06-30,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-06-30,152.52602739726026,Influenza and pneumonia,US
+2020-06-30,228.94246575342467,Diabetes,US
+2020-06-30,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-06-30,438.9068493150685,Chronic lower respiratory diseases,US
+2020-06-30,465.5780821917808,Accidents (unintentional injuries),US
 2020-06-30,1641.3917808219178,Cancer,US
 2020-06-30,129.24109589041095,Intentional self-harm (suicide),US
-2020-06-30,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-06-30,1300.0,COVID-19,US
-2020-06-30,465.5780821917808,Accidents (unintentional injuries),US
-2020-06-30,438.9068493150685,Chronic lower respiratory diseases,US
-2020-06-30,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-06-30,228.94246575342467,Diabetes,US
-2020-06-29,1773.854794520548,Heart disease,US
+2020-06-29,228.94246575342467,Diabetes,US
+2020-06-29,438.9068493150685,Chronic lower respiratory diseases,US
+2020-06-29,346.0,COVID-19,US
 2020-06-29,129.24109589041095,Intentional self-harm (suicide),US
 2020-06-29,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-06-29,152.52602739726026,Influenza and pneumonia,US
-2020-06-29,228.94246575342467,Diabetes,US
 2020-06-29,332.613698630137,Alzheimer’s disease,US
 2020-06-29,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-06-29,438.9068493150685,Chronic lower respiratory diseases,US
 2020-06-29,1641.3917808219178,Cancer,US
 2020-06-29,465.5780821917808,Accidents (unintentional injuries),US
-2020-06-29,346.0,COVID-19,US
-2020-06-28,438.9068493150685,Chronic lower respiratory diseases,US
+2020-06-29,1773.854794520548,Heart disease,US
 2020-06-28,465.5780821917808,Accidents (unintentional injuries),US
+2020-06-28,332.613698630137,Alzheimer’s disease,US
+2020-06-28,228.94246575342467,Diabetes,US
 2020-06-28,271.0,COVID-19,US
-2020-06-28,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-06-28,1773.854794520548,Heart disease,US
 2020-06-28,1641.3917808219178,Cancer,US
-2020-06-28,129.24109589041095,Intentional self-harm (suicide),US
-2020-06-28,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-06-28,152.52602739726026,Influenza and pneumonia,US
-2020-06-28,228.94246575342467,Diabetes,US
-2020-06-28,332.613698630137,Alzheimer’s disease,US
-2020-06-27,129.24109589041095,Intentional self-harm (suicide),US
-2020-06-27,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-06-27,228.94246575342467,Diabetes,US
-2020-06-27,332.613698630137,Alzheimer’s disease,US
-2020-06-27,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-06-27,438.9068493150685,Chronic lower respiratory diseases,US
+2020-06-28,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-06-28,129.24109589041095,Intentional self-harm (suicide),US
+2020-06-28,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-06-28,438.9068493150685,Chronic lower respiratory diseases,US
 2020-06-27,465.5780821917808,Accidents (unintentional injuries),US
-2020-06-27,1641.3917808219178,Cancer,US
 2020-06-27,1773.854794520548,Heart disease,US
 2020-06-27,511.0,COVID-19,US
+2020-06-27,1641.3917808219178,Cancer,US
+2020-06-27,438.9068493150685,Chronic lower respiratory diseases,US
+2020-06-27,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-06-27,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-06-27,152.52602739726026,Influenza and pneumonia,US
-2020-06-26,633.0,COVID-19,US
-2020-06-26,152.52602739726026,Influenza and pneumonia,US
-2020-06-26,228.94246575342467,Diabetes,US
-2020-06-26,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-06-26,1773.854794520548,Heart disease,US
+2020-06-27,228.94246575342467,Diabetes,US
+2020-06-27,129.24109589041095,Intentional self-harm (suicide),US
+2020-06-27,332.613698630137,Alzheimer’s disease,US
 2020-06-26,1641.3917808219178,Cancer,US
+2020-06-26,1773.854794520548,Heart disease,US
 2020-06-26,465.5780821917808,Accidents (unintentional injuries),US
 2020-06-26,438.9068493150685,Chronic lower respiratory diseases,US
 2020-06-26,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-06-26,332.613698630137,Alzheimer’s disease,US
+2020-06-26,228.94246575342467,Diabetes,US
+2020-06-26,152.52602739726026,Influenza and pneumonia,US
+2020-06-26,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-06-26,129.24109589041095,Intentional self-harm (suicide),US
-2020-06-25,129.24109589041095,Intentional self-harm (suicide),US
-2020-06-25,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-06-25,2467.0,COVID-19,US
+2020-06-26,633.0,COVID-19,US
 2020-06-25,1773.854794520548,Heart disease,US
+2020-06-25,152.52602739726026,Influenza and pneumonia,US
 2020-06-25,1641.3917808219178,Cancer,US
 2020-06-25,465.5780821917808,Accidents (unintentional injuries),US
-2020-06-25,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-06-25,438.9068493150685,Chronic lower respiratory diseases,US
 2020-06-25,332.613698630137,Alzheimer’s disease,US
 2020-06-25,228.94246575342467,Diabetes,US
-2020-06-25,152.52602739726026,Influenza and pneumonia,US
-2020-06-25,438.9068493150685,Chronic lower respiratory diseases,US
-2020-06-24,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-06-25,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-06-25,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-06-25,129.24109589041095,Intentional self-harm (suicide),US
+2020-06-25,2467.0,COVID-19,US
+2020-06-24,767.0,COVID-19,US
 2020-06-24,332.613698630137,Alzheimer’s disease,US
 2020-06-24,228.94246575342467,Diabetes,US
 2020-06-24,152.52602739726026,Influenza and pneumonia,US
@@ -163,49 +174,49 @@ date,daily_deaths,cause_of_death,country
 2020-06-24,1641.3917808219178,Cancer,US
 2020-06-24,1773.854794520548,Heart disease,US
 2020-06-24,438.9068493150685,Chronic lower respiratory diseases,US
-2020-06-24,767.0,COVID-19,US
-2020-06-23,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-06-24,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-06-23,1641.3917808219178,Cancer,US
+2020-06-23,152.52602739726026,Influenza and pneumonia,US
+2020-06-23,1773.854794520548,Heart disease,US
 2020-06-23,465.5780821917808,Accidents (unintentional injuries),US
 2020-06-23,438.9068493150685,Chronic lower respiratory diseases,US
-2020-06-23,129.24109589041095,Intentional self-harm (suicide),US
+2020-06-23,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-06-23,332.613698630137,Alzheimer’s disease,US
 2020-06-23,228.94246575342467,Diabetes,US
-2020-06-23,152.52602739726026,Influenza and pneumonia,US
 2020-06-23,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-06-23,1773.854794520548,Heart disease,US
+2020-06-23,129.24109589041095,Intentional self-harm (suicide),US
 2020-06-23,834.0,COVID-19,US
+2020-06-22,228.94246575342467,Diabetes,US
 2020-06-22,465.5780821917808,Accidents (unintentional injuries),US
-2020-06-22,152.52602739726026,Influenza and pneumonia,US
-2020-06-22,1773.854794520548,Heart disease,US
 2020-06-22,1641.3917808219178,Cancer,US
+2020-06-22,1773.854794520548,Heart disease,US
 2020-06-22,438.9068493150685,Chronic lower respiratory diseases,US
 2020-06-22,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-06-22,332.613698630137,Alzheimer’s disease,US
-2020-06-22,228.94246575342467,Diabetes,US
 2020-06-22,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-06-22,152.52602739726026,Influenza and pneumonia,US
 2020-06-22,129.24109589041095,Intentional self-harm (suicide),US
 2020-06-22,365.0,COVID-19,US
-2020-06-21,228.94246575342467,Diabetes,US
-2020-06-21,465.5780821917808,Accidents (unintentional injuries),US
-2020-06-21,438.9068493150685,Chronic lower respiratory diseases,US
-2020-06-21,1641.3917808219178,Cancer,US
 2020-06-21,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-06-21,332.613698630137,Alzheimer’s disease,US
 2020-06-21,152.52602739726026,Influenza and pneumonia,US
+2020-06-21,438.9068493150685,Chronic lower respiratory diseases,US
+2020-06-21,465.5780821917808,Accidents (unintentional injuries),US
+2020-06-21,332.613698630137,Alzheimer’s disease,US
+2020-06-21,228.94246575342467,Diabetes,US
+2020-06-21,1641.3917808219178,Cancer,US
 2020-06-21,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-06-21,129.24109589041095,Intentional self-harm (suicide),US
 2020-06-21,257.0,COVID-19,US
 2020-06-21,1773.854794520548,Heart disease,US
 2020-06-20,129.24109589041095,Intentional self-harm (suicide),US
 2020-06-20,546.0,COVID-19,US
-2020-06-20,228.94246575342467,Diabetes,US
-2020-06-20,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-06-20,332.613698630137,Alzheimer’s disease,US
+2020-06-20,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-06-20,152.52602739726026,Influenza and pneumonia,US
+2020-06-20,228.94246575342467,Diabetes,US
 2020-06-20,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-06-20,438.9068493150685,Chronic lower respiratory diseases,US
 2020-06-20,465.5780821917808,Accidents (unintentional injuries),US
-2020-06-20,152.52602739726026,Influenza and pneumonia,US
 2020-06-20,1641.3917808219178,Cancer,US
 2020-06-20,1773.854794520548,Heart disease,US
 2020-06-19,332.613698630137,Alzheimer’s disease,US
@@ -216,30 +227,30 @@ date,daily_deaths,cause_of_death,country
 2020-06-19,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-06-19,1773.854794520548,Heart disease,US
 2020-06-19,228.94246575342467,Diabetes,US
-2020-06-19,152.52602739726026,Influenza and pneumonia,US
 2020-06-19,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-06-19,129.24109589041095,Intentional self-harm (suicide),US
+2020-06-19,152.52602739726026,Influenza and pneumonia,US
+2020-06-18,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-06-18,726.0,COVID-19,US
+2020-06-18,1773.854794520548,Heart disease,US
+2020-06-18,1641.3917808219178,Cancer,US
+2020-06-18,438.9068493150685,Chronic lower respiratory diseases,US
+2020-06-18,465.5780821917808,Accidents (unintentional injuries),US
+2020-06-18,332.613698630137,Alzheimer’s disease,US
+2020-06-18,228.94246575342467,Diabetes,US
 2020-06-18,152.52602739726026,Influenza and pneumonia,US
 2020-06-18,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-06-18,129.24109589041095,Intentional self-harm (suicide),US
-2020-06-18,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-06-18,726.0,COVID-19,US
-2020-06-18,332.613698630137,Alzheimer’s disease,US
-2020-06-18,1773.854794520548,Heart disease,US
-2020-06-18,1641.3917808219178,Cancer,US
-2020-06-18,465.5780821917808,Accidents (unintentional injuries),US
-2020-06-18,438.9068493150685,Chronic lower respiratory diseases,US
-2020-06-18,228.94246575342467,Diabetes,US
-2020-06-17,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-06-17,152.52602739726026,Influenza and pneumonia,US
-2020-06-17,129.24109589041095,Intentional self-harm (suicide),US
-2020-06-17,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-06-17,438.9068493150685,Chronic lower respiratory diseases,US
-2020-06-17,465.5780821917808,Accidents (unintentional injuries),US
 2020-06-17,1641.3917808219178,Cancer,US
 2020-06-17,1773.854794520548,Heart disease,US
 2020-06-17,332.613698630137,Alzheimer’s disease,US
+2020-06-17,465.5780821917808,Accidents (unintentional injuries),US
+2020-06-17,129.24109589041095,Intentional self-harm (suicide),US
+2020-06-17,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-06-17,438.9068493150685,Chronic lower respiratory diseases,US
 2020-06-17,228.94246575342467,Diabetes,US
+2020-06-17,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-06-17,152.52602739726026,Influenza and pneumonia,US
 2020-06-17,760.0,COVID-19,US
 2020-06-16,465.5780821917808,Accidents (unintentional injuries),US
 2020-06-16,228.94246575342467,Diabetes,US
@@ -450,16 +461,16 @@ date,daily_deaths,cause_of_death,country
 2020-05-29,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-05-29,129.24109589041095,Intentional self-harm (suicide),US
 2020-05-29,1191.0,COVID-19,US
-2020-05-28,438.9068493150685,Chronic lower respiratory diseases,US
 2020-05-28,332.613698630137,Alzheimer’s disease,US
+2020-05-28,465.5780821917808,Accidents (unintentional injuries),US
+2020-05-28,438.9068493150685,Chronic lower respiratory diseases,US
 2020-05-28,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-05-28,1641.3917808219178,Cancer,US
 2020-05-28,228.94246575342467,Diabetes,US
-2020-05-28,152.52602739726026,Influenza and pneumonia,US
 2020-05-28,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-05-28,129.24109589041095,Intentional self-harm (suicide),US
 2020-05-28,1773.854794520548,Heart disease,US
-2020-05-28,465.5780821917808,Accidents (unintentional injuries),US
+2020-05-28,152.52602739726026,Influenza and pneumonia,US
 2020-05-28,1200.0,COVID-19,US
 2020-05-27,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-05-27,1485.0,COVID-19,US
@@ -792,15 +803,15 @@ date,daily_deaths,cause_of_death,country
 2020-04-28,465.5780821917808,Accidents (unintentional injuries),US
 2020-04-28,438.9068493150685,Chronic lower respiratory diseases,US
 2020-04-27,152.52602739726026,Influenza and pneumonia,US
-2020-04-27,228.94246575342467,Diabetes,US
+2020-04-27,332.613698630137,Alzheimer’s disease,US
 2020-04-27,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-04-27,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-04-27,438.9068493150685,Chronic lower respiratory diseases,US
 2020-04-27,465.5780821917808,Accidents (unintentional injuries),US
 2020-04-27,1641.3917808219178,Cancer,US
-2020-04-27,129.24109589041095,Intentional self-harm (suicide),US
-2020-04-27,332.613698630137,Alzheimer’s disease,US
 2020-04-27,1773.854794520548,Heart disease,US
+2020-04-27,129.24109589041095,Intentional self-harm (suicide),US
+2020-04-27,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-04-27,228.94246575342467,Diabetes,US
 2020-04-27,1442.0,COVID-19,US
 2020-04-26,438.9068493150685,Chronic lower respiratory diseases,US
 2020-04-26,129.24109589041095,Intentional self-harm (suicide),US
@@ -837,169 +848,169 @@ date,daily_deaths,cause_of_death,country
 2020-04-24,2138.0,COVID-19,US
 2020-04-23,129.24109589041095,Intentional self-harm (suicide),US
 2020-04-23,152.52602739726026,Influenza and pneumonia,US
-2020-04-23,228.94246575342467,Diabetes,US
+2020-04-23,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-04-23,1773.854794520548,Heart disease,US
 2020-04-23,2205.0,COVID-19,US
 2020-04-23,332.613698630137,Alzheimer’s disease,US
 2020-04-23,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-04-23,438.9068493150685,Chronic lower respiratory diseases,US
+2020-04-23,228.94246575342467,Diabetes,US
 2020-04-23,465.5780821917808,Accidents (unintentional injuries),US
 2020-04-23,1641.3917808219178,Cancer,US
-2020-04-23,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-04-22,1773.854794520548,Heart disease,US
+2020-04-22,1641.3917808219178,Cancer,US
 2020-04-22,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-04-22,152.52602739726026,Influenza and pneumonia,US
 2020-04-22,228.94246575342467,Diabetes,US
 2020-04-22,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-04-22,438.9068493150685,Chronic lower respiratory diseases,US
 2020-04-22,465.5780821917808,Accidents (unintentional injuries),US
-2020-04-22,1641.3917808219178,Cancer,US
 2020-04-22,129.24109589041095,Intentional self-harm (suicide),US
 2020-04-22,332.613698630137,Alzheimer’s disease,US
 2020-04-22,2374.0,COVID-19,US
 2020-04-21,1641.3917808219178,Cancer,US
-2020-04-21,465.5780821917808,Accidents (unintentional injuries),US
-2020-04-21,152.52602739726026,Influenza and pneumonia,US
-2020-04-21,228.94246575342467,Diabetes,US
 2020-04-21,332.613698630137,Alzheimer’s disease,US
-2020-04-21,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-04-21,438.9068493150685,Chronic lower respiratory diseases,US
+2020-04-21,152.52602739726026,Influenza and pneumonia,US
 2020-04-21,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-04-21,129.24109589041095,Intentional self-harm (suicide),US
+2020-04-21,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-04-21,438.9068493150685,Chronic lower respiratory diseases,US
+2020-04-21,465.5780821917808,Accidents (unintentional injuries),US
 2020-04-21,1773.854794520548,Heart disease,US
+2020-04-21,228.94246575342467,Diabetes,US
 2020-04-21,2762.0,COVID-19,US
-2020-04-20,129.24109589041095,Intentional self-harm (suicide),US
 2020-04-20,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-04-20,152.52602739726026,Influenza and pneumonia,US
+2020-04-20,129.24109589041095,Intentional self-harm (suicide),US
 2020-04-20,228.94246575342467,Diabetes,US
 2020-04-20,332.613698630137,Alzheimer’s disease,US
+2020-04-20,438.9068493150685,Chronic lower respiratory diseases,US
 2020-04-20,465.5780821917808,Accidents (unintentional injuries),US
-2020-04-20,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-04-20,1641.3917808219178,Cancer,US
 2020-04-20,1773.854794520548,Heart disease,US
+2020-04-20,152.52602739726026,Influenza and pneumonia,US
+2020-04-20,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-04-20,1837.0,COVID-19,US
-2020-04-20,438.9068493150685,Chronic lower respiratory diseases,US
-2020-04-19,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-04-19,152.52602739726026,Influenza and pneumonia,US
-2020-04-19,228.94246575342467,Diabetes,US
-2020-04-19,332.613698630137,Alzheimer’s disease,US
-2020-04-19,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-04-19,438.9068493150685,Chronic lower respiratory diseases,US
-2020-04-19,465.5780821917808,Accidents (unintentional injuries),US
-2020-04-19,1641.3917808219178,Cancer,US
-2020-04-19,1773.854794520548,Heart disease,US
 2020-04-19,129.24109589041095,Intentional self-harm (suicide),US
+2020-04-19,1773.854794520548,Heart disease,US
+2020-04-19,1641.3917808219178,Cancer,US
+2020-04-19,465.5780821917808,Accidents (unintentional injuries),US
+2020-04-19,438.9068493150685,Chronic lower respiratory diseases,US
+2020-04-19,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-04-19,332.613698630137,Alzheimer’s disease,US
+2020-04-19,228.94246575342467,Diabetes,US
+2020-04-19,152.52602739726026,Influenza and pneumonia,US
 2020-04-19,2694.0,COVID-19,US
+2020-04-19,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-04-18,152.52602739726026,Influenza and pneumonia,US
 2020-04-18,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-04-18,465.5780821917808,Accidents (unintentional injuries),US
-2020-04-18,332.613698630137,Alzheimer’s disease,US
 2020-04-18,129.24109589041095,Intentional self-harm (suicide),US
-2020-04-18,1952.0,COVID-19,US
 2020-04-18,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-04-18,438.9068493150685,Chronic lower respiratory diseases,US
-2020-04-18,1641.3917808219178,Cancer,US
-2020-04-18,228.94246575342467,Diabetes,US
+2020-04-18,1952.0,COVID-19,US
 2020-04-18,1773.854794520548,Heart disease,US
-2020-04-18,152.52602739726026,Influenza and pneumonia,US
-2020-04-17,129.24109589041095,Intentional self-harm (suicide),US
-2020-04-17,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-04-17,152.52602739726026,Influenza and pneumonia,US
-2020-04-17,228.94246575342467,Diabetes,US
-2020-04-17,332.613698630137,Alzheimer’s disease,US
-2020-04-17,438.9068493150685,Chronic lower respiratory diseases,US
-2020-04-17,465.5780821917808,Accidents (unintentional injuries),US
-2020-04-17,2289.0,COVID-19,US
-2020-04-17,1773.854794520548,Heart disease,US
-2020-04-17,1641.3917808219178,Cancer,US
+2020-04-18,1641.3917808219178,Cancer,US
+2020-04-18,332.613698630137,Alzheimer’s disease,US
+2020-04-18,465.5780821917808,Accidents (unintentional injuries),US
+2020-04-18,228.94246575342467,Diabetes,US
 2020-04-17,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-04-16,438.9068493150685,Chronic lower respiratory diseases,US
+2020-04-17,332.613698630137,Alzheimer’s disease,US
+2020-04-17,228.94246575342467,Diabetes,US
+2020-04-17,152.52602739726026,Influenza and pneumonia,US
+2020-04-17,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-04-17,129.24109589041095,Intentional self-harm (suicide),US
+2020-04-17,465.5780821917808,Accidents (unintentional injuries),US
+2020-04-17,1641.3917808219178,Cancer,US
+2020-04-17,1773.854794520548,Heart disease,US
+2020-04-17,2289.0,COVID-19,US
+2020-04-17,438.9068493150685,Chronic lower respiratory diseases,US
+2020-04-16,1641.3917808219178,Cancer,US
+2020-04-16,1773.854794520548,Heart disease,US
 2020-04-16,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-04-16,332.613698630137,Alzheimer’s disease,US
 2020-04-16,228.94246575342467,Diabetes,US
 2020-04-16,152.52602739726026,Influenza and pneumonia,US
 2020-04-16,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-04-16,129.24109589041095,Intentional self-harm (suicide),US
-2020-04-16,1641.3917808219178,Cancer,US
-2020-04-16,1773.854794520548,Heart disease,US
-2020-04-16,2350.0,COVID-19,US
 2020-04-16,465.5780821917808,Accidents (unintentional injuries),US
-2020-04-15,1641.3917808219178,Cancer,US
+2020-04-16,2350.0,COVID-19,US
+2020-04-16,438.9068493150685,Chronic lower respiratory diseases,US
+2020-04-15,129.24109589041095,Intentional self-harm (suicide),US
+2020-04-15,228.94246575342467,Diabetes,US
+2020-04-15,2753.0,COVID-19,US
 2020-04-15,1773.854794520548,Heart disease,US
+2020-04-15,1641.3917808219178,Cancer,US
+2020-04-15,465.5780821917808,Accidents (unintentional injuries),US
+2020-04-15,438.9068493150685,Chronic lower respiratory diseases,US
 2020-04-15,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-04-15,332.613698630137,Alzheimer’s disease,US
-2020-04-15,228.94246575342467,Diabetes,US
-2020-04-15,152.52602739726026,Influenza and pneumonia,US
 2020-04-15,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-04-15,129.24109589041095,Intentional self-harm (suicide),US
-2020-04-15,465.5780821917808,Accidents (unintentional injuries),US
-2020-04-15,2753.0,COVID-19,US
-2020-04-15,438.9068493150685,Chronic lower respiratory diseases,US
-2020-04-14,152.52602739726026,Influenza and pneumonia,US
+2020-04-15,152.52602739726026,Influenza and pneumonia,US
 2020-04-14,1773.854794520548,Heart disease,US
-2020-04-14,1641.3917808219178,Cancer,US
-2020-04-14,465.5780821917808,Accidents (unintentional injuries),US
-2020-04-14,438.9068493150685,Chronic lower respiratory diseases,US
-2020-04-14,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-04-14,332.613698630137,Alzheimer’s disease,US
-2020-04-14,228.94246575342467,Diabetes,US
 2020-04-14,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-04-14,228.94246575342467,Diabetes,US
+2020-04-14,332.613698630137,Alzheimer’s disease,US
+2020-04-14,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-04-14,465.5780821917808,Accidents (unintentional injuries),US
+2020-04-14,1641.3917808219178,Cancer,US
+2020-04-14,152.52602739726026,Influenza and pneumonia,US
+2020-04-14,438.9068493150685,Chronic lower respiratory diseases,US
 2020-04-14,129.24109589041095,Intentional self-harm (suicide),US
 2020-04-14,2705.0,COVID-19,US
-2020-04-13,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-04-13,228.94246575342467,Diabetes,US
 2020-04-13,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-04-13,438.9068493150685,Chronic lower respiratory diseases,US
-2020-04-13,465.5780821917808,Accidents (unintentional injuries),US
-2020-04-13,1641.3917808219178,Cancer,US
 2020-04-13,152.52602739726026,Influenza and pneumonia,US
 2020-04-13,1773.854794520548,Heart disease,US
-2020-04-13,129.24109589041095,Intentional self-harm (suicide),US
-2020-04-13,1767.0,COVID-19,US
+2020-04-13,1641.3917808219178,Cancer,US
+2020-04-13,465.5780821917808,Accidents (unintentional injuries),US
+2020-04-13,438.9068493150685,Chronic lower respiratory diseases,US
 2020-04-13,332.613698630137,Alzheimer’s disease,US
-2020-04-12,129.24109589041095,Intentional self-harm (suicide),US
+2020-04-13,228.94246575342467,Diabetes,US
+2020-04-13,129.24109589041095,Intentional self-harm (suicide),US
+2020-04-13,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-04-13,1767.0,COVID-19,US
 2020-04-12,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-04-12,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-04-12,1773.854794520548,Heart disease,US
+2020-04-12,1641.3917808219178,Cancer,US
 2020-04-12,465.5780821917808,Accidents (unintentional injuries),US
 2020-04-12,438.9068493150685,Chronic lower respiratory diseases,US
-2020-04-12,1773.854794520548,Heart disease,US
+2020-04-12,152.52602739726026,Influenza and pneumonia,US
 2020-04-12,332.613698630137,Alzheimer’s disease,US
 2020-04-12,228.94246575342467,Diabetes,US
-2020-04-12,152.52602739726026,Influenza and pneumonia,US
+2020-04-12,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-04-12,129.24109589041095,Intentional self-harm (suicide),US
 2020-04-12,1684.0,COVID-19,US
-2020-04-12,1641.3917808219178,Cancer,US
-2020-04-11,1773.854794520548,Heart disease,US
-2020-04-11,2085.0,COVID-19,US
 2020-04-11,129.24109589041095,Intentional self-harm (suicide),US
 2020-04-11,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-04-11,152.52602739726026,Influenza and pneumonia,US
 2020-04-11,228.94246575342467,Diabetes,US
-2020-04-11,332.613698630137,Alzheimer’s disease,US
 2020-04-11,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-04-11,438.9068493150685,Chronic lower respiratory diseases,US
+2020-04-11,332.613698630137,Alzheimer’s disease,US
 2020-04-11,465.5780821917808,Accidents (unintentional injuries),US
+2020-04-11,438.9068493150685,Chronic lower respiratory diseases,US
+2020-04-11,1773.854794520548,Heart disease,US
+2020-04-11,2085.0,COVID-19,US
 2020-04-11,1641.3917808219178,Cancer,US
-2020-04-10,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-04-10,129.24109589041095,Intentional self-harm (suicide),US
-2020-04-10,228.94246575342467,Diabetes,US
-2020-04-10,332.613698630137,Alzheimer’s disease,US
-2020-04-10,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-04-10,438.9068493150685,Chronic lower respiratory diseases,US
+2020-04-10,2270.0,COVID-19,US
+2020-04-10,1773.854794520548,Heart disease,US
 2020-04-10,465.5780821917808,Accidents (unintentional injuries),US
 2020-04-10,1641.3917808219178,Cancer,US
-2020-04-10,1773.854794520548,Heart disease,US
-2020-04-10,2270.0,COVID-19,US
+2020-04-10,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-04-10,228.94246575342467,Diabetes,US
+2020-04-10,129.24109589041095,Intentional self-harm (suicide),US
 2020-04-10,152.52602739726026,Influenza and pneumonia,US
+2020-04-10,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-04-10,332.613698630137,Alzheimer’s disease,US
 2020-04-09,465.5780821917808,Accidents (unintentional injuries),US
 2020-04-09,2127.0,COVID-19,US
 2020-04-09,1773.854794520548,Heart disease,US
 2020-04-09,1641.3917808219178,Cancer,US
-2020-04-09,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-04-09,438.9068493150685,Chronic lower respiratory diseases,US
 2020-04-09,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-04-09,438.9068493150685,Chronic lower respiratory diseases,US
 2020-04-09,332.613698630137,Alzheimer’s disease,US
 2020-04-09,228.94246575342467,Diabetes,US
-2020-04-09,129.24109589041095,Intentional self-harm (suicide),US
 2020-04-09,152.52602739726026,Influenza and pneumonia,US
+2020-04-09,129.24109589041095,Intentional self-harm (suicide),US
+2020-04-09,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-04-08,2085.0,COVID-19,US
 2020-04-08,129.24109589041095,Intentional self-harm (suicide),US
 2020-04-08,152.52602739726026,Influenza and pneumonia,US
@@ -1022,17 +1033,17 @@ date,daily_deaths,cause_of_death,country
 2020-04-07,152.52602739726026,Influenza and pneumonia,US
 2020-04-07,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-04-07,2255.0,COVID-19,US
-2020-04-06,332.613698630137,Alzheimer’s disease,US
 2020-04-06,129.24109589041095,Intentional self-harm (suicide),US
+2020-04-06,2204.0,COVID-19,US
 2020-04-06,152.52602739726026,Influenza and pneumonia,US
 2020-04-06,228.94246575342467,Diabetes,US
-2020-04-06,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-04-06,332.613698630137,Alzheimer’s disease,US
 2020-04-06,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-04-06,438.9068493150685,Chronic lower respiratory diseases,US
 2020-04-06,465.5780821917808,Accidents (unintentional injuries),US
 2020-04-06,1641.3917808219178,Cancer,US
 2020-04-06,1773.854794520548,Heart disease,US
-2020-04-06,2204.0,COVID-19,US
+2020-04-06,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-04-05,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-04-05,1773.854794520548,Heart disease,US
 2020-04-05,1641.3917808219178,Cancer,US
@@ -1040,207 +1051,207 @@ date,daily_deaths,cause_of_death,country
 2020-04-05,438.9068493150685,Chronic lower respiratory diseases,US
 2020-04-05,1368.0,COVID-19,US
 2020-04-05,332.613698630137,Alzheimer’s disease,US
+2020-04-05,152.52602739726026,Influenza and pneumonia,US
 2020-04-05,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-04-05,228.94246575342467,Diabetes,US
 2020-04-05,129.24109589041095,Intentional self-harm (suicide),US
-2020-04-05,152.52602739726026,Influenza and pneumonia,US
-2020-04-04,129.24109589041095,Intentional self-harm (suicide),US
 2020-04-04,465.5780821917808,Accidents (unintentional injuries),US
-2020-04-04,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-04-04,1556.0,COVID-19,US
 2020-04-04,1773.854794520548,Heart disease,US
 2020-04-04,1641.3917808219178,Cancer,US
-2020-04-04,1556.0,COVID-19,US
 2020-04-04,438.9068493150685,Chronic lower respiratory diseases,US
-2020-04-04,332.613698630137,Alzheimer’s disease,US
 2020-04-04,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-04-04,332.613698630137,Alzheimer’s disease,US
 2020-04-04,228.94246575342467,Diabetes,US
 2020-04-04,152.52602739726026,Influenza and pneumonia,US
+2020-04-04,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-04-04,129.24109589041095,Intentional self-harm (suicide),US
 2020-04-03,465.5780821917808,Accidents (unintentional injuries),US
 2020-04-03,1398.0,COVID-19,US
 2020-04-03,1773.854794520548,Heart disease,US
 2020-04-03,1641.3917808219178,Cancer,US
+2020-04-03,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-04-03,438.9068493150685,Chronic lower respiratory diseases,US
 2020-04-03,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-04-03,332.613698630137,Alzheimer’s disease,US
 2020-04-03,228.94246575342467,Diabetes,US
 2020-04-03,152.52602739726026,Influenza and pneumonia,US
-2020-04-03,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-04-03,129.24109589041095,Intentional self-harm (suicide),US
 2020-04-02,465.5780821917808,Accidents (unintentional injuries),US
 2020-04-02,1219.0,COVID-19,US
-2020-04-02,1641.3917808219178,Cancer,US
 2020-04-02,1773.854794520548,Heart disease,US
+2020-04-02,1641.3917808219178,Cancer,US
+2020-04-02,152.52602739726026,Influenza and pneumonia,US
 2020-04-02,438.9068493150685,Chronic lower respiratory diseases,US
 2020-04-02,129.24109589041095,Intentional self-harm (suicide),US
 2020-04-02,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-04-02,332.613698630137,Alzheimer’s disease,US
-2020-04-02,152.52602739726026,Influenza and pneumonia,US
 2020-04-02,228.94246575342467,Diabetes,US
+2020-04-02,332.613698630137,Alzheimer’s disease,US
 2020-04-02,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-04-01,1641.3917808219178,Cancer,US
+2020-04-01,465.5780821917808,Accidents (unintentional injuries),US
 2020-04-01,1037.0,COVID-19,US
 2020-04-01,1773.854794520548,Heart disease,US
-2020-04-01,152.52602739726026,Influenza and pneumonia,US
-2020-04-01,465.5780821917808,Accidents (unintentional injuries),US
+2020-04-01,1641.3917808219178,Cancer,US
 2020-04-01,438.9068493150685,Chronic lower respiratory diseases,US
-2020-04-01,129.24109589041095,Intentional self-harm (suicide),US
 2020-04-01,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-04-01,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-04-01,228.94246575342467,Diabetes,US
 2020-04-01,332.613698630137,Alzheimer’s disease,US
+2020-04-01,228.94246575342467,Diabetes,US
+2020-04-01,152.52602739726026,Influenza and pneumonia,US
+2020-04-01,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-04-01,129.24109589041095,Intentional self-harm (suicide),US
 2020-03-31,935.0,COVID-19,US
-2020-03-31,1773.854794520548,Heart disease,US
 2020-03-31,1641.3917808219178,Cancer,US
-2020-03-31,465.5780821917808,Accidents (unintentional injuries),US
+2020-03-31,1773.854794520548,Heart disease,US
 2020-03-31,438.9068493150685,Chronic lower respiratory diseases,US
-2020-03-31,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-03-31,332.613698630137,Alzheimer’s disease,US
-2020-03-31,228.94246575342467,Diabetes,US
-2020-03-31,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-03-31,465.5780821917808,Accidents (unintentional injuries),US
 2020-03-31,129.24109589041095,Intentional self-harm (suicide),US
+2020-03-31,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-03-31,152.52602739726026,Influenza and pneumonia,US
-2020-03-30,647.0,COVID-19,US
-2020-03-30,1641.3917808219178,Cancer,US
+2020-03-31,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-03-31,228.94246575342467,Diabetes,US
+2020-03-31,332.613698630137,Alzheimer’s disease,US
 2020-03-30,1773.854794520548,Heart disease,US
-2020-03-30,465.5780821917808,Accidents (unintentional injuries),US
-2020-03-30,438.9068493150685,Chronic lower respiratory diseases,US
+2020-03-30,647.0,COVID-19,US
 2020-03-30,129.24109589041095,Intentional self-harm (suicide),US
+2020-03-30,332.613698630137,Alzheimer’s disease,US
+2020-03-30,1641.3917808219178,Cancer,US
 2020-03-30,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-03-30,152.52602739726026,Influenza and pneumonia,US
 2020-03-30,228.94246575342467,Diabetes,US
-2020-03-30,332.613698630137,Alzheimer’s disease,US
 2020-03-30,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-03-29,129.24109589041095,Intentional self-harm (suicide),US
+2020-03-30,438.9068493150685,Chronic lower respiratory diseases,US
+2020-03-30,465.5780821917808,Accidents (unintentional injuries),US
 2020-03-29,415.0,COVID-19,US
 2020-03-29,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-03-29,1773.854794520548,Heart disease,US
+2020-03-29,129.24109589041095,Intentional self-harm (suicide),US
 2020-03-29,1641.3917808219178,Cancer,US
-2020-03-29,228.94246575342467,Diabetes,US
-2020-03-29,332.613698630137,Alzheimer’s disease,US
-2020-03-29,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-03-29,438.9068493150685,Chronic lower respiratory diseases,US
 2020-03-29,465.5780821917808,Accidents (unintentional injuries),US
+2020-03-29,438.9068493150685,Chronic lower respiratory diseases,US
+2020-03-29,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-03-29,332.613698630137,Alzheimer’s disease,US
+2020-03-29,228.94246575342467,Diabetes,US
 2020-03-29,152.52602739726026,Influenza and pneumonia,US
-2020-03-28,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-03-28,528.0,COVID-19,US
-2020-03-28,129.24109589041095,Intentional self-harm (suicide),US
+2020-03-29,1773.854794520548,Heart disease,US
+2020-03-28,1773.854794520548,Heart disease,US
+2020-03-28,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-03-28,1641.3917808219178,Cancer,US
 2020-03-28,465.5780821917808,Accidents (unintentional injuries),US
 2020-03-28,438.9068493150685,Chronic lower respiratory diseases,US
-2020-03-28,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-03-28,332.613698630137,Alzheimer’s disease,US
 2020-03-28,228.94246575342467,Diabetes,US
 2020-03-28,152.52602739726026,Influenza and pneumonia,US
-2020-03-28,1773.854794520548,Heart disease,US
-2020-03-27,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-03-27,1773.854794520548,Heart disease,US
-2020-03-27,1641.3917808219178,Cancer,US
-2020-03-27,465.5780821917808,Accidents (unintentional injuries),US
-2020-03-27,438.9068493150685,Chronic lower respiratory diseases,US
-2020-03-27,332.613698630137,Alzheimer’s disease,US
-2020-03-27,228.94246575342467,Diabetes,US
-2020-03-27,152.52602739726026,Influenza and pneumonia,US
-2020-03-27,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-03-27,129.24109589041095,Intentional self-harm (suicide),US
+2020-03-28,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-03-28,129.24109589041095,Intentional self-harm (suicide),US
+2020-03-28,528.0,COVID-19,US
 2020-03-27,417.0,COVID-19,US
-2020-03-26,301.0,COVID-19,US
-2020-03-26,438.9068493150685,Chronic lower respiratory diseases,US
-2020-03-26,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-03-27,438.9068493150685,Chronic lower respiratory diseases,US
+2020-03-27,129.24109589041095,Intentional self-harm (suicide),US
+2020-03-27,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-03-27,152.52602739726026,Influenza and pneumonia,US
+2020-03-27,228.94246575342467,Diabetes,US
+2020-03-27,332.613698630137,Alzheimer’s disease,US
+2020-03-27,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-03-27,465.5780821917808,Accidents (unintentional injuries),US
+2020-03-27,1641.3917808219178,Cancer,US
+2020-03-27,1773.854794520548,Heart disease,US
 2020-03-26,129.24109589041095,Intentional self-harm (suicide),US
+2020-03-26,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-03-26,152.52602739726026,Influenza and pneumonia,US
-2020-03-26,228.94246575342467,Diabetes,US
-2020-03-26,332.613698630137,Alzheimer’s disease,US
-2020-03-26,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-03-26,465.5780821917808,Accidents (unintentional injuries),US
-2020-03-26,1641.3917808219178,Cancer,US
 2020-03-26,1773.854794520548,Heart disease,US
-2020-03-25,129.24109589041095,Intentional self-harm (suicide),US
-2020-03-25,152.52602739726026,Influenza and pneumonia,US
-2020-03-25,228.94246575342467,Diabetes,US
+2020-03-26,1641.3917808219178,Cancer,US
+2020-03-26,465.5780821917808,Accidents (unintentional injuries),US
+2020-03-26,438.9068493150685,Chronic lower respiratory diseases,US
+2020-03-26,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-03-26,332.613698630137,Alzheimer’s disease,US
+2020-03-26,228.94246575342467,Diabetes,US
+2020-03-26,301.0,COVID-19,US
 2020-03-25,270.0,COVID-19,US
+2020-03-25,438.9068493150685,Chronic lower respiratory diseases,US
 2020-03-25,1773.854794520548,Heart disease,US
 2020-03-25,1641.3917808219178,Cancer,US
 2020-03-25,465.5780821917808,Accidents (unintentional injuries),US
-2020-03-25,438.9068493150685,Chronic lower respiratory diseases,US
 2020-03-25,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-03-25,332.613698630137,Alzheimer’s disease,US
+2020-03-25,228.94246575342467,Diabetes,US
+2020-03-25,152.52602739726026,Influenza and pneumonia,US
 2020-03-25,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-03-25,129.24109589041095,Intentional self-harm (suicide),US
+2020-03-24,228.94246575342467,Diabetes,US
+2020-03-24,152.52602739726026,Influenza and pneumonia,US
+2020-03-24,129.24109589041095,Intentional self-harm (suicide),US
 2020-03-24,206.0,COVID-19,US
 2020-03-24,332.613698630137,Alzheimer’s disease,US
+2020-03-24,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-03-24,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-03-24,1773.854794520548,Heart disease,US
 2020-03-24,1641.3917808219178,Cancer,US
 2020-03-24,465.5780821917808,Accidents (unintentional injuries),US
 2020-03-24,438.9068493150685,Chronic lower respiratory diseases,US
-2020-03-24,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-03-24,228.94246575342467,Diabetes,US
-2020-03-24,152.52602739726026,Influenza and pneumonia,US
-2020-03-24,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-03-24,129.24109589041095,Intentional self-harm (suicide),US
+2020-03-23,1641.3917808219178,Cancer,US
+2020-03-23,121.0,COVID-19,US
+2020-03-23,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-03-23,332.613698630137,Alzheimer’s disease,US
 2020-03-23,228.94246575342467,Diabetes,US
-2020-03-23,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-03-23,129.24109589041095,Intentional self-harm (suicide),US
-2020-03-23,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-03-23,121.0,COVID-19,US
 2020-03-23,152.52602739726026,Influenza and pneumonia,US
 2020-03-23,1773.854794520548,Heart disease,US
-2020-03-23,438.9068493150685,Chronic lower respiratory diseases,US
+2020-03-23,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-03-23,129.24109589041095,Intentional self-harm (suicide),US
 2020-03-23,465.5780821917808,Accidents (unintentional injuries),US
-2020-03-23,1641.3917808219178,Cancer,US
-2020-03-22,1773.854794520548,Heart disease,US
-2020-03-22,98.0,COVID-19,US
+2020-03-23,438.9068493150685,Chronic lower respiratory diseases,US
 2020-03-22,1641.3917808219178,Cancer,US
 2020-03-22,465.5780821917808,Accidents (unintentional injuries),US
-2020-03-22,438.9068493150685,Chronic lower respiratory diseases,US
-2020-03-22,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-03-22,332.613698630137,Alzheimer’s disease,US
-2020-03-22,228.94246575342467,Diabetes,US
-2020-03-22,152.52602739726026,Influenza and pneumonia,US
+2020-03-22,98.0,COVID-19,US
 2020-03-22,129.24109589041095,Intentional self-harm (suicide),US
 2020-03-22,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-03-21,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-03-22,152.52602739726026,Influenza and pneumonia,US
+2020-03-22,228.94246575342467,Diabetes,US
+2020-03-22,332.613698630137,Alzheimer’s disease,US
+2020-03-22,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-03-22,1773.854794520548,Heart disease,US
+2020-03-22,438.9068493150685,Chronic lower respiratory diseases,US
+2020-03-21,83.0,COVID-19,US
+2020-03-21,332.613698630137,Alzheimer’s disease,US
+2020-03-21,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-03-21,129.24109589041095,Intentional self-harm (suicide),US
+2020-03-21,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-03-21,152.52602739726026,Influenza and pneumonia,US
+2020-03-21,228.94246575342467,Diabetes,US
 2020-03-21,1773.854794520548,Heart disease,US
 2020-03-21,1641.3917808219178,Cancer,US
-2020-03-21,465.5780821917808,Accidents (unintentional injuries),US
 2020-03-21,438.9068493150685,Chronic lower respiratory diseases,US
-2020-03-21,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-03-21,332.613698630137,Alzheimer’s disease,US
-2020-03-21,228.94246575342467,Diabetes,US
-2020-03-21,152.52602739726026,Influenza and pneumonia,US
-2020-03-21,83.0,COVID-19,US
+2020-03-21,465.5780821917808,Accidents (unintentional injuries),US
 2020-03-20,65.0,COVID-19,US
-2020-03-20,438.9068493150685,Chronic lower respiratory diseases,US
-2020-03-20,1773.854794520548,Heart disease,US
-2020-03-20,129.24109589041095,Intentional self-harm (suicide),US
+2020-03-20,1641.3917808219178,Cancer,US
 2020-03-20,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-03-20,129.24109589041095,Intentional self-harm (suicide),US
 2020-03-20,152.52602739726026,Influenza and pneumonia,US
 2020-03-20,228.94246575342467,Diabetes,US
 2020-03-20,332.613698630137,Alzheimer’s disease,US
 2020-03-20,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-03-20,438.9068493150685,Chronic lower respiratory diseases,US
 2020-03-20,465.5780821917808,Accidents (unintentional injuries),US
-2020-03-20,1641.3917808219178,Cancer,US
-2020-03-19,1641.3917808219178,Cancer,US
+2020-03-20,1773.854794520548,Heart disease,US
 2020-03-19,129.24109589041095,Intentional self-harm (suicide),US
+2020-03-19,1641.3917808219178,Cancer,US
 2020-03-19,1773.854794520548,Heart disease,US
-2020-03-19,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-03-19,152.52602739726026,Influenza and pneumonia,US
 2020-03-19,228.94246575342467,Diabetes,US
+2020-03-19,332.613698630137,Alzheimer’s disease,US
 2020-03-19,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-03-19,438.9068493150685,Chronic lower respiratory diseases,US
 2020-03-19,465.5780821917808,Accidents (unintentional injuries),US
 2020-03-19,50.0,COVID-19,US
-2020-03-19,332.613698630137,Alzheimer’s disease,US
+2020-03-19,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-03-18,45.0,COVID-19,US
-2020-03-18,1641.3917808219178,Cancer,US
-2020-03-18,438.9068493150685,Chronic lower respiratory diseases,US
+2020-03-18,228.94246575342467,Diabetes,US
+2020-03-18,465.5780821917808,Accidents (unintentional injuries),US
 2020-03-18,129.24109589041095,Intentional self-harm (suicide),US
 2020-03-18,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-03-18,152.52602739726026,Influenza and pneumonia,US
-2020-03-18,228.94246575342467,Diabetes,US
 2020-03-18,332.613698630137,Alzheimer’s disease,US
 2020-03-18,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-03-18,465.5780821917808,Accidents (unintentional injuries),US
+2020-03-18,438.9068493150685,Chronic lower respiratory diseases,US
+2020-03-18,1641.3917808219178,Cancer,US
 2020-03-18,1773.854794520548,Heart disease,US
 2020-03-17,152.52602739726026,Influenza and pneumonia,US
 2020-03-17,438.9068493150685,Chronic lower respiratory diseases,US
@@ -1256,6 +1267,7 @@ date,daily_deaths,cause_of_death,country
 2020-03-16,23.0,COVID-19,US
 2020-03-16,129.24109589041095,Intentional self-harm (suicide),US
 2020-03-16,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-03-16,1773.854794520548,Heart disease,US
 2020-03-16,152.52602739726026,Influenza and pneumonia,US
 2020-03-16,228.94246575342467,Diabetes,US
 2020-03-16,332.613698630137,Alzheimer’s disease,US
@@ -1263,10 +1275,10 @@ date,daily_deaths,cause_of_death,country
 2020-03-16,438.9068493150685,Chronic lower respiratory diseases,US
 2020-03-16,465.5780821917808,Accidents (unintentional injuries),US
 2020-03-16,1641.3917808219178,Cancer,US
-2020-03-16,1773.854794520548,Heart disease,US
+2020-03-15,8.0,COVID-19,US
 2020-03-15,129.24109589041095,Intentional self-harm (suicide),US
-2020-03-15,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-03-15,1773.854794520548,Heart disease,US
+2020-03-15,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-03-15,152.52602739726026,Influenza and pneumonia,US
 2020-03-15,228.94246575342467,Diabetes,US
 2020-03-15,332.613698630137,Alzheimer’s disease,US
@@ -1274,11 +1286,8 @@ date,daily_deaths,cause_of_death,country
 2020-03-15,438.9068493150685,Chronic lower respiratory diseases,US
 2020-03-15,465.5780821917808,Accidents (unintentional injuries),US
 2020-03-15,1641.3917808219178,Cancer,US
-2020-03-15,8.0,COVID-19,US
 2020-03-14,10.0,COVID-19,US
-2020-03-14,1773.854794520548,Heart disease,US
 2020-03-14,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-03-14,129.24109589041095,Intentional self-harm (suicide),US
 2020-03-14,152.52602739726026,Influenza and pneumonia,US
 2020-03-14,228.94246575342467,Diabetes,US
 2020-03-14,332.613698630137,Alzheimer’s disease,US
@@ -1286,6 +1295,8 @@ date,daily_deaths,cause_of_death,country
 2020-03-14,438.9068493150685,Chronic lower respiratory diseases,US
 2020-03-14,465.5780821917808,Accidents (unintentional injuries),US
 2020-03-14,1641.3917808219178,Cancer,US
+2020-03-14,1773.854794520548,Heart disease,US
+2020-03-14,129.24109589041095,Intentional self-harm (suicide),US
 2020-03-13,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-03-13,7.0,COVID-19,US
 2020-03-13,1773.854794520548,Heart disease,US
@@ -1297,97 +1308,94 @@ date,daily_deaths,cause_of_death,country
 2020-03-13,152.52602739726026,Influenza and pneumonia,US
 2020-03-13,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-03-13,129.24109589041095,Intentional self-harm (suicide),US
-2020-03-12,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-03-12,129.24109589041095,Intentional self-harm (suicide),US
 2020-03-12,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-03-12,152.52602739726026,Influenza and pneumonia,US
 2020-03-12,228.94246575342467,Diabetes,US
+2020-03-12,152.52602739726026,Influenza and pneumonia,US
+2020-03-12,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-03-12,6.0,COVID-19,US
 2020-03-12,332.613698630137,Alzheimer’s disease,US
+2020-03-12,1773.854794520548,Heart disease,US
 2020-03-12,438.9068493150685,Chronic lower respiratory diseases,US
 2020-03-12,465.5780821917808,Accidents (unintentional injuries),US
 2020-03-12,1641.3917808219178,Cancer,US
-2020-03-12,1773.854794520548,Heart disease,US
-2020-03-11,465.5780821917808,Accidents (unintentional injuries),US
 2020-03-11,129.24109589041095,Intentional self-harm (suicide),US
-2020-03-11,6.0,COVID-19,US
 2020-03-11,1641.3917808219178,Cancer,US
-2020-03-11,1773.854794520548,Heart disease,US
-2020-03-11,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-03-11,228.94246575342467,Diabetes,US
-2020-03-11,332.613698630137,Alzheimer’s disease,US
-2020-03-11,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-03-11,465.5780821917808,Accidents (unintentional injuries),US
 2020-03-11,438.9068493150685,Chronic lower respiratory diseases,US
+2020-03-11,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-03-11,228.94246575342467,Diabetes,US
 2020-03-11,152.52602739726026,Influenza and pneumonia,US
+2020-03-11,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-03-11,332.613698630137,Alzheimer’s disease,US
+2020-03-11,6.0,COVID-19,US
+2020-03-11,1773.854794520548,Heart disease,US
+2020-03-10,129.24109589041095,Intentional self-harm (suicide),US
+2020-03-10,228.94246575342467,Diabetes,US
+2020-03-10,332.613698630137,Alzheimer’s disease,US
+2020-03-10,152.52602739726026,Influenza and pneumonia,US
+2020-03-10,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-03-10,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-03-10,438.9068493150685,Chronic lower respiratory diseases,US
 2020-03-10,5.0,COVID-19,US
 2020-03-10,1773.854794520548,Heart disease,US
 2020-03-10,1641.3917808219178,Cancer,US
 2020-03-10,465.5780821917808,Accidents (unintentional injuries),US
-2020-03-10,332.613698630137,Alzheimer’s disease,US
-2020-03-10,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-03-10,228.94246575342467,Diabetes,US
-2020-03-10,152.52602739726026,Influenza and pneumonia,US
-2020-03-10,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-03-10,129.24109589041095,Intentional self-harm (suicide),US
-2020-03-09,152.52602739726026,Influenza and pneumonia,US
 2020-03-09,129.24109589041095,Intentional self-harm (suicide),US
-2020-03-09,4.0,COVID-19,US
-2020-03-09,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-03-09,228.94246575342467,Diabetes,US
-2020-03-09,332.613698630137,Alzheimer’s disease,US
-2020-03-09,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-03-09,438.9068493150685,Chronic lower respiratory diseases,US
-2020-03-09,465.5780821917808,Accidents (unintentional injuries),US
-2020-03-09,1641.3917808219178,Cancer,US
 2020-03-09,1773.854794520548,Heart disease,US
-2020-03-08,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-03-08,332.613698630137,Alzheimer’s disease,US
-2020-03-08,1773.854794520548,Heart disease,US
-2020-03-08,1641.3917808219178,Cancer,US
+2020-03-09,1641.3917808219178,Cancer,US
+2020-03-09,465.5780821917808,Accidents (unintentional injuries),US
+2020-03-09,152.52602739726026,Influenza and pneumonia,US
+2020-03-09,438.9068493150685,Chronic lower respiratory diseases,US
+2020-03-09,4.0,COVID-19,US
+2020-03-09,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-03-09,332.613698630137,Alzheimer’s disease,US
+2020-03-09,228.94246575342467,Diabetes,US
+2020-03-09,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-03-08,465.5780821917808,Accidents (unintentional injuries),US
-2020-03-08,438.9068493150685,Chronic lower respiratory diseases,US
+2020-03-08,3.0,COVID-19,US
+2020-03-08,1773.854794520548,Heart disease,US
+2020-03-08,129.24109589041095,Intentional self-harm (suicide),US
+2020-03-08,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-03-08,152.52602739726026,Influenza and pneumonia,US
 2020-03-08,228.94246575342467,Diabetes,US
-2020-03-08,3.0,COVID-19,US
-2020-03-08,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-03-08,129.24109589041095,Intentional self-harm (suicide),US
-2020-03-07,438.9068493150685,Chronic lower respiratory diseases,US
-2020-03-07,228.94246575342467,Diabetes,US
-2020-03-07,1641.3917808219178,Cancer,US
-2020-03-07,1773.854794520548,Heart disease,US
-2020-03-07,465.5780821917808,Accidents (unintentional injuries),US
-2020-03-07,4.0,COVID-19,US
-2020-03-07,152.52602739726026,Influenza and pneumonia,US
-2020-03-07,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-03-08,332.613698630137,Alzheimer’s disease,US
+2020-03-08,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-03-08,438.9068493150685,Chronic lower respiratory diseases,US
+2020-03-08,1641.3917808219178,Cancer,US
 2020-03-07,129.24109589041095,Intentional self-harm (suicide),US
+2020-03-07,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-03-07,152.52602739726026,Influenza and pneumonia,US
+2020-03-07,228.94246575342467,Diabetes,US
 2020-03-07,332.613698630137,Alzheimer’s disease,US
 2020-03-07,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-03-06,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-03-06,152.52602739726026,Influenza and pneumonia,US
+2020-03-07,438.9068493150685,Chronic lower respiratory diseases,US
+2020-03-07,465.5780821917808,Accidents (unintentional injuries),US
+2020-03-07,1641.3917808219178,Cancer,US
+2020-03-07,1773.854794520548,Heart disease,US
+2020-03-07,4.0,COVID-19,US
 2020-03-06,3.0,COVID-19,US
-2020-03-06,228.94246575342467,Diabetes,US
-2020-03-06,332.613698630137,Alzheimer’s disease,US
-2020-03-06,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-03-06,438.9068493150685,Chronic lower respiratory diseases,US
-2020-03-06,465.5780821917808,Accidents (unintentional injuries),US
-2020-03-06,1641.3917808219178,Cancer,US
 2020-03-06,1773.854794520548,Heart disease,US
+2020-03-06,465.5780821917808,Accidents (unintentional injuries),US
+2020-03-06,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-03-06,438.9068493150685,Chronic lower respiratory diseases,US
+2020-03-06,228.94246575342467,Diabetes,US
+2020-03-06,152.52602739726026,Influenza and pneumonia,US
+2020-03-06,332.613698630137,Alzheimer’s disease,US
 2020-03-06,129.24109589041095,Intentional self-harm (suicide),US
-2020-03-05,228.94246575342467,Diabetes,US
-2020-03-05,332.613698630137,Alzheimer’s disease,US
+2020-03-06,1641.3917808219178,Cancer,US
+2020-03-06,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-03-05,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-03-05,129.24109589041095,Intentional self-harm (suicide),US
+2020-03-05,1773.854794520548,Heart disease,US
+2020-03-05,152.52602739726026,Influenza and pneumonia,US
+2020-03-05,228.94246575342467,Diabetes,US
+2020-03-05,332.613698630137,Alzheimer’s disease,US
 2020-03-05,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-03-05,438.9068493150685,Chronic lower respiratory diseases,US
 2020-03-05,465.5780821917808,Accidents (unintentional injuries),US
 2020-03-05,1641.3917808219178,Cancer,US
-2020-03-05,1773.854794520548,Heart disease,US
 2020-03-05,0.0,COVID-19,US
-2020-03-05,152.52602739726026,Influenza and pneumonia,US
-2020-03-04,2.0,COVID-19,US
-2020-03-04,228.94246575342467,Diabetes,US
-2020-03-04,1773.854794520548,Heart disease,US
 2020-03-04,129.24109589041095,Intentional self-harm (suicide),US
 2020-03-04,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-03-04,152.52602739726026,Influenza and pneumonia,US
@@ -1396,17 +1404,20 @@ date,daily_deaths,cause_of_death,country
 2020-03-04,438.9068493150685,Chronic lower respiratory diseases,US
 2020-03-04,465.5780821917808,Accidents (unintentional injuries),US
 2020-03-04,1641.3917808219178,Cancer,US
-2020-03-03,1641.3917808219178,Cancer,US
-2020-03-03,1773.854794520548,Heart disease,US
-2020-03-03,129.24109589041095,Intentional self-harm (suicide),US
-2020-03-03,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-03-04,1773.854794520548,Heart disease,US
+2020-03-04,2.0,COVID-19,US
+2020-03-04,228.94246575342467,Diabetes,US
+2020-03-03,4.0,COVID-19,US
 2020-03-03,152.52602739726026,Influenza and pneumonia,US
 2020-03-03,228.94246575342467,Diabetes,US
-2020-03-03,332.613698630137,Alzheimer’s disease,US
-2020-03-03,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-03-03,438.9068493150685,Chronic lower respiratory diseases,US
+2020-03-03,129.24109589041095,Intentional self-harm (suicide),US
+2020-03-03,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-03-03,1773.854794520548,Heart disease,US
+2020-03-03,1641.3917808219178,Cancer,US
 2020-03-03,465.5780821917808,Accidents (unintentional injuries),US
-2020-03-03,4.0,COVID-19,US
+2020-03-03,438.9068493150685,Chronic lower respiratory diseases,US
+2020-03-03,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-03-03,332.613698630137,Alzheimer’s disease,US
 2020-03-02,3.0,COVID-19,US
 2020-03-02,1641.3917808219178,Cancer,US
 2020-03-02,129.24109589041095,Intentional self-harm (suicide),US
@@ -1434,21 +1445,21 @@ date,daily_deaths,cause_of_death,country
 2020-02-29,1641.3917808219178,Cancer,US
 2020-02-29,465.5780821917808,Accidents (unintentional injuries),US
 2020-02-29,438.9068493150685,Chronic lower respiratory diseases,US
-2020-02-29,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-02-29,1.0,COVID-19,US
 2020-02-29,332.613698630137,Alzheimer’s disease,US
 2020-02-29,228.94246575342467,Diabetes,US
 2020-02-29,152.52602739726026,Influenza and pneumonia,US
+2020-02-29,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-02-29,129.24109589041095,Intentional self-harm (suicide),US
-2020-02-29,1.0,COVID-19,US
 2020-02-28,129.24109589041095,Intentional self-harm (suicide),US
 2020-02-28,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-02-28,152.52602739726026,Influenza and pneumonia,US
 2020-02-28,228.94246575342467,Diabetes,US
 2020-02-28,332.613698630137,Alzheimer’s disease,US
-2020-02-28,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-02-28,465.5780821917808,Accidents (unintentional injuries),US
 2020-02-28,438.9068493150685,Chronic lower respiratory diseases,US
 2020-02-28,0.0,COVID-19,US
+2020-02-28,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-02-28,1641.3917808219178,Cancer,US
 2020-02-28,1773.854794520548,Heart disease,US
 2020-02-27,332.613698630137,Alzheimer’s disease,US
@@ -1481,86 +1492,88 @@ date,daily_deaths,cause_of_death,country
 2020-02-25,332.613698630137,Alzheimer’s disease,US
 2020-02-25,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-02-25,228.94246575342467,Diabetes,US
-2020-02-25,152.52602739726026,Influenza and pneumonia,US
 2020-02-25,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-02-25,129.24109589041095,Intentional self-harm (suicide),US
+2020-02-25,152.52602739726026,Influenza and pneumonia,US
 2020-02-24,0.0,COVID-19,US
 2020-02-24,228.94246575342467,Diabetes,US
-2020-02-24,1641.3917808219178,Cancer,US
-2020-02-24,129.24109589041095,Intentional self-harm (suicide),US
 2020-02-24,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-02-24,152.52602739726026,Influenza and pneumonia,US
 2020-02-24,332.613698630137,Alzheimer’s disease,US
 2020-02-24,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-02-24,438.9068493150685,Chronic lower respiratory diseases,US
 2020-02-24,465.5780821917808,Accidents (unintentional injuries),US
+2020-02-24,1641.3917808219178,Cancer,US
 2020-02-24,1773.854794520548,Heart disease,US
-2020-02-23,228.94246575342467,Diabetes,US
+2020-02-24,129.24109589041095,Intentional self-harm (suicide),US
 2020-02-23,438.9068493150685,Chronic lower respiratory diseases,US
-2020-02-23,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-02-23,332.613698630137,Alzheimer’s disease,US
+2020-02-23,0.0,COVID-19,US
 2020-02-23,1773.854794520548,Heart disease,US
-2020-02-23,152.52602739726026,Influenza and pneumonia,US
-2020-02-23,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-02-23,129.24109589041095,Intentional self-harm (suicide),US
 2020-02-23,1641.3917808219178,Cancer,US
 2020-02-23,465.5780821917808,Accidents (unintentional injuries),US
-2020-02-23,0.0,COVID-19,US
-2020-02-22,152.52602739726026,Influenza and pneumonia,US
-2020-02-22,438.9068493150685,Chronic lower respiratory diseases,US
-2020-02-22,0.0,COVID-19,US
-2020-02-22,1773.854794520548,Heart disease,US
-2020-02-22,1641.3917808219178,Cancer,US
-2020-02-22,465.5780821917808,Accidents (unintentional injuries),US
+2020-02-23,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-02-23,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-02-23,332.613698630137,Alzheimer’s disease,US
+2020-02-23,228.94246575342467,Diabetes,US
+2020-02-23,152.52602739726026,Influenza and pneumonia,US
+2020-02-23,129.24109589041095,Intentional self-harm (suicide),US
 2020-02-22,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-02-22,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-02-22,332.613698630137,Alzheimer’s disease,US
-2020-02-22,228.94246575342467,Diabetes,US
 2020-02-22,129.24109589041095,Intentional self-harm (suicide),US
-2020-02-21,0.0,COVID-19,US
+2020-02-22,228.94246575342467,Diabetes,US
+2020-02-22,1641.3917808219178,Cancer,US
+2020-02-22,0.0,COVID-19,US
+2020-02-22,332.613698630137,Alzheimer’s disease,US
+2020-02-22,1773.854794520548,Heart disease,US
+2020-02-22,152.52602739726026,Influenza and pneumonia,US
+2020-02-22,465.5780821917808,Accidents (unintentional injuries),US
+2020-02-22,438.9068493150685,Chronic lower respiratory diseases,US
+2020-02-22,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-02-21,129.24109589041095,Intentional self-harm (suicide),US
 2020-02-21,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-02-21,152.52602739726026,Influenza and pneumonia,US
-2020-02-21,228.94246575342467,Diabetes,US
 2020-02-21,332.613698630137,Alzheimer’s disease,US
 2020-02-21,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-02-21,438.9068493150685,Chronic lower respiratory diseases,US
 2020-02-21,465.5780821917808,Accidents (unintentional injuries),US
 2020-02-21,1641.3917808219178,Cancer,US
 2020-02-21,1773.854794520548,Heart disease,US
-2020-02-21,129.24109589041095,Intentional self-harm (suicide),US
-2020-02-20,0.0,COVID-19,US
+2020-02-21,0.0,COVID-19,US
+2020-02-21,228.94246575342467,Diabetes,US
 2020-02-20,228.94246575342467,Diabetes,US
-2020-02-20,152.52602739726026,Influenza and pneumonia,US
-2020-02-20,129.24109589041095,Intentional self-harm (suicide),US
 2020-02-20,332.613698630137,Alzheimer’s disease,US
+2020-02-20,129.24109589041095,Intentional self-harm (suicide),US
 2020-02-20,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-02-20,0.0,COVID-19,US
+2020-02-20,152.52602739726026,Influenza and pneumonia,US
 2020-02-20,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-02-20,438.9068493150685,Chronic lower respiratory diseases,US
 2020-02-20,465.5780821917808,Accidents (unintentional injuries),US
 2020-02-20,1641.3917808219178,Cancer,US
 2020-02-20,1773.854794520548,Heart disease,US
 2020-02-19,0.0,COVID-19,US
-2020-02-19,332.613698630137,Alzheimer’s disease,US
+2020-02-19,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-02-19,1773.854794520548,Heart disease,US
 2020-02-19,1641.3917808219178,Cancer,US
 2020-02-19,465.5780821917808,Accidents (unintentional injuries),US
 2020-02-19,438.9068493150685,Chronic lower respiratory diseases,US
-2020-02-19,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-02-19,332.613698630137,Alzheimer’s disease,US
 2020-02-19,228.94246575342467,Diabetes,US
 2020-02-19,152.52602739726026,Influenza and pneumonia,US
 2020-02-19,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-02-19,129.24109589041095,Intentional self-harm (suicide),US
+2020-02-18,0.0,COVID-19,US
 2020-02-18,465.5780821917808,Accidents (unintentional injuries),US
+2020-02-18,1641.3917808219178,Cancer,US
+2020-02-18,1773.854794520548,Heart disease,US
+2020-02-18,332.613698630137,Alzheimer’s disease,US
+2020-02-18,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-02-18,438.9068493150685,Chronic lower respiratory diseases,US
 2020-02-18,129.24109589041095,Intentional self-harm (suicide),US
 2020-02-18,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-02-18,152.52602739726026,Influenza and pneumonia,US
 2020-02-18,228.94246575342467,Diabetes,US
-2020-02-18,332.613698630137,Alzheimer’s disease,US
-2020-02-18,0.0,COVID-19,US
-2020-02-18,438.9068493150685,Chronic lower respiratory diseases,US
-2020-02-18,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-02-18,1641.3917808219178,Cancer,US
-2020-02-18,1773.854794520548,Heart disease,US
+2020-02-17,0.0,COVID-19,US
+2020-02-17,465.5780821917808,Accidents (unintentional injuries),US
 2020-02-17,129.24109589041095,Intentional self-harm (suicide),US
 2020-02-17,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-02-17,152.52602739726026,Influenza and pneumonia,US
@@ -1568,25 +1581,22 @@ date,daily_deaths,cause_of_death,country
 2020-02-17,332.613698630137,Alzheimer’s disease,US
 2020-02-17,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-02-17,438.9068493150685,Chronic lower respiratory diseases,US
-2020-02-17,465.5780821917808,Accidents (unintentional injuries),US
 2020-02-17,1641.3917808219178,Cancer,US
 2020-02-17,1773.854794520548,Heart disease,US
-2020-02-17,0.0,COVID-19,US
-2020-02-16,1641.3917808219178,Cancer,US
-2020-02-16,465.5780821917808,Accidents (unintentional injuries),US
 2020-02-16,0.0,COVID-19,US
+2020-02-16,129.24109589041095,Intentional self-harm (suicide),US
+2020-02-16,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-02-16,152.52602739726026,Influenza and pneumonia,US
+2020-02-16,228.94246575342467,Diabetes,US
+2020-02-16,332.613698630137,Alzheimer’s disease,US
 2020-02-16,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-02-16,438.9068493150685,Chronic lower respiratory diseases,US
+2020-02-16,465.5780821917808,Accidents (unintentional injuries),US
+2020-02-16,1641.3917808219178,Cancer,US
 2020-02-16,1773.854794520548,Heart disease,US
-2020-02-16,332.613698630137,Alzheimer’s disease,US
-2020-02-16,228.94246575342467,Diabetes,US
-2020-02-16,152.52602739726026,Influenza and pneumonia,US
-2020-02-16,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-02-16,129.24109589041095,Intentional self-harm (suicide),US
+2020-02-15,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-02-15,152.52602739726026,Influenza and pneumonia,US
 2020-02-15,0.0,COVID-19,US
-2020-02-15,129.24109589041095,Intentional self-harm (suicide),US
-2020-02-15,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-02-15,228.94246575342467,Diabetes,US
 2020-02-15,332.613698630137,Alzheimer’s disease,US
 2020-02-15,401.0493150684932,Stroke (cerebrovascular diseases),US
@@ -1594,270 +1604,273 @@ date,daily_deaths,cause_of_death,country
 2020-02-15,465.5780821917808,Accidents (unintentional injuries),US
 2020-02-15,1641.3917808219178,Cancer,US
 2020-02-15,1773.854794520548,Heart disease,US
-2020-02-14,332.613698630137,Alzheimer’s disease,US
-2020-02-14,129.24109589041095,Intentional self-harm (suicide),US
+2020-02-15,129.24109589041095,Intentional self-harm (suicide),US
 2020-02-14,228.94246575342467,Diabetes,US
-2020-02-14,1773.854794520548,Heart disease,US
-2020-02-14,465.5780821917808,Accidents (unintentional injuries),US
 2020-02-14,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-02-14,1641.3917808219178,Cancer,US
-2020-02-14,0.0,COVID-19,US
-2020-02-14,438.9068493150685,Chronic lower respiratory diseases,US
+2020-02-14,129.24109589041095,Intentional self-harm (suicide),US
+2020-02-14,332.613698630137,Alzheimer’s disease,US
 2020-02-14,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-02-14,438.9068493150685,Chronic lower respiratory diseases,US
+2020-02-14,465.5780821917808,Accidents (unintentional injuries),US
+2020-02-14,1641.3917808219178,Cancer,US
+2020-02-14,1773.854794520548,Heart disease,US
+2020-02-14,0.0,COVID-19,US
 2020-02-14,152.52602739726026,Influenza and pneumonia,US
+2020-02-13,0.0,COVID-19,US
 2020-02-13,129.24109589041095,Intentional self-harm (suicide),US
-2020-02-13,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-02-13,152.52602739726026,Influenza and pneumonia,US
 2020-02-13,228.94246575342467,Diabetes,US
 2020-02-13,332.613698630137,Alzheimer’s disease,US
-2020-02-13,0.0,COVID-19,US
+2020-02-13,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-02-13,438.9068493150685,Chronic lower respiratory diseases,US
 2020-02-13,465.5780821917808,Accidents (unintentional injuries),US
 2020-02-13,1641.3917808219178,Cancer,US
 2020-02-13,1773.854794520548,Heart disease,US
-2020-02-13,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-02-12,152.52602739726026,Influenza and pneumonia,US
-2020-02-12,129.24109589041095,Intentional self-harm (suicide),US
-2020-02-12,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-02-12,228.94246575342467,Diabetes,US
-2020-02-12,332.613698630137,Alzheimer’s disease,US
-2020-02-12,1641.3917808219178,Cancer,US
-2020-02-12,0.0,COVID-19,US
+2020-02-13,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-02-12,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-02-12,1773.854794520548,Heart disease,US
+2020-02-12,1641.3917808219178,Cancer,US
 2020-02-12,465.5780821917808,Accidents (unintentional injuries),US
 2020-02-12,438.9068493150685,Chronic lower respiratory diseases,US
+2020-02-12,228.94246575342467,Diabetes,US
+2020-02-12,332.613698630137,Alzheimer’s disease,US
+2020-02-12,152.52602739726026,Influenza and pneumonia,US
+2020-02-12,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-02-12,129.24109589041095,Intentional self-harm (suicide),US
+2020-02-12,0.0,COVID-19,US
 2020-02-11,129.24109589041095,Intentional self-harm (suicide),US
 2020-02-11,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-02-11,152.52602739726026,Influenza and pneumonia,US
 2020-02-11,228.94246575342467,Diabetes,US
+2020-02-11,332.613698630137,Alzheimer’s disease,US
 2020-02-11,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-02-11,438.9068493150685,Chronic lower respiratory diseases,US
 2020-02-11,465.5780821917808,Accidents (unintentional injuries),US
 2020-02-11,1641.3917808219178,Cancer,US
 2020-02-11,1773.854794520548,Heart disease,US
 2020-02-11,0.0,COVID-19,US
-2020-02-11,332.613698630137,Alzheimer’s disease,US
-2020-02-10,332.613698630137,Alzheimer’s disease,US
-2020-02-10,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-02-10,438.9068493150685,Chronic lower respiratory diseases,US
 2020-02-10,129.24109589041095,Intentional self-harm (suicide),US
-2020-02-10,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-02-10,152.52602739726026,Influenza and pneumonia,US
 2020-02-10,0.0,COVID-19,US
-2020-02-10,228.94246575342467,Diabetes,US
+2020-02-10,1773.854794520548,Heart disease,US
 2020-02-10,1641.3917808219178,Cancer,US
 2020-02-10,465.5780821917808,Accidents (unintentional injuries),US
-2020-02-10,438.9068493150685,Chronic lower respiratory diseases,US
-2020-02-10,1773.854794520548,Heart disease,US
+2020-02-10,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-02-10,332.613698630137,Alzheimer’s disease,US
+2020-02-10,228.94246575342467,Diabetes,US
+2020-02-10,152.52602739726026,Influenza and pneumonia,US
+2020-02-10,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-02-09,465.5780821917808,Accidents (unintentional injuries),US
 2020-02-09,0.0,COVID-19,US
-2020-02-09,332.613698630137,Alzheimer’s disease,US
 2020-02-09,1773.854794520548,Heart disease,US
 2020-02-09,1641.3917808219178,Cancer,US
-2020-02-09,465.5780821917808,Accidents (unintentional injuries),US
+2020-02-09,228.94246575342467,Diabetes,US
 2020-02-09,438.9068493150685,Chronic lower respiratory diseases,US
 2020-02-09,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-02-09,228.94246575342467,Diabetes,US
+2020-02-09,332.613698630137,Alzheimer’s disease,US
 2020-02-09,152.52602739726026,Influenza and pneumonia,US
 2020-02-09,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-02-09,129.24109589041095,Intentional self-harm (suicide),US
-2020-02-08,0.0,COVID-19,US
-2020-02-08,1773.854794520548,Heart disease,US
 2020-02-08,129.24109589041095,Intentional self-harm (suicide),US
 2020-02-08,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-02-08,152.52602739726026,Influenza and pneumonia,US
+2020-02-08,0.0,COVID-19,US
 2020-02-08,228.94246575342467,Diabetes,US
+2020-02-08,152.52602739726026,Influenza and pneumonia,US
 2020-02-08,332.613698630137,Alzheimer’s disease,US
 2020-02-08,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-02-08,438.9068493150685,Chronic lower respiratory diseases,US
 2020-02-08,465.5780821917808,Accidents (unintentional injuries),US
 2020-02-08,1641.3917808219178,Cancer,US
-2020-02-07,438.9068493150685,Chronic lower respiratory diseases,US
-2020-02-07,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-02-08,1773.854794520548,Heart disease,US
+2020-02-07,228.94246575342467,Diabetes,US
 2020-02-07,1773.854794520548,Heart disease,US
 2020-02-07,1641.3917808219178,Cancer,US
 2020-02-07,465.5780821917808,Accidents (unintentional injuries),US
-2020-02-07,0.0,COVID-19,US
-2020-02-07,152.52602739726026,Influenza and pneumonia,US
+2020-02-07,438.9068493150685,Chronic lower respiratory diseases,US
+2020-02-07,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-02-07,332.613698630137,Alzheimer’s disease,US
-2020-02-07,228.94246575342467,Diabetes,US
+2020-02-07,152.52602739726026,Influenza and pneumonia,US
 2020-02-07,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-02-07,129.24109589041095,Intentional self-harm (suicide),US
-2020-02-06,1773.854794520548,Heart disease,US
+2020-02-07,0.0,COVID-19,US
 2020-02-06,1641.3917808219178,Cancer,US
-2020-02-06,332.613698630137,Alzheimer’s disease,US
-2020-02-06,465.5780821917808,Accidents (unintentional injuries),US
-2020-02-06,438.9068493150685,Chronic lower respiratory diseases,US
-2020-02-06,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-02-06,0.0,COVID-19,US
-2020-02-06,228.94246575342467,Diabetes,US
-2020-02-06,152.52602739726026,Influenza and pneumonia,US
-2020-02-06,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-02-06,129.24109589041095,Intentional self-harm (suicide),US
-2020-02-05,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-02-06,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-02-06,152.52602739726026,Influenza and pneumonia,US
+2020-02-06,228.94246575342467,Diabetes,US
+2020-02-06,332.613698630137,Alzheimer’s disease,US
+2020-02-06,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-02-06,438.9068493150685,Chronic lower respiratory diseases,US
+2020-02-06,465.5780821917808,Accidents (unintentional injuries),US
+2020-02-06,1773.854794520548,Heart disease,US
 2020-02-05,152.52602739726026,Influenza and pneumonia,US
-2020-02-05,332.613698630137,Alzheimer’s disease,US
-2020-02-05,1641.3917808219178,Cancer,US
-2020-02-05,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-02-05,129.24109589041095,Intentional self-harm (suicide),US
-2020-02-05,465.5780821917808,Accidents (unintentional injuries),US
-2020-02-05,438.9068493150685,Chronic lower respiratory diseases,US
 2020-02-05,228.94246575342467,Diabetes,US
+2020-02-05,332.613698630137,Alzheimer’s disease,US
+2020-02-05,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-02-05,438.9068493150685,Chronic lower respiratory diseases,US
+2020-02-05,465.5780821917808,Accidents (unintentional injuries),US
+2020-02-05,1641.3917808219178,Cancer,US
 2020-02-05,1773.854794520548,Heart disease,US
 2020-02-05,0.0,COVID-19,US
-2020-02-04,438.9068493150685,Chronic lower respiratory diseases,US
-2020-02-04,129.24109589041095,Intentional self-harm (suicide),US
-2020-02-04,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-02-04,152.52602739726026,Influenza and pneumonia,US
-2020-02-04,228.94246575342467,Diabetes,US
-2020-02-04,332.613698630137,Alzheimer’s disease,US
+2020-02-05,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-02-04,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-02-04,465.5780821917808,Accidents (unintentional injuries),US
-2020-02-04,1641.3917808219178,Cancer,US
-2020-02-04,1773.854794520548,Heart disease,US
 2020-02-04,0.0,COVID-19,US
-2020-02-03,1641.3917808219178,Cancer,US
+2020-02-04,1773.854794520548,Heart disease,US
+2020-02-04,1641.3917808219178,Cancer,US
+2020-02-04,465.5780821917808,Accidents (unintentional injuries),US
+2020-02-04,438.9068493150685,Chronic lower respiratory diseases,US
+2020-02-04,332.613698630137,Alzheimer’s disease,US
+2020-02-04,152.52602739726026,Influenza and pneumonia,US
+2020-02-04,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-02-04,129.24109589041095,Intentional self-harm (suicide),US
+2020-02-04,228.94246575342467,Diabetes,US
 2020-02-03,438.9068493150685,Chronic lower respiratory diseases,US
 2020-02-03,0.0,COVID-19,US
+2020-02-03,1641.3917808219178,Cancer,US
 2020-02-03,465.5780821917808,Accidents (unintentional injuries),US
-2020-02-03,1773.854794520548,Heart disease,US
+2020-02-03,332.613698630137,Alzheimer’s disease,US
 2020-02-03,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-02-03,228.94246575342467,Diabetes,US
 2020-02-03,152.52602739726026,Influenza and pneumonia,US
 2020-02-03,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-02-03,129.24109589041095,Intentional self-harm (suicide),US
-2020-02-03,332.613698630137,Alzheimer’s disease,US
-2020-02-02,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-02-03,1773.854794520548,Heart disease,US
+2020-02-02,0.0,COVID-19,US
+2020-02-02,228.94246575342467,Diabetes,US
+2020-02-02,129.24109589041095,Intentional self-harm (suicide),US
 2020-02-02,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-02-02,152.52602739726026,Influenza and pneumonia,US
-2020-02-02,228.94246575342467,Diabetes,US
 2020-02-02,332.613698630137,Alzheimer’s disease,US
-2020-02-02,1641.3917808219178,Cancer,US
+2020-02-02,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-02-02,438.9068493150685,Chronic lower respiratory diseases,US
 2020-02-02,465.5780821917808,Accidents (unintentional injuries),US
+2020-02-02,1641.3917808219178,Cancer,US
 2020-02-02,1773.854794520548,Heart disease,US
-2020-02-02,0.0,COVID-19,US
-2020-02-02,129.24109589041095,Intentional self-harm (suicide),US
-2020-02-01,0.0,COVID-19,US
-2020-02-01,332.613698630137,Alzheimer’s disease,US
 2020-02-01,465.5780821917808,Accidents (unintentional injuries),US
-2020-02-01,129.24109589041095,Intentional self-harm (suicide),US
+2020-02-01,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-02-01,0.0,COVID-19,US
 2020-02-01,1773.854794520548,Heart disease,US
 2020-02-01,1641.3917808219178,Cancer,US
 2020-02-01,438.9068493150685,Chronic lower respiratory diseases,US
-2020-02-01,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-02-01,228.94246575342467,Diabetes,US
 2020-02-01,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-02-01,332.613698630137,Alzheimer’s disease,US
+2020-02-01,228.94246575342467,Diabetes,US
 2020-02-01,152.52602739726026,Influenza and pneumonia,US
+2020-02-01,129.24109589041095,Intentional self-harm (suicide),US
 2020-01-31,0.0,COVID-19,US
-2020-01-31,228.94246575342467,Diabetes,US
 2020-01-31,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-01-31,438.9068493150685,Chronic lower respiratory diseases,US
-2020-01-31,465.5780821917808,Accidents (unintentional injuries),US
-2020-01-31,332.613698630137,Alzheimer’s disease,US
-2020-01-31,1641.3917808219178,Cancer,US
 2020-01-31,1773.854794520548,Heart disease,US
-2020-01-31,129.24109589041095,Intentional self-harm (suicide),US
-2020-01-31,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-01-31,465.5780821917808,Accidents (unintentional injuries),US
+2020-01-31,438.9068493150685,Chronic lower respiratory diseases,US
+2020-01-31,1641.3917808219178,Cancer,US
+2020-01-31,332.613698630137,Alzheimer’s disease,US
+2020-01-31,228.94246575342467,Diabetes,US
 2020-01-31,152.52602739726026,Influenza and pneumonia,US
-2020-01-30,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-01-30,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-01-30,332.613698630137,Alzheimer’s disease,US
+2020-01-31,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-01-31,129.24109589041095,Intentional self-harm (suicide),US
 2020-01-30,438.9068493150685,Chronic lower respiratory diseases,US
-2020-01-30,465.5780821917808,Accidents (unintentional injuries),US
-2020-01-30,1641.3917808219178,Cancer,US
+2020-01-30,0.0,COVID-19,US
 2020-01-30,1773.854794520548,Heart disease,US
+2020-01-30,1641.3917808219178,Cancer,US
+2020-01-30,465.5780821917808,Accidents (unintentional injuries),US
+2020-01-30,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-01-30,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-01-30,332.613698630137,Alzheimer’s disease,US
 2020-01-30,228.94246575342467,Diabetes,US
 2020-01-30,152.52602739726026,Influenza and pneumonia,US
-2020-01-30,0.0,COVID-19,US
 2020-01-30,129.24109589041095,Intentional self-harm (suicide),US
-2020-01-29,438.9068493150685,Chronic lower respiratory diseases,US
-2020-01-29,152.52602739726026,Influenza and pneumonia,US
 2020-01-29,1773.854794520548,Heart disease,US
+2020-01-29,0.0,COVID-19,US
 2020-01-29,1641.3917808219178,Cancer,US
 2020-01-29,465.5780821917808,Accidents (unintentional injuries),US
+2020-01-29,438.9068493150685,Chronic lower respiratory diseases,US
 2020-01-29,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-01-29,228.94246575342467,Diabetes,US
 2020-01-29,332.613698630137,Alzheimer’s disease,US
+2020-01-29,228.94246575342467,Diabetes,US
+2020-01-29,152.52602739726026,Influenza and pneumonia,US
 2020-01-29,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-01-29,129.24109589041095,Intentional self-harm (suicide),US
-2020-01-29,0.0,COVID-19,US
-2020-01-28,438.9068493150685,Chronic lower respiratory diseases,US
 2020-01-28,465.5780821917808,Accidents (unintentional injuries),US
-2020-01-28,1641.3917808219178,Cancer,US
-2020-01-28,0.0,COVID-19,US
-2020-01-28,1773.854794520548,Heart disease,US
-2020-01-28,129.24109589041095,Intentional self-harm (suicide),US
-2020-01-28,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-01-28,438.9068493150685,Chronic lower respiratory diseases,US
 2020-01-28,152.52602739726026,Influenza and pneumonia,US
+2020-01-28,1641.3917808219178,Cancer,US
 2020-01-28,228.94246575342467,Diabetes,US
+2020-01-28,1773.854794520548,Heart disease,US
+2020-01-28,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-01-28,129.24109589041095,Intentional self-harm (suicide),US
+2020-01-28,0.0,COVID-19,US
 2020-01-28,332.613698630137,Alzheimer’s disease,US
 2020-01-28,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-01-27,152.52602739726026,Influenza and pneumonia,US
+2020-01-27,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-01-27,438.9068493150685,Chronic lower respiratory diseases,US
+2020-01-27,129.24109589041095,Intentional self-harm (suicide),US
 2020-01-27,465.5780821917808,Accidents (unintentional injuries),US
 2020-01-27,1641.3917808219178,Cancer,US
 2020-01-27,1773.854794520548,Heart disease,US
-2020-01-27,332.613698630137,Alzheimer’s disease,US
-2020-01-27,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-01-27,129.24109589041095,Intentional self-harm (suicide),US
 2020-01-27,228.94246575342467,Diabetes,US
+2020-01-27,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-01-27,152.52602739726026,Influenza and pneumonia,US
+2020-01-27,332.613698630137,Alzheimer’s disease,US
 2020-01-27,0.0,COVID-19,US
-2020-01-27,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-01-26,0.0,COVID-19,US
+2020-01-26,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-01-26,1773.854794520548,Heart disease,US
+2020-01-26,1641.3917808219178,Cancer,US
 2020-01-26,438.9068493150685,Chronic lower respiratory diseases,US
 2020-01-26,465.5780821917808,Accidents (unintentional injuries),US
-2020-01-26,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-01-26,152.52602739726026,Influenza and pneumonia,US
-2020-01-26,228.94246575342467,Diabetes,US
 2020-01-26,332.613698630137,Alzheimer’s disease,US
-2020-01-26,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-01-26,228.94246575342467,Diabetes,US
+2020-01-26,152.52602739726026,Influenza and pneumonia,US
+2020-01-26,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-01-26,129.24109589041095,Intentional self-harm (suicide),US
-2020-01-26,1641.3917808219178,Cancer,US
-2020-01-26,1773.854794520548,Heart disease,US
-2020-01-25,228.94246575342467,Diabetes,US
-2020-01-25,1773.854794520548,Heart disease,US
 2020-01-25,1641.3917808219178,Cancer,US
-2020-01-25,465.5780821917808,Accidents (unintentional injuries),US
-2020-01-25,438.9068493150685,Chronic lower respiratory diseases,US
+2020-01-25,129.24109589041095,Intentional self-harm (suicide),US
+2020-01-25,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-01-25,152.52602739726026,Influenza and pneumonia,US
+2020-01-25,228.94246575342467,Diabetes,US
 2020-01-25,332.613698630137,Alzheimer’s disease,US
 2020-01-25,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-01-25,152.52602739726026,Influenza and pneumonia,US
-2020-01-25,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-01-25,129.24109589041095,Intentional self-harm (suicide),US
+2020-01-25,438.9068493150685,Chronic lower respiratory diseases,US
+2020-01-25,465.5780821917808,Accidents (unintentional injuries),US
+2020-01-25,1773.854794520548,Heart disease,US
 2020-01-25,0.0,COVID-19,US
-2020-01-24,332.613698630137,Alzheimer’s disease,US
+2020-01-24,465.5780821917808,Accidents (unintentional injuries),US
+2020-01-24,0.0,COVID-19,US
+2020-01-24,129.24109589041095,Intentional self-harm (suicide),US
 2020-01-24,1773.854794520548,Heart disease,US
 2020-01-24,1641.3917808219178,Cancer,US
-2020-01-24,465.5780821917808,Accidents (unintentional injuries),US
+2020-01-24,152.52602739726026,Influenza and pneumonia,US
 2020-01-24,438.9068493150685,Chronic lower respiratory diseases,US
 2020-01-24,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-01-24,332.613698630137,Alzheimer’s disease,US
 2020-01-24,228.94246575342467,Diabetes,US
-2020-01-24,152.52602739726026,Influenza and pneumonia,US
 2020-01-24,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-01-24,129.24109589041095,Intentional self-harm (suicide),US
-2020-01-24,0.0,COVID-19,US
-2020-01-23,152.52602739726026,Influenza and pneumonia,US
-2020-01-23,0.0,COVID-19,US
 2020-01-23,129.24109589041095,Intentional self-harm (suicide),US
-2020-01-23,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
-2020-01-23,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-01-23,152.52602739726026,Influenza and pneumonia,US
 2020-01-23,228.94246575342467,Diabetes,US
+2020-01-23,332.613698630137,Alzheimer’s disease,US
+2020-01-23,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-01-23,438.9068493150685,Chronic lower respiratory diseases,US
 2020-01-23,465.5780821917808,Accidents (unintentional injuries),US
 2020-01-23,1641.3917808219178,Cancer,US
 2020-01-23,1773.854794520548,Heart disease,US
-2020-01-23,332.613698630137,Alzheimer’s disease,US
-2020-01-22,332.613698630137,Alzheimer’s disease,US
+2020-01-23,0.0,COVID-19,US
+2020-01-23,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-01-22,0.0,COVID-19,US
 2020-01-22,1773.854794520548,Heart disease,US
 2020-01-22,1641.3917808219178,Cancer,US
-2020-01-22,438.9068493150685,Chronic lower respiratory diseases,US
-2020-01-22,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-01-22,465.5780821917808,Accidents (unintentional injuries),US
-2020-01-22,228.94246575342467,Diabetes,US
-2020-01-22,152.52602739726026,Influenza and pneumonia,US
-2020-01-22,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-01-22,129.24109589041095,Intentional self-harm (suicide),US
-2020-01-22,0.0,COVID-19,US
+2020-01-22,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
+2020-01-22,152.52602739726026,Influenza and pneumonia,US
+2020-01-22,228.94246575342467,Diabetes,US
+2020-01-22,332.613698630137,Alzheimer’s disease,US
+2020-01-22,401.0493150684932,Stroke (cerebrovascular diseases),US
+2020-01-22,438.9068493150685,Chronic lower respiratory diseases,US
+2020-01-22,465.5780821917808,Accidents (unintentional injuries),US
+2020-01-21,1773.854794520548,Heart disease,US
+2020-01-21,1641.3917808219178,Cancer,US
 2020-01-21,129.24109589041095,Intentional self-harm (suicide),US
 2020-01-21,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-01-21,152.52602739726026,Influenza and pneumonia,US
@@ -1866,6 +1879,4 @@ date,daily_deaths,cause_of_death,country
 2020-01-21,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-01-21,438.9068493150685,Chronic lower respiratory diseases,US
 2020-01-21,465.5780821917808,Accidents (unintentional injuries),US
-2020-01-21,1641.3917808219178,Cancer,US
-2020-01-21,1773.854794520548,Heart disease,US
 2020-01-21,0.0,COVID-19,US
