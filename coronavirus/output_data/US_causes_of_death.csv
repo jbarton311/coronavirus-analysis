@@ -9,9 +9,9 @@ date,daily_deaths,cause_of_death,country
 2020-08-03,465.5780821917808,Accidents (unintentional injuries),US
 2020-08-03,1641.3917808219178,Cancer,US
 2020-08-03,1773.854794520548,Heart disease,US
-2020-08-03,602.0,COVID-19,US
+2020-08-03,605.0,COVID-19,US
 2020-08-02,401.0493150684932,Stroke (cerebrovascular diseases),US
-2020-08-02,416.0,COVID-19,US
+2020-08-02,413.0,COVID-19,US
 2020-08-02,1773.854794520548,Heart disease,US
 2020-08-02,1641.3917808219178,Cancer,US
 2020-08-02,438.9068493150685,Chronic lower respiratory diseases,US
@@ -33,7 +33,7 @@ date,daily_deaths,cause_of_death,country
 2020-08-01,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-08-01,129.24109589041095,Intentional self-harm (suicide),US
 2020-07-31,465.5780821917808,Accidents (unintentional injuries),US
-2020-07-31,1419.0,COVID-19,US
+2020-07-31,1422.0,COVID-19,US
 2020-07-31,1773.854794520548,Heart disease,US
 2020-07-31,1641.3917808219178,Cancer,US
 2020-07-31,228.94246575342467,Diabetes,US
@@ -44,7 +44,7 @@ date,daily_deaths,cause_of_death,country
 2020-07-31,129.24109589041095,Intentional self-harm (suicide),US
 2020-07-31,401.0493150684932,Stroke (cerebrovascular diseases),US
 2020-07-30,1641.3917808219178,Cancer,US
-2020-07-30,1236.0,COVID-19,US
+2020-07-30,1260.0,COVID-19,US
 2020-07-30,1773.854794520548,Heart disease,US
 2020-07-30,465.5780821917808,Accidents (unintentional injuries),US
 2020-07-30,438.9068493150685,Chronic lower respiratory diseases,US
@@ -55,7 +55,7 @@ date,daily_deaths,cause_of_death,country
 2020-07-30,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-07-30,129.24109589041095,Intentional self-harm (suicide),US
 2020-07-29,1641.3917808219178,Cancer,US
-2020-07-29,1418.0,COVID-19,US
+2020-07-29,1394.0,COVID-19,US
 2020-07-29,1773.854794520548,Heart disease,US
 2020-07-29,152.52602739726026,Influenza and pneumonia,US
 2020-07-29,465.5780821917808,Accidents (unintentional injuries),US
@@ -66,7 +66,7 @@ date,daily_deaths,cause_of_death,country
 2020-07-29,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-07-29,129.24109589041095,Intentional self-harm (suicide),US
 2020-07-28,1641.3917808219178,Cancer,US
-2020-07-28,1316.0,COVID-19,US
+2020-07-28,1319.0,COVID-19,US
 2020-07-28,1773.854794520548,Heart disease,US
 2020-07-28,332.613698630137,Alzheimer’s disease,US
 2020-07-28,465.5780821917808,Accidents (unintentional injuries),US
