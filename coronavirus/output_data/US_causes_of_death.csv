@@ -9,7 +9,7 @@ date,daily_deaths,cause_of_death,country
 2020-08-12,465.5780821917808,Accidents (unintentional injuries),US
 2020-08-12,1641.3917808219178,Cancer,US
 2020-08-12,1773.854794520548,Heart disease,US
-2020-08-12,1462.0,COVID-19,US
+2020-08-12,1472.0,COVID-19,US
 2020-08-11,438.9068493150685,Chronic lower respiratory diseases,US
 2020-08-11,1449.0,COVID-19,US
 2020-08-11,1773.854794520548,Heart disease,US
@@ -65,7 +65,7 @@ date,daily_deaths,cause_of_death,country
 2020-08-07,152.52602739726026,Influenza and pneumonia,US
 2020-08-07,138.72054794520548,"Nephritis, nephrotic syndrome, and nephrosis",US
 2020-08-07,129.24109589041095,Intentional self-harm (suicide),US
-2020-08-06,1063.0,COVID-19,US
+2020-08-06,1059.0,COVID-19,US
 2020-08-06,1773.854794520548,Heart disease,US
 2020-08-06,1641.3917808219178,Cancer,US
 2020-08-06,465.5780821917808,Accidents (unintentional injuries),US
